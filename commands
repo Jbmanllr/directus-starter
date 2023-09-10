@@ -1,0 +1,11 @@
+# Generate Snapshot
+# Interactive
+npx directus schema snapshot snapshots/snapshot.yaml
+# Non Interactive (CLI / CD Workflow)
+npx directus schema snapshot --yes snapshots/snapshot.yaml
+
+# Apply Snapshot
+# Interactive
+npx directus schema apply snapshots/snapshot.yaml
+# Non Interactive (CLI / CD Workflow)
+npx directus schema apply --yes snapshots/snapshot.yaml
