@@ -368,7 +368,7 @@ collections:
       collection: brands
       color: null
       display_template: null
-      group: items
+      group: products
       hidden: false
       icon: copyright
       item_duplication_fields: null
@@ -670,17 +670,17 @@ collections:
       versioning: false
     schema:
       name: homepage_translations
-  - collection: item_categories
+  - collection: product_categories
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: status
       archive_value: archived
       collapse: open
-      collection: item_categories
+      collection: product_categories
       color: null
       display_template: null
-      group: items
+      group: products
       hidden: false
       icon: category
       item_duplication_fields: null
@@ -693,18 +693,18 @@ collections:
       unarchive_value: draft
       versioning: false
     schema:
-      name: item_categories
-  - collection: item_categories_translations
+      name: product_categories
+  - collection: product_categories_translations
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: null
       archive_value: null
       collapse: open
-      collection: item_categories_translations
+      collection: product_categories_translations
       color: null
       display_template: null
-      group: item_categories
+      group: product_categories
       hidden: true
       icon: import_export
       item_duplication_fields: null
@@ -717,18 +717,18 @@ collections:
       unarchive_value: null
       versioning: false
     schema:
-      name: item_categories_translations
-  - collection: item_features
+      name: product_categories_translations
+  - collection: product_features
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: status
       archive_value: archived
       collapse: open
-      collection: item_features
+      collection: product_features
       color: null
       display_template: null
-      group: items
+      group: products
       hidden: false
       icon: interests
       item_duplication_fields: null
@@ -741,18 +741,18 @@ collections:
       unarchive_value: draft
       versioning: false
     schema:
-      name: item_features
-  - collection: item_features_item_categories
+      name: product_features
+  - collection: product_features_product_categories
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: null
       archive_value: null
       collapse: open
-      collection: item_features_item_categories
+      collection: product_features_product_categories
       color: null
       display_template: null
-      group: item_features
+      group: product_features
       hidden: true
       icon: import_export
       item_duplication_fields: null
@@ -765,18 +765,18 @@ collections:
       unarchive_value: null
       versioning: false
     schema:
-      name: item_features_item_categories
-  - collection: item_features_translations
+      name: product_features_product_categories
+  - collection: product_features_translations
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: null
       archive_value: null
       collapse: open
-      collection: item_features_translations
+      collection: product_features_translations
       color: null
       display_template: null
-      group: item_features
+      group: product_features
       hidden: true
       icon: import_export
       item_duplication_fields: null
@@ -789,18 +789,18 @@ collections:
       unarchive_value: null
       versioning: false
     schema:
-      name: item_features_translations
-  - collection: item_reviews
+      name: product_features_translations
+  - collection: product_reviews
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: status
       archive_value: archived
       collapse: open
-      collection: item_reviews
+      collection: product_reviews
       color: null
       display_template: null
-      group: items
+      group: products
       hidden: false
       icon: stars
       item_duplication_fields: null
@@ -813,18 +813,18 @@ collections:
       unarchive_value: draft
       versioning: false
     schema:
-      name: item_reviews
-  - collection: item_tags
+      name: product_reviews
+  - collection: product_tags
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: status
       archive_value: archived
       collapse: open
-      collection: item_tags
+      collection: product_tags
       color: null
       display_template: null
-      group: items
+      group: products
       hidden: false
       icon: sell
       item_duplication_fields: null
@@ -837,18 +837,18 @@ collections:
       unarchive_value: draft
       versioning: false
     schema:
-      name: item_tags
-  - collection: item_tags_translations
+      name: product_tags
+  - collection: product_tags_translations
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: null
       archive_value: null
       collapse: open
-      collection: item_tags_translations
+      collection: product_tags_translations
       color: null
       display_template: null
-      group: item_tags
+      group: product_tags
       hidden: true
       icon: import_export
       item_duplication_fields: null
@@ -861,15 +861,15 @@ collections:
       unarchive_value: null
       versioning: false
     schema:
-      name: item_tags_translations
-  - collection: items
+      name: product_tags_translations
+  - collection: products
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: status
       archive_value: archived
       collapse: open
-      collection: items
+      collection: products
       color: null
       display_template: null
       group: shop
@@ -885,18 +885,18 @@ collections:
       unarchive_value: draft
       versioning: false
     schema:
-      name: items
-  - collection: items_files
+      name: products
+  - collection: products_files
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: null
       archive_value: null
       collapse: open
-      collection: items_files
+      collection: products_files
       color: null
       display_template: null
-      group: items
+      group: products
       hidden: true
       icon: import_export
       item_duplication_fields: null
@@ -909,18 +909,18 @@ collections:
       unarchive_value: null
       versioning: false
     schema:
-      name: items_files
-  - collection: items_item_categories
+      name: products_files
+  - collection: products_product_categories
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: null
       archive_value: null
       collapse: open
-      collection: items_item_categories
+      collection: products_product_categories
       color: null
       display_template: null
-      group: items
+      group: products
       hidden: true
       icon: import_export
       item_duplication_fields: null
@@ -933,18 +933,18 @@ collections:
       unarchive_value: null
       versioning: false
     schema:
-      name: items_item_categories
-  - collection: items_item_features
+      name: products_product_categories
+  - collection: products_product_features
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: null
       archive_value: null
       collapse: open
-      collection: items_item_features
+      collection: products_product_features
       color: null
       display_template: null
-      group: item_features
+      group: product_features
       hidden: true
       icon: import_export
       item_duplication_fields: null
@@ -957,15 +957,15 @@ collections:
       unarchive_value: null
       versioning: false
     schema:
-      name: items_item_features
-  - collection: items_item_tags
+      name: products_product_features
+  - collection: products_product_tags
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: null
       archive_value: null
       collapse: open
-      collection: items_item_tags
+      collection: products_product_tags
       color: null
       display_template: null
       group: null
@@ -981,15 +981,15 @@ collections:
       unarchive_value: null
       versioning: false
     schema:
-      name: items_item_tags
-  - collection: items_item_tags_1
+      name: products_product_tags
+  - collection: products_product_tags_1
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: null
       archive_value: null
       collapse: open
-      collection: items_item_tags_1
+      collection: products_product_tags_1
       color: null
       display_template: null
       group: null
@@ -1005,18 +1005,18 @@ collections:
       unarchive_value: null
       versioning: false
     schema:
-      name: items_item_tags_1
-  - collection: items_translations
+      name: products_product_tags_1
+  - collection: products_translations
     meta:
       accountability: all
       archive_app_filter: true
       archive_field: null
       archive_value: null
       collapse: open
-      collection: items_translations
+      collection: products_translations
       color: null
       display_template: null
-      group: items
+      group: products
       hidden: true
       icon: import_export
       item_duplication_fields: null
@@ -1029,7 +1029,7 @@ collections:
       unarchive_value: null
       versioning: false
     schema:
-      name: items_translations
+      name: products_translations
   - collection: languages
     meta:
       accountability: all
@@ -9507,11 +9507,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_categories
+  - collection: product_categories
     field: children_categories
     type: alias
     meta:
-      collection: item_categories
+      collection: product_categories
       conditions: null
       display: related-values
       display_options:
@@ -9532,11 +9532,11 @@ fields:
       validation: null
       validation_message: null
       width: full
-  - collection: item_categories
+  - collection: product_categories
     field: cover
     type: uuid
     meta:
-      collection: item_categories
+      collection: product_categories
       conditions: null
       display: image
       display_options: null
@@ -9557,7 +9557,7 @@ fields:
       width: half
     schema:
       name: cover
-      table: item_categories
+      table: product_categories
       data_type: uuid
       default_value: null
       max_length: null
@@ -9571,11 +9571,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_files
       foreign_key_column: id
-  - collection: item_categories
+  - collection: product_categories
     field: date_created
     type: timestamp
     meta:
-      collection: item_categories
+      collection: product_categories
       conditions: null
       display: datetime
       display_options:
@@ -9597,7 +9597,7 @@ fields:
       width: half
     schema:
       name: date_created
-      table: item_categories
+      table: product_categories
       data_type: timestamp with time zone
       default_value: null
       max_length: null
@@ -9611,11 +9611,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_categories
+  - collection: product_categories
     field: date_updated
     type: timestamp
     meta:
-      collection: item_categories
+      collection: product_categories
       conditions: null
       display: datetime
       display_options:
@@ -9637,7 +9637,7 @@ fields:
       width: half
     schema:
       name: date_updated
-      table: item_categories
+      table: product_categories
       data_type: timestamp with time zone
       default_value: null
       max_length: null
@@ -9651,11 +9651,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_categories
+  - collection: product_categories
     field: icon
     type: uuid
     meta:
-      collection: item_categories
+      collection: product_categories
       conditions: null
       display: image
       display_options: null
@@ -9676,7 +9676,7 @@ fields:
       width: half
     schema:
       name: icon
-      table: item_categories
+      table: product_categories
       data_type: uuid
       default_value: null
       max_length: null
@@ -9690,11 +9690,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_files
       foreign_key_column: id
-  - collection: item_categories
+  - collection: product_categories
     field: id
     type: uuid
     meta:
-      collection: item_categories
+      collection: product_categories
       conditions: null
       display: null
       display_options: null
@@ -9715,7 +9715,7 @@ fields:
       width: full
     schema:
       name: id
-      table: item_categories
+      table: product_categories
       data_type: uuid
       default_value: null
       max_length: null
@@ -9729,11 +9729,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_categories
+  - collection: product_categories
     field: parent_category
     type: uuid
     meta:
-      collection: item_categories
+      collection: product_categories
       conditions: null
       display: related-values
       display_options:
@@ -9755,7 +9755,7 @@ fields:
       width: full
     schema:
       name: parent_category
-      table: item_categories
+      table: product_categories
       data_type: uuid
       default_value: null
       max_length: null
@@ -9767,13 +9767,13 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: item_categories
+      foreign_key_table: product_categories
       foreign_key_column: id
-  - collection: item_categories
+  - collection: product_categories
     field: sort
     type: integer
     meta:
-      collection: item_categories
+      collection: product_categories
       conditions: null
       display: null
       display_options: null
@@ -9793,7 +9793,7 @@ fields:
       width: full
     schema:
       name: sort
-      table: item_categories
+      table: product_categories
       data_type: integer
       default_value: null
       max_length: null
@@ -9807,11 +9807,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_categories
+  - collection: product_categories
     field: status
     type: string
     meta:
-      collection: item_categories
+      collection: product_categories
       conditions: null
       display: labels
       display_options:
@@ -9852,7 +9852,7 @@ fields:
       width: full
     schema:
       name: status
-      table: item_categories
+      table: product_categories
       data_type: character varying
       default_value: draft
       max_length: 255
@@ -9866,11 +9866,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_categories
+  - collection: product_categories
     field: translations
     type: alias
     meta:
-      collection: item_categories
+      collection: product_categories
       conditions: null
       display: translations
       display_options:
@@ -9894,11 +9894,11 @@ fields:
       validation: null
       validation_message: null
       width: full
-  - collection: item_categories
+  - collection: product_categories
     field: user_created
     type: uuid
     meta:
-      collection: item_categories
+      collection: product_categories
       conditions: null
       display: user
       display_options: null
@@ -9920,7 +9920,7 @@ fields:
       width: half
     schema:
       name: user_created
-      table: item_categories
+      table: product_categories
       data_type: uuid
       default_value: null
       max_length: null
@@ -9934,11 +9934,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_users
       foreign_key_column: id
-  - collection: item_categories
+  - collection: product_categories
     field: user_updated
     type: uuid
     meta:
-      collection: item_categories
+      collection: product_categories
       conditions: null
       display: user
       display_options: null
@@ -9960,7 +9960,7 @@ fields:
       width: half
     schema:
       name: user_updated
-      table: item_categories
+      table: product_categories
       data_type: uuid
       default_value: null
       max_length: null
@@ -9974,11 +9974,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_users
       foreign_key_column: id
-  - collection: item_categories_translations
+  - collection: product_categories_translations
     field: description
     type: text
     meta:
-      collection: item_categories_translations
+      collection: product_categories_translations
       conditions: null
       display: null
       display_options: null
@@ -9998,7 +9998,7 @@ fields:
       width: full
     schema:
       name: description
-      table: item_categories_translations
+      table: product_categories_translations
       data_type: text
       default_value: null
       max_length: null
@@ -10012,11 +10012,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_categories_translations
+  - collection: product_categories_translations
     field: id
     type: integer
     meta:
-      collection: item_categories_translations
+      collection: product_categories_translations
       conditions: null
       display: null
       display_options: null
@@ -10036,9 +10036,9 @@ fields:
       width: full
     schema:
       name: id
-      table: item_categories_translations
+      table: product_categories_translations
       data_type: integer
-      default_value: nextval('item_categories_translations_id_seq'::regclass)
+      default_value: nextval('product_categories_translations_id_seq'::regclass)
       max_length: null
       numeric_precision: 32
       numeric_scale: 0
@@ -10050,15 +10050,15 @@ fields:
       has_auto_increment: true
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_categories_translations
-    field: item_categories_id
+  - collection: product_categories_translations
+    field: product_categories_id
     type: uuid
     meta:
-      collection: item_categories_translations
+      collection: product_categories_translations
       conditions: null
       display: null
       display_options: null
-      field: item_categories_id
+      field: product_categories_id
       group: null
       hidden: true
       interface: null
@@ -10073,8 +10073,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: item_categories_id
-      table: item_categories_translations
+      name: product_categories_id
+      table: product_categories_translations
       data_type: uuid
       default_value: null
       max_length: null
@@ -10086,13 +10086,13 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: item_categories
+      foreign_key_table: product_categories
       foreign_key_column: id
-  - collection: item_categories_translations
+  - collection: product_categories_translations
     field: languages_code
     type: string
     meta:
-      collection: item_categories_translations
+      collection: product_categories_translations
       conditions: null
       display: null
       display_options: null
@@ -10112,7 +10112,7 @@ fields:
       width: full
     schema:
       name: languages_code
-      table: item_categories_translations
+      table: product_categories_translations
       data_type: character varying
       default_value: null
       max_length: 255
@@ -10126,11 +10126,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: languages
       foreign_key_column: code
-  - collection: item_categories_translations
+  - collection: product_categories_translations
     field: name
     type: string
     meta:
-      collection: item_categories_translations
+      collection: product_categories_translations
       conditions: null
       display: null
       display_options: null
@@ -10152,7 +10152,7 @@ fields:
       width: half
     schema:
       name: name
-      table: item_categories_translations
+      table: product_categories_translations
       data_type: character varying
       default_value: null
       max_length: 255
@@ -10166,11 +10166,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_categories_translations
+  - collection: product_categories_translations
     field: seo
     type: uuid
     meta:
-      collection: item_categories_translations
+      collection: product_categories_translations
       conditions: null
       display: null
       display_options: null
@@ -10193,7 +10193,7 @@ fields:
       width: full
     schema:
       name: seo
-      table: item_categories_translations
+      table: product_categories_translations
       data_type: uuid
       default_value: null
       max_length: null
@@ -10207,11 +10207,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: seo
       foreign_key_column: id
-  - collection: item_categories_translations
+  - collection: product_categories_translations
     field: slug
     type: string
     meta:
-      collection: item_categories_translations
+      collection: product_categories_translations
       conditions: null
       display: null
       display_options: null
@@ -10235,7 +10235,7 @@ fields:
       width: half
     schema:
       name: slug
-      table: item_categories_translations
+      table: product_categories_translations
       data_type: character varying
       default_value: null
       max_length: 255
@@ -10249,11 +10249,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_features
+  - collection: product_features
     field: data_type
     type: string
     meta:
-      collection: item_features
+      collection: product_features
       conditions: null
       display: labels
       display_options: null
@@ -10280,7 +10280,7 @@ fields:
       width: half
     schema:
       name: data_type
-      table: item_features
+      table: product_features
       data_type: character varying
       default_value: null
       max_length: 255
@@ -10294,11 +10294,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_features
+  - collection: product_features
     field: date_created
     type: timestamp
     meta:
-      collection: item_features
+      collection: product_features
       conditions: null
       display: datetime
       display_options:
@@ -10320,7 +10320,7 @@ fields:
       width: half
     schema:
       name: date_created
-      table: item_features
+      table: product_features
       data_type: timestamp with time zone
       default_value: null
       max_length: null
@@ -10334,11 +10334,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_features
+  - collection: product_features
     field: date_updated
     type: timestamp
     meta:
-      collection: item_features
+      collection: product_features
       conditions: null
       display: datetime
       display_options:
@@ -10360,7 +10360,7 @@ fields:
       width: half
     schema:
       name: date_updated
-      table: item_features
+      table: product_features
       data_type: timestamp with time zone
       default_value: null
       max_length: null
@@ -10374,11 +10374,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_features
+  - collection: product_features
     field: id
     type: uuid
     meta:
-      collection: item_features
+      collection: product_features
       conditions: null
       display: null
       display_options: null
@@ -10399,7 +10399,7 @@ fields:
       width: full
     schema:
       name: id
-      table: item_features
+      table: product_features
       data_type: uuid
       default_value: null
       max_length: null
@@ -10413,16 +10413,16 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_features
-    field: item_categories
+  - collection: product_features
+    field: product_categories
     type: alias
     meta:
-      collection: item_features
+      collection: product_features
       conditions: null
       display: related-values
       display_options:
-        template: '{{item_categories_id.translations.name}}'
-      field: item_categories
+        template: '{{product_categories_id.translations.name}}'
+      field: product_categories
       group: null
       hidden: false
       interface: list-m2m
@@ -10431,7 +10431,7 @@ fields:
         enableLink: true
         enableSearchFilter: true
         fields:
-          - item_categories_id.translations.name
+          - product_categories_id.translations.name
         layout: table
       readonly: false
       required: false
@@ -10442,11 +10442,11 @@ fields:
       validation: null
       validation_message: null
       width: full
-  - collection: item_features
+  - collection: product_features
     field: status
     type: string
     meta:
-      collection: item_features
+      collection: product_features
       conditions: null
       display: labels
       display_options:
@@ -10487,7 +10487,7 @@ fields:
       width: half
     schema:
       name: status
-      table: item_features
+      table: product_features
       data_type: character varying
       default_value: draft
       max_length: 255
@@ -10501,11 +10501,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_features
+  - collection: product_features
     field: translations
     type: alias
     meta:
-      collection: item_features
+      collection: product_features
       conditions: null
       display: related-values
       display_options:
@@ -10527,11 +10527,11 @@ fields:
       validation: null
       validation_message: null
       width: full
-  - collection: item_features
+  - collection: product_features
     field: user_created
     type: uuid
     meta:
-      collection: item_features
+      collection: product_features
       conditions: null
       display: user
       display_options: null
@@ -10553,7 +10553,7 @@ fields:
       width: half
     schema:
       name: user_created
-      table: item_features
+      table: product_features
       data_type: uuid
       default_value: null
       max_length: null
@@ -10567,11 +10567,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_users
       foreign_key_column: id
-  - collection: item_features
+  - collection: product_features
     field: user_updated
     type: uuid
     meta:
-      collection: item_features
+      collection: product_features
       conditions: null
       display: user
       display_options: null
@@ -10593,7 +10593,7 @@ fields:
       width: half
     schema:
       name: user_updated
-      table: item_features
+      table: product_features
       data_type: uuid
       default_value: null
       max_length: null
@@ -10607,11 +10607,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_users
       foreign_key_column: id
-  - collection: item_features_item_categories
+  - collection: product_features_product_categories
     field: id
     type: integer
     meta:
-      collection: item_features_item_categories
+      collection: product_features_product_categories
       conditions: null
       display: null
       display_options: null
@@ -10631,9 +10631,9 @@ fields:
       width: full
     schema:
       name: id
-      table: item_features_item_categories
+      table: product_features_product_categories
       data_type: integer
-      default_value: nextval('item_features_item_categories_id_seq'::regclass)
+      default_value: nextval('product_features_product_categories_id_seq'::regclass)
       max_length: null
       numeric_precision: 32
       numeric_scale: 0
@@ -10645,15 +10645,15 @@ fields:
       has_auto_increment: true
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_features_item_categories
-    field: item_categories_id
+  - collection: product_features_product_categories
+    field: product_categories_id
     type: uuid
     meta:
-      collection: item_features_item_categories
+      collection: product_features_product_categories
       conditions: null
       display: null
       display_options: null
-      field: item_categories_id
+      field: product_categories_id
       group: null
       hidden: true
       interface: null
@@ -10668,8 +10668,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: item_categories_id
-      table: item_features_item_categories
+      name: product_categories_id
+      table: product_features_product_categories
       data_type: uuid
       default_value: null
       max_length: null
@@ -10681,17 +10681,17 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: item_categories
+      foreign_key_table: product_categories
       foreign_key_column: id
-  - collection: item_features_item_categories
-    field: item_features_id
+  - collection: product_features_product_categories
+    field: product_features_id
     type: uuid
     meta:
-      collection: item_features_item_categories
+      collection: product_features_product_categories
       conditions: null
       display: null
       display_options: null
-      field: item_features_id
+      field: product_features_id
       group: null
       hidden: true
       interface: null
@@ -10706,8 +10706,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: item_features_id
-      table: item_features_item_categories
+      name: product_features_id
+      table: product_features_product_categories
       data_type: uuid
       default_value: null
       max_length: null
@@ -10719,13 +10719,13 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: item_features
+      foreign_key_table: product_features
       foreign_key_column: id
-  - collection: item_features_translations
+  - collection: product_features_translations
     field: description
     type: text
     meta:
-      collection: item_features_translations
+      collection: product_features_translations
       conditions: null
       display: null
       display_options: null
@@ -10745,7 +10745,7 @@ fields:
       width: full
     schema:
       name: description
-      table: item_features_translations
+      table: product_features_translations
       data_type: text
       default_value: null
       max_length: null
@@ -10759,11 +10759,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_features_translations
+  - collection: product_features_translations
     field: id
     type: integer
     meta:
-      collection: item_features_translations
+      collection: product_features_translations
       conditions: null
       display: null
       display_options: null
@@ -10783,9 +10783,9 @@ fields:
       width: full
     schema:
       name: id
-      table: item_features_translations
+      table: product_features_translations
       data_type: integer
-      default_value: nextval('item_features_translations_id_seq'::regclass)
+      default_value: nextval('product_features_translations_id_seq'::regclass)
       max_length: null
       numeric_precision: 32
       numeric_scale: 0
@@ -10797,15 +10797,15 @@ fields:
       has_auto_increment: true
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_features_translations
-    field: item_features_id
+  - collection: product_features_translations
+    field: product_features_id
     type: uuid
     meta:
-      collection: item_features_translations
+      collection: product_features_translations
       conditions: null
       display: null
       display_options: null
-      field: item_features_id
+      field: product_features_id
       group: null
       hidden: true
       interface: null
@@ -10820,8 +10820,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: item_features_id
-      table: item_features_translations
+      name: product_features_id
+      table: product_features_translations
       data_type: uuid
       default_value: null
       max_length: null
@@ -10833,13 +10833,13 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: item_features
+      foreign_key_table: product_features
       foreign_key_column: id
-  - collection: item_features_translations
+  - collection: product_features_translations
     field: languages_code
     type: string
     meta:
-      collection: item_features_translations
+      collection: product_features_translations
       conditions: null
       display: null
       display_options: null
@@ -10859,7 +10859,7 @@ fields:
       width: full
     schema:
       name: languages_code
-      table: item_features_translations
+      table: product_features_translations
       data_type: character varying
       default_value: null
       max_length: 255
@@ -10873,11 +10873,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: languages
       foreign_key_column: code
-  - collection: item_features_translations
+  - collection: product_features_translations
     field: name
     type: string
     meta:
-      collection: item_features_translations
+      collection: product_features_translations
       conditions: null
       display: null
       display_options: null
@@ -10899,7 +10899,7 @@ fields:
       width: half
     schema:
       name: name
-      table: item_features_translations
+      table: product_features_translations
       data_type: character varying
       default_value: null
       max_length: 255
@@ -10913,11 +10913,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_features_translations
+  - collection: product_features_translations
     field: slug
     type: string
     meta:
-      collection: item_features_translations
+      collection: product_features_translations
       conditions: null
       display: null
       display_options: null
@@ -10941,7 +10941,7 @@ fields:
       width: half
     schema:
       name: slug
-      table: item_features_translations
+      table: product_features_translations
       data_type: character varying
       default_value: null
       max_length: 255
@@ -10955,11 +10955,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_reviews
+  - collection: product_reviews
     field: author
     type: uuid
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: user
       display_options: null
@@ -10981,7 +10981,7 @@ fields:
       width: half
     schema:
       name: author
-      table: item_reviews
+      table: product_reviews
       data_type: uuid
       default_value: null
       max_length: null
@@ -10995,11 +10995,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_users
       foreign_key_column: id
-  - collection: item_reviews
+  - collection: product_reviews
     field: date_created
     type: timestamp
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: datetime
       display_options:
@@ -11021,7 +11021,7 @@ fields:
       width: half
     schema:
       name: date_created
-      table: item_reviews
+      table: product_reviews
       data_type: timestamp with time zone
       default_value: null
       max_length: null
@@ -11035,11 +11035,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_reviews
+  - collection: product_reviews
     field: date_updated
     type: timestamp
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: datetime
       display_options:
@@ -11061,7 +11061,7 @@ fields:
       width: half
     schema:
       name: date_updated
-      table: item_reviews
+      table: product_reviews
       data_type: timestamp with time zone
       default_value: null
       max_length: null
@@ -11075,11 +11075,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_reviews
+  - collection: product_reviews
     field: id
     type: uuid
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: null
       display_options: null
@@ -11100,7 +11100,7 @@ fields:
       width: full
     schema:
       name: id
-      table: item_reviews
+      table: product_reviews
       data_type: uuid
       default_value: null
       max_length: null
@@ -11114,15 +11114,15 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_reviews
-    field: item
+  - collection: product_reviews
+    field: product
     type: uuid
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: null
       display_options: null
-      field: item
+      field: product
       group: null
       hidden: false
       interface: select-dropdown-m2o
@@ -11139,8 +11139,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: item
-      table: item_reviews
+      name: product
+      table: product_reviews
       data_type: uuid
       default_value: null
       max_length: null
@@ -11152,13 +11152,13 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: items
+      foreign_key_table: products
       foreign_key_column: id
-  - collection: item_reviews
+  - collection: product_reviews
     field: rating
     type: integer
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: rating
       display_options:
@@ -11186,7 +11186,7 @@ fields:
       width: half
     schema:
       name: rating
-      table: item_reviews
+      table: product_reviews
       data_type: integer
       default_value: null
       max_length: null
@@ -11200,11 +11200,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_reviews
+  - collection: product_reviews
     field: review
     type: text
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: null
       display_options: null
@@ -11234,7 +11234,7 @@ fields:
       width: full
     schema:
       name: review
-      table: item_reviews
+      table: product_reviews
       data_type: text
       default_value: null
       max_length: null
@@ -11248,11 +11248,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_reviews
+  - collection: product_reviews
     field: seo
     type: uuid
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: null
       display_options: null
@@ -11275,7 +11275,7 @@ fields:
       width: full
     schema:
       name: seo
-      table: item_reviews
+      table: product_reviews
       data_type: uuid
       default_value: null
       max_length: null
@@ -11289,11 +11289,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: seo
       foreign_key_column: id
-  - collection: item_reviews
+  - collection: product_reviews
     field: slug
     type: string
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: null
       display_options: null
@@ -11316,7 +11316,7 @@ fields:
       width: half
     schema:
       name: slug
-      table: item_reviews
+      table: product_reviews
       data_type: character varying
       default_value: null
       max_length: 255
@@ -11330,11 +11330,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_reviews
+  - collection: product_reviews
     field: sort
     type: integer
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: null
       display_options: null
@@ -11354,7 +11354,7 @@ fields:
       width: full
     schema:
       name: sort
-      table: item_reviews
+      table: product_reviews
       data_type: integer
       default_value: null
       max_length: null
@@ -11368,11 +11368,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_reviews
+  - collection: product_reviews
     field: status
     type: string
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: labels
       display_options:
@@ -11413,7 +11413,7 @@ fields:
       width: full
     schema:
       name: status
-      table: item_reviews
+      table: product_reviews
       data_type: character varying
       default_value: draft
       max_length: 255
@@ -11427,11 +11427,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_reviews
+  - collection: product_reviews
     field: title
     type: string
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: null
       display_options: null
@@ -11452,7 +11452,7 @@ fields:
       width: half
     schema:
       name: title
-      table: item_reviews
+      table: product_reviews
       data_type: character varying
       default_value: null
       max_length: 255
@@ -11466,11 +11466,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_reviews
+  - collection: product_reviews
     field: user_created
     type: uuid
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: user
       display_options: null
@@ -11492,7 +11492,7 @@ fields:
       width: half
     schema:
       name: user_created
-      table: item_reviews
+      table: product_reviews
       data_type: uuid
       default_value: null
       max_length: null
@@ -11506,11 +11506,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_users
       foreign_key_column: id
-  - collection: item_reviews
+  - collection: product_reviews
     field: user_updated
     type: uuid
     meta:
-      collection: item_reviews
+      collection: product_reviews
       conditions: null
       display: user
       display_options: null
@@ -11532,7 +11532,7 @@ fields:
       width: half
     schema:
       name: user_updated
-      table: item_reviews
+      table: product_reviews
       data_type: uuid
       default_value: null
       max_length: null
@@ -11546,11 +11546,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_users
       foreign_key_column: id
-  - collection: item_tags
+  - collection: product_tags
     field: date_created
     type: timestamp
     meta:
-      collection: item_tags
+      collection: product_tags
       conditions: null
       display: datetime
       display_options:
@@ -11572,7 +11572,7 @@ fields:
       width: half
     schema:
       name: date_created
-      table: item_tags
+      table: product_tags
       data_type: timestamp with time zone
       default_value: null
       max_length: null
@@ -11586,11 +11586,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_tags
+  - collection: product_tags
     field: date_updated
     type: timestamp
     meta:
-      collection: item_tags
+      collection: product_tags
       conditions: null
       display: datetime
       display_options:
@@ -11612,7 +11612,7 @@ fields:
       width: half
     schema:
       name: date_updated
-      table: item_tags
+      table: product_tags
       data_type: timestamp with time zone
       default_value: null
       max_length: null
@@ -11626,11 +11626,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_tags
+  - collection: product_tags
     field: id
     type: uuid
     meta:
-      collection: item_tags
+      collection: product_tags
       conditions: null
       display: null
       display_options: null
@@ -11651,7 +11651,7 @@ fields:
       width: full
     schema:
       name: id
-      table: item_tags
+      table: product_tags
       data_type: uuid
       default_value: null
       max_length: null
@@ -11665,11 +11665,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_tags
+  - collection: product_tags
     field: sort
     type: integer
     meta:
-      collection: item_tags
+      collection: product_tags
       conditions: null
       display: null
       display_options: null
@@ -11689,7 +11689,7 @@ fields:
       width: full
     schema:
       name: sort
-      table: item_tags
+      table: product_tags
       data_type: integer
       default_value: null
       max_length: null
@@ -11703,11 +11703,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_tags
+  - collection: product_tags
     field: status
     type: string
     meta:
-      collection: item_tags
+      collection: product_tags
       conditions: null
       display: labels
       display_options:
@@ -11748,7 +11748,7 @@ fields:
       width: full
     schema:
       name: status
-      table: item_tags
+      table: product_tags
       data_type: character varying
       default_value: draft
       max_length: 255
@@ -11762,11 +11762,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_tags
+  - collection: product_tags
     field: translations
     type: alias
     meta:
-      collection: item_tags
+      collection: product_tags
       conditions: null
       display: null
       display_options: null
@@ -11787,11 +11787,11 @@ fields:
       validation: null
       validation_message: null
       width: full
-  - collection: item_tags
+  - collection: product_tags
     field: user_created
     type: uuid
     meta:
-      collection: item_tags
+      collection: product_tags
       conditions: null
       display: user
       display_options: null
@@ -11813,7 +11813,7 @@ fields:
       width: half
     schema:
       name: user_created
-      table: item_tags
+      table: product_tags
       data_type: uuid
       default_value: null
       max_length: null
@@ -11827,11 +11827,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_users
       foreign_key_column: id
-  - collection: item_tags
+  - collection: product_tags
     field: user_updated
     type: uuid
     meta:
-      collection: item_tags
+      collection: product_tags
       conditions: null
       display: user
       display_options: null
@@ -11853,7 +11853,7 @@ fields:
       width: half
     schema:
       name: user_updated
-      table: item_tags
+      table: product_tags
       data_type: uuid
       default_value: null
       max_length: null
@@ -11867,11 +11867,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_users
       foreign_key_column: id
-  - collection: item_tags_translations
+  - collection: product_tags_translations
     field: description
     type: text
     meta:
-      collection: item_tags_translations
+      collection: product_tags_translations
       conditions: null
       display: null
       display_options: null
@@ -11891,7 +11891,7 @@ fields:
       width: full
     schema:
       name: description
-      table: item_tags_translations
+      table: product_tags_translations
       data_type: text
       default_value: null
       max_length: null
@@ -11905,11 +11905,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_tags_translations
+  - collection: product_tags_translations
     field: id
     type: integer
     meta:
-      collection: item_tags_translations
+      collection: product_tags_translations
       conditions: null
       display: null
       display_options: null
@@ -11929,9 +11929,9 @@ fields:
       width: full
     schema:
       name: id
-      table: item_tags_translations
+      table: product_tags_translations
       data_type: integer
-      default_value: nextval('item_tags_translations_id_seq'::regclass)
+      default_value: nextval('product_tags_translations_id_seq'::regclass)
       max_length: null
       numeric_precision: 32
       numeric_scale: 0
@@ -11943,15 +11943,15 @@ fields:
       has_auto_increment: true
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_tags_translations
-    field: item_tags_id
+  - collection: product_tags_translations
+    field: product_tags_id
     type: uuid
     meta:
-      collection: item_tags_translations
+      collection: product_tags_translations
       conditions: null
       display: null
       display_options: null
-      field: item_tags_id
+      field: product_tags_id
       group: null
       hidden: true
       interface: null
@@ -11966,8 +11966,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: item_tags_id
-      table: item_tags_translations
+      name: product_tags_id
+      table: product_tags_translations
       data_type: uuid
       default_value: null
       max_length: null
@@ -11979,13 +11979,13 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: item_tags
+      foreign_key_table: product_tags
       foreign_key_column: id
-  - collection: item_tags_translations
+  - collection: product_tags_translations
     field: languages_code
     type: string
     meta:
-      collection: item_tags_translations
+      collection: product_tags_translations
       conditions: null
       display: null
       display_options: null
@@ -12005,7 +12005,7 @@ fields:
       width: full
     schema:
       name: languages_code
-      table: item_tags_translations
+      table: product_tags_translations
       data_type: character varying
       default_value: null
       max_length: 255
@@ -12019,11 +12019,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: languages
       foreign_key_column: code
-  - collection: item_tags_translations
+  - collection: product_tags_translations
     field: slug
     type: string
     meta:
-      collection: item_tags_translations
+      collection: product_tags_translations
       conditions: null
       display: null
       display_options: null
@@ -12044,7 +12044,7 @@ fields:
       width: half
     schema:
       name: slug
-      table: item_tags_translations
+      table: product_tags_translations
       data_type: character varying
       default_value: null
       max_length: 255
@@ -12058,11 +12058,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: item_tags_translations
+  - collection: product_tags_translations
     field: tag
     type: string
     meta:
-      collection: item_tags_translations
+      collection: product_tags_translations
       conditions: null
       display: labels
       display_options: null
@@ -12083,7 +12083,7 @@ fields:
       width: half
     schema:
       name: tag
-      table: item_tags_translations
+      table: product_tags_translations
       data_type: character varying
       default_value: null
       max_length: 255
@@ -12097,11 +12097,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items
+  - collection: products
     field: brand
     type: uuid
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: related-values
       display_options:
@@ -12124,7 +12124,7 @@ fields:
       width: full
     schema:
       name: brand
-      table: items
+      table: products
       data_type: uuid
       default_value: null
       max_length: null
@@ -12138,15 +12138,15 @@ fields:
       has_auto_increment: false
       foreign_key_table: brands
       foreign_key_column: id
-  - collection: items
+  - collection: products
     field: categories
     type: alias
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: related-values
       display_options:
-        template: '{{item_categories_id.translations.name}}'
+        template: '{{product_categories_id.translations.name}}'
       field: categories
       group: null
       hidden: false
@@ -12156,8 +12156,8 @@ fields:
         enableLink: true
         limit: 10
         template: >-
-          {{item_categories_id.cover.$thumbnail}}
-          {{item_categories_id.translations.name}}
+          {{product_categories_id.cover.$thumbnail}}
+          {{product_categories_id.translations.name}}
       readonly: false
       required: false
       sort: 12
@@ -12167,11 +12167,11 @@ fields:
       validation: null
       validation_message: null
       width: full
-  - collection: items
+  - collection: products
     field: date_created
     type: timestamp
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: datetime
       display_options:
@@ -12193,7 +12193,7 @@ fields:
       width: half
     schema:
       name: date_created
-      table: items
+      table: products
       data_type: timestamp with time zone
       default_value: null
       max_length: null
@@ -12207,11 +12207,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items
+  - collection: products
     field: date_updated
     type: timestamp
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: datetime
       display_options:
@@ -12233,7 +12233,7 @@ fields:
       width: half
     schema:
       name: date_updated
-      table: items
+      table: products
       data_type: timestamp with time zone
       default_value: null
       max_length: null
@@ -12247,11 +12247,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items
+  - collection: products
     field: id
     type: uuid
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: null
       display_options: null
@@ -12272,7 +12272,7 @@ fields:
       width: full
     schema:
       name: id
-      table: items
+      table: products
       data_type: uuid
       default_value: null
       max_length: null
@@ -12286,11 +12286,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items
+  - collection: products
     field: images
     type: alias
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: related-values
       display_options:
@@ -12310,18 +12310,18 @@ fields:
       validation: null
       validation_message: null
       width: full
-  - collection: items
-    field: item_features
+  - collection: products
+    field: product_features
     type: alias
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: related-values
       display_options:
         template: >-
-          {{item_features_id.translations.name}} -
+          {{product_features_id.translations.name}} -
           {{value_string}}{{value_integer}}{{value_boolean}}
-      field: item_features
+      field: product_features
       group: null
       hidden: false
       interface: list-m2m
@@ -12331,7 +12331,7 @@ fields:
         enableLink: true
         limit: 20
         template: >-
-          {{item_features_id.translations.name}} -
+          {{product_features_id.translations.name}} -
           {{value_string}}{{value_boolean}}{{value_float}}
       readonly: false
       required: false
@@ -12342,11 +12342,11 @@ fields:
       validation: null
       validation_message: null
       width: full
-  - collection: items
+  - collection: products
     field: name
     type: string
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: null
       display_options: null
@@ -12368,7 +12368,7 @@ fields:
       width: half
     schema:
       name: name
-      table: items
+      table: products
       data_type: character varying
       default_value: null
       max_length: 255
@@ -12382,11 +12382,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items
+  - collection: products
     field: slug
     type: string
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: null
       display_options: null
@@ -12410,7 +12410,7 @@ fields:
       width: half
     schema:
       name: slug
-      table: items
+      table: products
       data_type: character varying
       default_value: null
       max_length: 255
@@ -12424,11 +12424,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items
+  - collection: products
     field: sort
     type: integer
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: null
       display_options: null
@@ -12448,7 +12448,7 @@ fields:
       width: full
     schema:
       name: sort
-      table: items
+      table: products
       data_type: integer
       default_value: null
       max_length: null
@@ -12462,11 +12462,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items
+  - collection: products
     field: status
     type: string
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: labels
       display_options:
@@ -12507,7 +12507,7 @@ fields:
       width: full
     schema:
       name: status
-      table: items
+      table: products
       data_type: character varying
       default_value: draft
       max_length: 255
@@ -12521,22 +12521,22 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items
+  - collection: products
     field: tags
     type: alias
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: related-values
       display_options:
-        template: '{{item_tags_id.translations.tag}}'
+        template: '{{product_tags_id.translations.tag}}'
       field: tags
       group: null
       hidden: false
       interface: list-m2m
       note: null
       options:
-        template: '{{item_tags_id.translations.tag}}'
+        template: '{{product_tags_id.translations.tag}}'
       readonly: false
       required: false
       sort: 15
@@ -12546,17 +12546,17 @@ fields:
       validation: null
       validation_message: null
       width: full
-  - collection: items
+  - collection: products
     field: translations
     type: alias
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: translations
       display_options:
         defaultLanguage: en-US
         languageField: code
-        template: '{{items_id.name}}'
+        template: '{{products_id.name}}'
       field: translations
       group: null
       hidden: false
@@ -12574,11 +12574,11 @@ fields:
       validation: null
       validation_message: null
       width: full
-  - collection: items
+  - collection: products
     field: user_created
     type: uuid
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: user
       display_options: null
@@ -12600,7 +12600,7 @@ fields:
       width: half
     schema:
       name: user_created
-      table: items
+      table: products
       data_type: uuid
       default_value: null
       max_length: null
@@ -12614,11 +12614,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_users
       foreign_key_column: id
-  - collection: items
+  - collection: products
     field: user_updated
     type: uuid
     meta:
-      collection: items
+      collection: products
       conditions: null
       display: user
       display_options: null
@@ -12640,7 +12640,7 @@ fields:
       width: half
     schema:
       name: user_updated
-      table: items
+      table: products
       data_type: uuid
       default_value: null
       max_length: null
@@ -12654,11 +12654,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_users
       foreign_key_column: id
-  - collection: items_files
+  - collection: products_files
     field: directus_files_id
     type: uuid
     meta:
-      collection: items_files
+      collection: products_files
       conditions: null
       display: null
       display_options: null
@@ -12678,7 +12678,7 @@ fields:
       width: full
     schema:
       name: directus_files_id
-      table: items_files
+      table: products_files
       data_type: uuid
       default_value: null
       max_length: null
@@ -12692,11 +12692,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: directus_files
       foreign_key_column: id
-  - collection: items_files
+  - collection: products_files
     field: id
     type: integer
     meta:
-      collection: items_files
+      collection: products_files
       conditions: null
       display: null
       display_options: null
@@ -12716,9 +12716,9 @@ fields:
       width: full
     schema:
       name: id
-      table: items_files
+      table: products_files
       data_type: integer
-      default_value: nextval('items_files_id_seq'::regclass)
+      default_value: nextval('products_files_id_seq'::regclass)
       max_length: null
       numeric_precision: 32
       numeric_scale: 0
@@ -12730,11 +12730,11 @@ fields:
       has_auto_increment: true
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items_files
+  - collection: products_files
     field: is_main
     type: boolean
     meta:
-      collection: items_files
+      collection: products_files
       conditions: null
       display: null
       display_options: null
@@ -12755,7 +12755,7 @@ fields:
       width: full
     schema:
       name: is_main
-      table: items_files
+      table: products_files
       data_type: boolean
       default_value: false
       max_length: null
@@ -12769,15 +12769,15 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items_files
-    field: items_id
+  - collection: products_files
+    field: products_id
     type: uuid
     meta:
-      collection: items_files
+      collection: products_files
       conditions: null
       display: null
       display_options: null
-      field: items_id
+      field: products_id
       group: null
       hidden: true
       interface: null
@@ -12792,8 +12792,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: items_id
-      table: items_files
+      name: products_id
+      table: products_files
       data_type: uuid
       default_value: null
       max_length: null
@@ -12805,13 +12805,13 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: items
+      foreign_key_table: products
       foreign_key_column: id
-  - collection: items_files
+  - collection: products_files
     field: sort
     type: integer
     meta:
-      collection: items_files
+      collection: products_files
       conditions: null
       display: null
       display_options: null
@@ -12832,7 +12832,7 @@ fields:
       width: full
     schema:
       name: sort
-      table: items_files
+      table: products_files
       data_type: integer
       default_value: null
       max_length: null
@@ -12846,11 +12846,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items_item_categories
+  - collection: products_product_categories
     field: id
     type: integer
     meta:
-      collection: items_item_categories
+      collection: products_product_categories
       conditions: null
       display: null
       display_options: null
@@ -12870,9 +12870,9 @@ fields:
       width: full
     schema:
       name: id
-      table: items_item_categories
+      table: products_product_categories
       data_type: integer
-      default_value: nextval('items_item_categories_id_seq'::regclass)
+      default_value: nextval('products_product_categories_id_seq'::regclass)
       max_length: null
       numeric_precision: 32
       numeric_scale: 0
@@ -12884,15 +12884,15 @@ fields:
       has_auto_increment: true
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items_item_categories
-    field: item_categories_id
+  - collection: products_product_categories
+    field: product_categories_id
     type: uuid
     meta:
-      collection: items_item_categories
+      collection: products_product_categories
       conditions: null
       display: null
       display_options: null
-      field: item_categories_id
+      field: product_categories_id
       group: null
       hidden: true
       interface: null
@@ -12907,8 +12907,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: item_categories_id
-      table: items_item_categories
+      name: product_categories_id
+      table: products_product_categories
       data_type: uuid
       default_value: null
       max_length: null
@@ -12920,17 +12920,17 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: item_categories
+      foreign_key_table: product_categories
       foreign_key_column: id
-  - collection: items_item_categories
-    field: items_id
+  - collection: products_product_categories
+    field: products_id
     type: uuid
     meta:
-      collection: items_item_categories
+      collection: products_product_categories
       conditions: null
       display: null
       display_options: null
-      field: items_id
+      field: products_id
       group: null
       hidden: true
       interface: null
@@ -12945,8 +12945,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: items_id
-      table: items_item_categories
+      name: products_id
+      table: products_product_categories
       data_type: uuid
       default_value: null
       max_length: null
@@ -12958,13 +12958,13 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: items
+      foreign_key_table: products
       foreign_key_column: id
-  - collection: items_item_features
+  - collection: products_product_features
     field: id
     type: integer
     meta:
-      collection: items_item_features
+      collection: products_product_features
       conditions: null
       display: null
       display_options: null
@@ -12984,9 +12984,9 @@ fields:
       width: full
     schema:
       name: id
-      table: items_item_features
+      table: products_product_features
       data_type: integer
-      default_value: nextval('items_item_features_id_seq'::regclass)
+      default_value: nextval('products_product_features_id_seq'::regclass)
       max_length: null
       numeric_precision: 32
       numeric_scale: 0
@@ -12998,15 +12998,15 @@ fields:
       has_auto_increment: true
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items_item_features
-    field: item
+  - collection: products_product_features
+    field: product
     type: uuid
     meta:
-      collection: items_item_features
+      collection: products_product_features
       conditions: null
       display: null
       display_options: null
-      field: item
+      field: product
       group: null
       hidden: false
       interface: select-dropdown-m2o
@@ -13023,8 +13023,8 @@ fields:
       validation_message: null
       width: half
     schema:
-      name: item
-      table: items_item_features
+      name: product
+      table: products_product_features
       data_type: uuid
       default_value: null
       max_length: null
@@ -13036,18 +13036,18 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: items
+      foreign_key_table: products
       foreign_key_column: id
-  - collection: items_item_features
-    field: item_features_id
+  - collection: products_product_features
+    field: product_features_id
     type: uuid
     meta:
-      collection: items_item_features
+      collection: products_product_features
       conditions: null
       display: related-values
       display_options:
         template: '{{translations.name}}'
-      field: item_features_id
+      field: product_features_id
       group: null
       hidden: false
       interface: select-dropdown-m2o
@@ -13063,8 +13063,8 @@ fields:
       validation_message: null
       width: half
     schema:
-      name: item_features_id
-      table: items_item_features
+      name: product_features_id
+      table: products_product_features
       data_type: uuid
       default_value: null
       max_length: null
@@ -13076,18 +13076,18 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: item_features
+      foreign_key_table: product_features
       foreign_key_column: id
-  - collection: items_item_features
-    field: items_id
+  - collection: products_product_features
+    field: products_id
     type: uuid
     meta:
-      collection: items_item_features
+      collection: products_product_features
       conditions: null
       display: related-values
       display_options:
         template: '{{name}}'
-      field: items_id
+      field: products_id
       group: null
       hidden: false
       interface: select-dropdown-m2o
@@ -13103,8 +13103,8 @@ fields:
       validation_message: null
       width: half
     schema:
-      name: items_id
-      table: items_item_features
+      name: products_id
+      table: products_product_features
       data_type: uuid
       default_value: null
       max_length: null
@@ -13116,13 +13116,13 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: items
+      foreign_key_table: products
       foreign_key_column: id
-  - collection: items_item_features
+  - collection: products_product_features
     field: value_boolean
     type: boolean
     meta:
-      collection: items_item_features
+      collection: products_product_features
       conditions: null
       display: null
       display_options: null
@@ -13143,7 +13143,7 @@ fields:
       width: half
     schema:
       name: value_boolean
-      table: items_item_features
+      table: products_product_features
       data_type: boolean
       default_value: null
       max_length: null
@@ -13157,11 +13157,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items_item_features
+  - collection: products_product_features
     field: value_float
     type: float
     meta:
-      collection: items_item_features
+      collection: products_product_features
       conditions: null
       display: null
       display_options: null
@@ -13181,7 +13181,7 @@ fields:
       width: half
     schema:
       name: value_float
-      table: items_item_features
+      table: products_product_features
       data_type: real
       default_value: null
       max_length: null
@@ -13195,11 +13195,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items_item_features
+  - collection: products_product_features
     field: value_string
     type: string
     meta:
-      collection: items_item_features
+      collection: products_product_features
       conditions: null
       display: null
       display_options: null
@@ -13219,7 +13219,7 @@ fields:
       width: half
     schema:
       name: value_string
-      table: items_item_features
+      table: products_product_features
       data_type: character varying
       default_value: null
       max_length: 255
@@ -13233,11 +13233,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items_item_tags
+  - collection: products_product_tags
     field: id
     type: integer
     meta:
-      collection: items_item_tags
+      collection: products_product_tags
       conditions: null
       display: null
       display_options: null
@@ -13257,9 +13257,9 @@ fields:
       width: full
     schema:
       name: id
-      table: items_item_tags
+      table: products_product_tags
       data_type: integer
-      default_value: nextval('items_item_tags_id_seq'::regclass)
+      default_value: nextval('products_product_tags_id_seq'::regclass)
       max_length: null
       numeric_precision: 32
       numeric_scale: 0
@@ -13271,15 +13271,15 @@ fields:
       has_auto_increment: true
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items_item_tags
-    field: item_tags_id
+  - collection: products_product_tags
+    field: product_tags_id
     type: uuid
     meta:
-      collection: items_item_tags
+      collection: products_product_tags
       conditions: null
       display: null
       display_options: null
-      field: item_tags_id
+      field: product_tags_id
       group: null
       hidden: true
       interface: null
@@ -13294,8 +13294,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: item_tags_id
-      table: items_item_tags
+      name: product_tags_id
+      table: products_product_tags
       data_type: uuid
       default_value: null
       max_length: null
@@ -13307,17 +13307,17 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: item_tags
+      foreign_key_table: product_tags
       foreign_key_column: id
-  - collection: items_item_tags
-    field: items_id
+  - collection: products_product_tags
+    field: products_id
     type: uuid
     meta:
-      collection: items_item_tags
+      collection: products_product_tags
       conditions: null
       display: null
       display_options: null
-      field: items_id
+      field: products_id
       group: null
       hidden: true
       interface: null
@@ -13332,8 +13332,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: items_id
-      table: items_item_tags
+      name: products_id
+      table: products_product_tags
       data_type: uuid
       default_value: null
       max_length: null
@@ -13345,13 +13345,13 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: items
+      foreign_key_table: products
       foreign_key_column: id
-  - collection: items_item_tags_1
+  - collection: products_product_tags_1
     field: id
     type: integer
     meta:
-      collection: items_item_tags_1
+      collection: products_product_tags_1
       conditions: null
       display: null
       display_options: null
@@ -13371,9 +13371,9 @@ fields:
       width: full
     schema:
       name: id
-      table: items_item_tags_1
+      table: products_product_tags_1
       data_type: integer
-      default_value: nextval('items_item_tags_1_id_seq'::regclass)
+      default_value: nextval('products_product_tags_1_id_seq'::regclass)
       max_length: null
       numeric_precision: 32
       numeric_scale: 0
@@ -13385,15 +13385,15 @@ fields:
       has_auto_increment: true
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items_item_tags_1
-    field: item_tags_id
+  - collection: products_product_tags_1
+    field: product_tags_id
     type: uuid
     meta:
-      collection: items_item_tags_1
+      collection: products_product_tags_1
       conditions: null
       display: null
       display_options: null
-      field: item_tags_id
+      field: product_tags_id
       group: null
       hidden: true
       interface: null
@@ -13408,8 +13408,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: item_tags_id
-      table: items_item_tags_1
+      name: product_tags_id
+      table: products_product_tags_1
       data_type: uuid
       default_value: null
       max_length: null
@@ -13421,17 +13421,17 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: item_tags
+      foreign_key_table: product_tags
       foreign_key_column: id
-  - collection: items_item_tags_1
-    field: items_id
+  - collection: products_product_tags_1
+    field: products_id
     type: uuid
     meta:
-      collection: items_item_tags_1
+      collection: products_product_tags_1
       conditions: null
       display: null
       display_options: null
-      field: items_id
+      field: products_id
       group: null
       hidden: true
       interface: null
@@ -13446,8 +13446,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: items_id
-      table: items_item_tags_1
+      name: products_id
+      table: products_product_tags_1
       data_type: uuid
       default_value: null
       max_length: null
@@ -13459,13 +13459,13 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: items
+      foreign_key_table: products
       foreign_key_column: id
-  - collection: items_translations
+  - collection: products_translations
     field: description
     type: text
     meta:
-      collection: items_translations
+      collection: products_translations
       conditions: null
       display: null
       display_options: null
@@ -13485,7 +13485,7 @@ fields:
       width: full
     schema:
       name: description
-      table: items_translations
+      table: products_translations
       data_type: text
       default_value: null
       max_length: null
@@ -13499,11 +13499,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items_translations
+  - collection: products_translations
     field: id
     type: integer
     meta:
-      collection: items_translations
+      collection: products_translations
       conditions: null
       display: null
       display_options: null
@@ -13523,9 +13523,9 @@ fields:
       width: full
     schema:
       name: id
-      table: items_translations
+      table: products_translations
       data_type: integer
-      default_value: nextval('items_translations_id_seq'::regclass)
+      default_value: nextval('products_translations_id_seq'::regclass)
       max_length: null
       numeric_precision: 32
       numeric_scale: 0
@@ -13537,15 +13537,15 @@ fields:
       has_auto_increment: true
       foreign_key_table: null
       foreign_key_column: null
-  - collection: items_translations
-    field: items_id
+  - collection: products_translations
+    field: products_id
     type: uuid
     meta:
-      collection: items_translations
+      collection: products_translations
       conditions: null
       display: null
       display_options: null
-      field: items_id
+      field: products_id
       group: null
       hidden: true
       interface: null
@@ -13560,8 +13560,8 @@ fields:
       validation_message: null
       width: full
     schema:
-      name: items_id
-      table: items_translations
+      name: products_id
+      table: products_translations
       data_type: uuid
       default_value: null
       max_length: null
@@ -13573,13 +13573,13 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: items
+      foreign_key_table: products
       foreign_key_column: id
-  - collection: items_translations
+  - collection: products_translations
     field: languages_code
     type: string
     meta:
-      collection: items_translations
+      collection: products_translations
       conditions: null
       display: null
       display_options: null
@@ -13599,7 +13599,7 @@ fields:
       width: full
     schema:
       name: languages_code
-      table: items_translations
+      table: products_translations
       data_type: character varying
       default_value: null
       max_length: 255
@@ -13613,11 +13613,11 @@ fields:
       has_auto_increment: false
       foreign_key_table: languages
       foreign_key_column: code
-  - collection: items_translations
+  - collection: products_translations
     field: short_description
     type: text
     meta:
-      collection: items_translations
+      collection: products_translations
       conditions: null
       display: null
       display_options: null
@@ -13637,7 +13637,7 @@ fields:
       width: full
     schema:
       name: short_description
-      table: items_translations
+      table: products_translations
       data_type: text
       default_value: null
       max_length: null
@@ -15126,14 +15126,14 @@ fields:
       foreign_key_table: null
       foreign_key_column: null
   - collection: seo
-    field: sitemap_priority
+    field: sproductap_priority
     type: float
     meta:
       collection: seo
       conditions: null
       display: labels
       display_options: null
-      field: sitemap_priority
+      field: sproductap_priority
       group: null
       hidden: false
       interface: input
@@ -15153,14 +15153,14 @@ fields:
       translations: null
       validation:
         _and:
-          - sitemap_priority:
+          - sproductap_priority:
               _between:
                 - '0'
                 - '1'
       validation_message: null
       width: full
     schema:
-      name: sitemap_priority
+      name: sproductap_priority
       table: seo
       data_type: real
       default_value: 0.1
@@ -18196,12 +18196,12 @@ relations:
       constraint_name: homepage_translations_seo_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: item_categories
+  - collection: product_categories
     field: cover
     related_collection: directus_files
     meta:
       junction_field: null
-      many_collection: item_categories
+      many_collection: product_categories
       many_field: cover
       one_allowed_collections: null
       one_collection: directus_files
@@ -18210,19 +18210,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_categories
+      table: product_categories
       column: cover
       foreign_key_table: directus_files
       foreign_key_column: id
-      constraint_name: item_categories_cover_foreign
+      constraint_name: product_categories_cover_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: item_categories
+  - collection: product_categories
     field: icon
     related_collection: directus_files
     meta:
       junction_field: null
-      many_collection: item_categories
+      many_collection: product_categories
       many_field: icon
       one_allowed_collections: null
       one_collection: directus_files
@@ -18231,40 +18231,40 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_categories
+      table: product_categories
       column: icon
       foreign_key_table: directus_files
       foreign_key_column: id
-      constraint_name: item_categories_icon_foreign
+      constraint_name: product_categories_icon_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: item_categories
+  - collection: product_categories
     field: parent_category
-    related_collection: item_categories
+    related_collection: product_categories
     meta:
       junction_field: null
-      many_collection: item_categories
+      many_collection: product_categories
       many_field: parent_category
       one_allowed_collections: null
-      one_collection: item_categories
+      one_collection: product_categories
       one_collection_field: null
       one_deselect_action: nullify
       one_field: children_categories
       sort_field: null
     schema:
-      table: item_categories
+      table: product_categories
       column: parent_category
-      foreign_key_table: item_categories
+      foreign_key_table: product_categories
       foreign_key_column: id
-      constraint_name: item_categories_parent_category_foreign
+      constraint_name: product_categories_parent_category_foreign
       on_update: NO ACTION
       on_delete: NO ACTION
-  - collection: item_categories
+  - collection: product_categories
     field: user_created
     related_collection: directus_users
     meta:
       junction_field: null
-      many_collection: item_categories
+      many_collection: product_categories
       many_field: user_created
       one_allowed_collections: null
       one_collection: directus_users
@@ -18273,19 +18273,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_categories
+      table: product_categories
       column: user_created
       foreign_key_table: directus_users
       foreign_key_column: id
-      constraint_name: item_categories_user_created_foreign
+      constraint_name: product_categories_user_created_foreign
       on_update: NO ACTION
       on_delete: NO ACTION
-  - collection: item_categories
+  - collection: product_categories
     field: user_updated
     related_collection: directus_users
     meta:
       junction_field: null
-      many_collection: item_categories
+      many_collection: product_categories
       many_field: user_updated
       one_allowed_collections: null
       one_collection: directus_users
@@ -18294,40 +18294,40 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_categories
+      table: product_categories
       column: user_updated
       foreign_key_table: directus_users
       foreign_key_column: id
-      constraint_name: item_categories_user_updated_foreign
+      constraint_name: product_categories_user_updated_foreign
       on_update: NO ACTION
       on_delete: NO ACTION
-  - collection: item_categories_translations
-    field: item_categories_id
-    related_collection: item_categories
+  - collection: product_categories_translations
+    field: product_categories_id
+    related_collection: product_categories
     meta:
       junction_field: languages_code
-      many_collection: item_categories_translations
-      many_field: item_categories_id
+      many_collection: product_categories_translations
+      many_field: product_categories_id
       one_allowed_collections: null
-      one_collection: item_categories
+      one_collection: product_categories
       one_collection_field: null
       one_deselect_action: nullify
       one_field: translations
       sort_field: null
     schema:
-      table: item_categories_translations
-      column: item_categories_id
-      foreign_key_table: item_categories
+      table: product_categories_translations
+      column: product_categories_id
+      foreign_key_table: product_categories
       foreign_key_column: id
-      constraint_name: item_categories_translations_item_categories_id_foreign
+      constraint_name: product_categories_translations_product_categories_id_foreign
       on_update: NO ACTION
       on_delete: CASCADE
-  - collection: item_categories_translations
+  - collection: product_categories_translations
     field: languages_code
     related_collection: languages
     meta:
-      junction_field: item_categories_id
-      many_collection: item_categories_translations
+      junction_field: product_categories_id
+      many_collection: product_categories_translations
       many_field: languages_code
       one_allowed_collections: null
       one_collection: languages
@@ -18336,19 +18336,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_categories_translations
+      table: product_categories_translations
       column: languages_code
       foreign_key_table: languages
       foreign_key_column: code
-      constraint_name: item_categories_translations_languages_code_foreign
+      constraint_name: product_categories_translations_languages_code_foreign
       on_update: NO ACTION
       on_delete: SET DEFAULT
-  - collection: item_categories_translations
+  - collection: product_categories_translations
     field: seo
     related_collection: seo
     meta:
       junction_field: null
-      many_collection: item_categories_translations
+      many_collection: product_categories_translations
       many_field: seo
       one_allowed_collections: null
       one_collection: seo
@@ -18357,19 +18357,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_categories_translations
+      table: product_categories_translations
       column: seo
       foreign_key_table: seo
       foreign_key_column: id
-      constraint_name: item_categories_translations_seo_foreign
+      constraint_name: product_categories_translations_seo_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: item_features
+  - collection: product_features
     field: user_created
     related_collection: directus_users
     meta:
       junction_field: null
-      many_collection: item_features
+      many_collection: product_features
       many_field: user_created
       one_allowed_collections: null
       one_collection: directus_users
@@ -18378,19 +18378,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_features
+      table: product_features
       column: user_created
       foreign_key_table: directus_users
       foreign_key_column: id
-      constraint_name: item_features_user_created_foreign
+      constraint_name: product_features_user_created_foreign
       on_update: NO ACTION
       on_delete: NO ACTION
-  - collection: item_features
+  - collection: product_features
     field: user_updated
     related_collection: directus_users
     meta:
       junction_field: null
-      many_collection: item_features
+      many_collection: product_features
       many_field: user_updated
       one_allowed_collections: null
       one_collection: directus_users
@@ -18399,82 +18399,82 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_features
+      table: product_features
       column: user_updated
       foreign_key_table: directus_users
       foreign_key_column: id
-      constraint_name: item_features_user_updated_foreign
+      constraint_name: product_features_user_updated_foreign
       on_update: NO ACTION
       on_delete: NO ACTION
-  - collection: item_features_item_categories
-    field: item_categories_id
-    related_collection: item_categories
+  - collection: product_features_product_categories
+    field: product_categories_id
+    related_collection: product_categories
     meta:
-      junction_field: item_features_id
-      many_collection: item_features_item_categories
-      many_field: item_categories_id
+      junction_field: product_features_id
+      many_collection: product_features_product_categories
+      many_field: product_categories_id
       one_allowed_collections: null
-      one_collection: item_categories
+      one_collection: product_categories
       one_collection_field: null
       one_deselect_action: nullify
       one_field: null
       sort_field: null
     schema:
-      table: item_features_item_categories
-      column: item_categories_id
-      foreign_key_table: item_categories
+      table: product_features_product_categories
+      column: product_categories_id
+      foreign_key_table: product_categories
       foreign_key_column: id
-      constraint_name: item_features_item_categories_item_categories_id_foreign
+      constraint_name: product_features_product_categories_product_categories_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: item_features_item_categories
-    field: item_features_id
-    related_collection: item_features
+  - collection: product_features_product_categories
+    field: product_features_id
+    related_collection: product_features
     meta:
-      junction_field: item_categories_id
-      many_collection: item_features_item_categories
-      many_field: item_features_id
+      junction_field: product_categories_id
+      many_collection: product_features_product_categories
+      many_field: product_features_id
       one_allowed_collections: null
-      one_collection: item_features
+      one_collection: product_features
       one_collection_field: null
       one_deselect_action: nullify
-      one_field: item_categories
+      one_field: product_categories
       sort_field: null
     schema:
-      table: item_features_item_categories
-      column: item_features_id
-      foreign_key_table: item_features
+      table: product_features_product_categories
+      column: product_features_id
+      foreign_key_table: product_features
       foreign_key_column: id
-      constraint_name: item_features_item_categories_item_features_id_foreign
+      constraint_name: product_features_product_categories_product_features_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: item_features_translations
-    field: item_features_id
-    related_collection: item_features
+  - collection: product_features_translations
+    field: product_features_id
+    related_collection: product_features
     meta:
       junction_field: languages_code
-      many_collection: item_features_translations
-      many_field: item_features_id
+      many_collection: product_features_translations
+      many_field: product_features_id
       one_allowed_collections: null
-      one_collection: item_features
+      one_collection: product_features
       one_collection_field: null
       one_deselect_action: nullify
       one_field: translations
       sort_field: null
     schema:
-      table: item_features_translations
-      column: item_features_id
-      foreign_key_table: item_features
+      table: product_features_translations
+      column: product_features_id
+      foreign_key_table: product_features
       foreign_key_column: id
-      constraint_name: item_features_translations_item_features_id_foreign
+      constraint_name: product_features_translations_product_features_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: item_features_translations
+  - collection: product_features_translations
     field: languages_code
     related_collection: languages
     meta:
-      junction_field: item_features_id
-      many_collection: item_features_translations
+      junction_field: product_features_id
+      many_collection: product_features_translations
       many_field: languages_code
       one_allowed_collections: null
       one_collection: languages
@@ -18483,19 +18483,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_features_translations
+      table: product_features_translations
       column: languages_code
       foreign_key_table: languages
       foreign_key_column: code
-      constraint_name: item_features_translations_languages_code_foreign
+      constraint_name: product_features_translations_languages_code_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: item_reviews
+  - collection: product_reviews
     field: author
     related_collection: directus_users
     meta:
       junction_field: null
-      many_collection: item_reviews
+      many_collection: product_reviews
       many_field: author
       one_allowed_collections: null
       one_collection: directus_users
@@ -18504,40 +18504,40 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_reviews
+      table: product_reviews
       column: author
       foreign_key_table: directus_users
       foreign_key_column: id
-      constraint_name: item_reviews_author_foreign
+      constraint_name: product_reviews_author_foreign
       on_update: NO ACTION
       on_delete: NO ACTION
-  - collection: item_reviews
-    field: item
-    related_collection: items
+  - collection: product_reviews
+    field: product
+    related_collection: products
     meta:
       junction_field: null
-      many_collection: item_reviews
-      many_field: item
+      many_collection: product_reviews
+      many_field: product
       one_allowed_collections: null
-      one_collection: items
+      one_collection: products
       one_collection_field: null
       one_deselect_action: nullify
       one_field: null
       sort_field: null
     schema:
-      table: item_reviews
-      column: item
-      foreign_key_table: items
+      table: product_reviews
+      column: product
+      foreign_key_table: products
       foreign_key_column: id
-      constraint_name: item_reviews_item_foreign
+      constraint_name: product_reviews_product_foreign
       on_update: NO ACTION
       on_delete: SET DEFAULT
-  - collection: item_reviews
+  - collection: product_reviews
     field: seo
     related_collection: seo
     meta:
       junction_field: null
-      many_collection: item_reviews
+      many_collection: product_reviews
       many_field: seo
       one_allowed_collections: null
       one_collection: seo
@@ -18546,19 +18546,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_reviews
+      table: product_reviews
       column: seo
       foreign_key_table: seo
       foreign_key_column: id
-      constraint_name: item_reviews_seo_foreign
+      constraint_name: product_reviews_seo_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: item_reviews
+  - collection: product_reviews
     field: user_created
     related_collection: directus_users
     meta:
       junction_field: null
-      many_collection: item_reviews
+      many_collection: product_reviews
       many_field: user_created
       one_allowed_collections: null
       one_collection: directus_users
@@ -18567,19 +18567,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_reviews
+      table: product_reviews
       column: user_created
       foreign_key_table: directus_users
       foreign_key_column: id
-      constraint_name: item_reviews_user_created_foreign
+      constraint_name: product_reviews_user_created_foreign
       on_update: NO ACTION
       on_delete: NO ACTION
-  - collection: item_reviews
+  - collection: product_reviews
     field: user_updated
     related_collection: directus_users
     meta:
       junction_field: null
-      many_collection: item_reviews
+      many_collection: product_reviews
       many_field: user_updated
       one_allowed_collections: null
       one_collection: directus_users
@@ -18588,19 +18588,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_reviews
+      table: product_reviews
       column: user_updated
       foreign_key_table: directus_users
       foreign_key_column: id
-      constraint_name: item_reviews_user_updated_foreign
+      constraint_name: product_reviews_user_updated_foreign
       on_update: NO ACTION
       on_delete: NO ACTION
-  - collection: item_tags
+  - collection: product_tags
     field: user_created
     related_collection: directus_users
     meta:
       junction_field: null
-      many_collection: item_tags
+      many_collection: product_tags
       many_field: user_created
       one_allowed_collections: null
       one_collection: directus_users
@@ -18609,19 +18609,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_tags
+      table: product_tags
       column: user_created
       foreign_key_table: directus_users
       foreign_key_column: id
-      constraint_name: item_tags_user_created_foreign
+      constraint_name: product_tags_user_created_foreign
       on_update: NO ACTION
       on_delete: NO ACTION
-  - collection: item_tags
+  - collection: product_tags
     field: user_updated
     related_collection: directus_users
     meta:
       junction_field: null
-      many_collection: item_tags
+      many_collection: product_tags
       many_field: user_updated
       one_allowed_collections: null
       one_collection: directus_users
@@ -18630,40 +18630,40 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_tags
+      table: product_tags
       column: user_updated
       foreign_key_table: directus_users
       foreign_key_column: id
-      constraint_name: item_tags_user_updated_foreign
+      constraint_name: product_tags_user_updated_foreign
       on_update: NO ACTION
       on_delete: NO ACTION
-  - collection: item_tags_translations
-    field: item_tags_id
-    related_collection: item_tags
+  - collection: product_tags_translations
+    field: product_tags_id
+    related_collection: product_tags
     meta:
       junction_field: languages_code
-      many_collection: item_tags_translations
-      many_field: item_tags_id
+      many_collection: product_tags_translations
+      many_field: product_tags_id
       one_allowed_collections: null
-      one_collection: item_tags
+      one_collection: product_tags
       one_collection_field: null
       one_deselect_action: nullify
       one_field: translations
       sort_field: null
     schema:
-      table: item_tags_translations
-      column: item_tags_id
-      foreign_key_table: item_tags
+      table: product_tags_translations
+      column: product_tags_id
+      foreign_key_table: product_tags
       foreign_key_column: id
-      constraint_name: item_tags_translations_item_tags_id_foreign
+      constraint_name: product_tags_translations_product_tags_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: item_tags_translations
+  - collection: product_tags_translations
     field: languages_code
     related_collection: languages
     meta:
-      junction_field: item_tags_id
-      many_collection: item_tags_translations
+      junction_field: product_tags_id
+      many_collection: product_tags_translations
       many_field: languages_code
       one_allowed_collections: null
       one_collection: languages
@@ -18672,19 +18672,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: item_tags_translations
+      table: product_tags_translations
       column: languages_code
       foreign_key_table: languages
       foreign_key_column: code
-      constraint_name: item_tags_translations_languages_code_foreign
+      constraint_name: product_tags_translations_languages_code_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: items
+  - collection: products
     field: brand
     related_collection: brands
     meta:
       junction_field: null
-      many_collection: items
+      many_collection: products
       many_field: brand
       one_allowed_collections: null
       one_collection: brands
@@ -18693,19 +18693,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: items
+      table: products
       column: brand
       foreign_key_table: brands
       foreign_key_column: id
-      constraint_name: items_brand_foreign
+      constraint_name: products_brand_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: items
+  - collection: products
     field: user_created
     related_collection: directus_users
     meta:
       junction_field: null
-      many_collection: items
+      many_collection: products
       many_field: user_created
       one_allowed_collections: null
       one_collection: directus_users
@@ -18714,19 +18714,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: items
+      table: products
       column: user_created
       foreign_key_table: directus_users
       foreign_key_column: id
-      constraint_name: items_user_created_foreign
+      constraint_name: products_user_created_foreign
       on_update: NO ACTION
       on_delete: NO ACTION
-  - collection: items
+  - collection: products
     field: user_updated
     related_collection: directus_users
     meta:
       junction_field: null
-      many_collection: items
+      many_collection: products
       many_field: user_updated
       one_allowed_collections: null
       one_collection: directus_users
@@ -18735,19 +18735,19 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: items
+      table: products
       column: user_updated
       foreign_key_table: directus_users
       foreign_key_column: id
-      constraint_name: items_user_updated_foreign
+      constraint_name: products_user_updated_foreign
       on_update: NO ACTION
       on_delete: NO ACTION
-  - collection: items_files
+  - collection: products_files
     field: directus_files_id
     related_collection: directus_files
     meta:
-      junction_field: items_id
-      many_collection: items_files
+      junction_field: products_id
+      many_collection: products_files
       many_field: directus_files_id
       one_allowed_collections: null
       one_collection: directus_files
@@ -18756,250 +18756,250 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: items_files
+      table: products_files
       column: directus_files_id
       foreign_key_table: directus_files
       foreign_key_column: id
-      constraint_name: items_files_directus_files_id_foreign
+      constraint_name: products_files_directus_files_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: items_files
-    field: items_id
-    related_collection: items
+  - collection: products_files
+    field: products_id
+    related_collection: products
     meta:
       junction_field: directus_files_id
-      many_collection: items_files
-      many_field: items_id
+      many_collection: products_files
+      many_field: products_id
       one_allowed_collections: null
-      one_collection: items
+      one_collection: products
       one_collection_field: null
       one_deselect_action: nullify
       one_field: images
       sort_field: null
     schema:
-      table: items_files
-      column: items_id
-      foreign_key_table: items
+      table: products_files
+      column: products_id
+      foreign_key_table: products
       foreign_key_column: id
-      constraint_name: items_files_items_id_foreign
+      constraint_name: products_files_products_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: items_item_categories
-    field: item_categories_id
-    related_collection: item_categories
+  - collection: products_product_categories
+    field: product_categories_id
+    related_collection: product_categories
     meta:
-      junction_field: items_id
-      many_collection: items_item_categories
-      many_field: item_categories_id
+      junction_field: products_id
+      many_collection: products_product_categories
+      many_field: product_categories_id
       one_allowed_collections: null
-      one_collection: item_categories
+      one_collection: product_categories
       one_collection_field: null
       one_deselect_action: nullify
       one_field: null
       sort_field: null
     schema:
-      table: items_item_categories
-      column: item_categories_id
-      foreign_key_table: item_categories
+      table: products_product_categories
+      column: product_categories_id
+      foreign_key_table: product_categories
       foreign_key_column: id
-      constraint_name: items_item_categories_item_categories_id_foreign
+      constraint_name: products_product_categories_product_categories_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: items_item_categories
-    field: items_id
-    related_collection: items
+  - collection: products_product_categories
+    field: products_id
+    related_collection: products
     meta:
-      junction_field: item_categories_id
-      many_collection: items_item_categories
-      many_field: items_id
+      junction_field: product_categories_id
+      many_collection: products_product_categories
+      many_field: products_id
       one_allowed_collections: null
-      one_collection: items
+      one_collection: products
       one_collection_field: null
       one_deselect_action: nullify
       one_field: categories
       sort_field: null
     schema:
-      table: items_item_categories
-      column: items_id
-      foreign_key_table: items
+      table: products_product_categories
+      column: products_id
+      foreign_key_table: products
       foreign_key_column: id
-      constraint_name: items_item_categories_items_id_foreign
+      constraint_name: products_product_categories_products_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: items_item_features
-    field: item
-    related_collection: items
+  - collection: products_product_features
+    field: product
+    related_collection: products
     meta:
       junction_field: null
-      many_collection: items_item_features
-      many_field: item
+      many_collection: products_product_features
+      many_field: product
       one_allowed_collections: null
-      one_collection: items
+      one_collection: products
       one_collection_field: null
       one_deselect_action: nullify
       one_field: null
       sort_field: null
     schema:
-      table: items_item_features
-      column: item
-      foreign_key_table: items
+      table: products_product_features
+      column: product
+      foreign_key_table: products
       foreign_key_column: id
-      constraint_name: items_item_features_item_foreign
+      constraint_name: products_product_features_product_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: items_item_features
-    field: item_features_id
-    related_collection: item_features
+  - collection: products_product_features
+    field: product_features_id
+    related_collection: product_features
     meta:
-      junction_field: items_id
-      many_collection: items_item_features
-      many_field: item_features_id
+      junction_field: products_id
+      many_collection: products_product_features
+      many_field: product_features_id
       one_allowed_collections: null
-      one_collection: item_features
+      one_collection: product_features
       one_collection_field: null
       one_deselect_action: nullify
       one_field: null
       sort_field: null
     schema:
-      table: items_item_features
-      column: item_features_id
-      foreign_key_table: item_features
+      table: products_product_features
+      column: product_features_id
+      foreign_key_table: product_features
       foreign_key_column: id
-      constraint_name: items_item_features_item_features_id_foreign
+      constraint_name: products_product_features_product_features_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: items_item_features
-    field: items_id
-    related_collection: items
+  - collection: products_product_features
+    field: products_id
+    related_collection: products
     meta:
-      junction_field: item_features_id
-      many_collection: items_item_features
-      many_field: items_id
+      junction_field: product_features_id
+      many_collection: products_product_features
+      many_field: products_id
       one_allowed_collections: null
-      one_collection: items
+      one_collection: products
       one_collection_field: null
       one_deselect_action: nullify
-      one_field: item_features
+      one_field: product_features
       sort_field: null
     schema:
-      table: items_item_features
-      column: items_id
-      foreign_key_table: items
+      table: products_product_features
+      column: products_id
+      foreign_key_table: products
       foreign_key_column: id
-      constraint_name: items_item_features_items_id_foreign
+      constraint_name: products_product_features_products_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: items_item_tags
-    field: item_tags_id
-    related_collection: item_tags
+  - collection: products_product_tags
+    field: product_tags_id
+    related_collection: product_tags
     meta:
-      junction_field: items_id
-      many_collection: items_item_tags
-      many_field: item_tags_id
+      junction_field: products_id
+      many_collection: products_product_tags
+      many_field: product_tags_id
       one_allowed_collections: null
-      one_collection: item_tags
-      one_collection_field: null
-      one_deselect_action: nullify
-      one_field: null
-      sort_field: null
-    schema:
-      table: items_item_tags
-      column: item_tags_id
-      foreign_key_table: item_tags
-      foreign_key_column: id
-      constraint_name: items_item_tags_item_tags_id_foreign
-      on_update: NO ACTION
-      on_delete: SET NULL
-  - collection: items_item_tags
-    field: items_id
-    related_collection: items
-    meta:
-      junction_field: item_tags_id
-      many_collection: items_item_tags
-      many_field: items_id
-      one_allowed_collections: null
-      one_collection: items
+      one_collection: product_tags
       one_collection_field: null
       one_deselect_action: nullify
       one_field: null
       sort_field: null
     schema:
-      table: items_item_tags
-      column: items_id
-      foreign_key_table: items
+      table: products_product_tags
+      column: product_tags_id
+      foreign_key_table: product_tags
       foreign_key_column: id
-      constraint_name: items_item_tags_items_id_foreign
+      constraint_name: products_product_tags_product_tags_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: items_item_tags_1
-    field: item_tags_id
-    related_collection: item_tags
+  - collection: products_product_tags
+    field: products_id
+    related_collection: products
     meta:
-      junction_field: items_id
-      many_collection: items_item_tags_1
-      many_field: item_tags_id
+      junction_field: product_tags_id
+      many_collection: products_product_tags
+      many_field: products_id
       one_allowed_collections: null
-      one_collection: item_tags
+      one_collection: products
       one_collection_field: null
       one_deselect_action: nullify
       one_field: null
       sort_field: null
     schema:
-      table: items_item_tags_1
-      column: item_tags_id
-      foreign_key_table: item_tags
+      table: products_product_tags
+      column: products_id
+      foreign_key_table: products
       foreign_key_column: id
-      constraint_name: items_item_tags_1_item_tags_id_foreign
+      constraint_name: products_product_tags_products_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: items_item_tags_1
-    field: items_id
-    related_collection: items
+  - collection: products_product_tags_1
+    field: product_tags_id
+    related_collection: product_tags
     meta:
-      junction_field: item_tags_id
-      many_collection: items_item_tags_1
-      many_field: items_id
+      junction_field: products_id
+      many_collection: products_product_tags_1
+      many_field: product_tags_id
       one_allowed_collections: null
-      one_collection: items
+      one_collection: product_tags
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: products_product_tags_1
+      column: product_tags_id
+      foreign_key_table: product_tags
+      foreign_key_column: id
+      constraint_name: products_product_tags_1_product_tags_id_foreign
+      on_update: NO ACTION
+      on_delete: SET NULL
+  - collection: products_product_tags_1
+    field: products_id
+    related_collection: products
+    meta:
+      junction_field: product_tags_id
+      many_collection: products_product_tags_1
+      many_field: products_id
+      one_allowed_collections: null
+      one_collection: products
       one_collection_field: null
       one_deselect_action: nullify
       one_field: tags
       sort_field: null
     schema:
-      table: items_item_tags_1
-      column: items_id
-      foreign_key_table: items
+      table: products_product_tags_1
+      column: products_id
+      foreign_key_table: products
       foreign_key_column: id
-      constraint_name: items_item_tags_1_items_id_foreign
+      constraint_name: products_product_tags_1_products_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: items_translations
-    field: items_id
-    related_collection: items
+  - collection: products_translations
+    field: products_id
+    related_collection: products
     meta:
       junction_field: languages_code
-      many_collection: items_translations
-      many_field: items_id
+      many_collection: products_translations
+      many_field: products_id
       one_allowed_collections: null
-      one_collection: items
+      one_collection: products
       one_collection_field: null
       one_deselect_action: nullify
       one_field: translations
       sort_field: null
     schema:
-      table: items_translations
-      column: items_id
-      foreign_key_table: items
+      table: products_translations
+      column: products_id
+      foreign_key_table: products
       foreign_key_column: id
-      constraint_name: items_translations_items_id_foreign
+      constraint_name: products_translations_products_id_foreign
       on_update: NO ACTION
       on_delete: CASCADE
-  - collection: items_translations
+  - collection: products_translations
     field: languages_code
     related_collection: languages
     meta:
-      junction_field: items_id
-      many_collection: items_translations
+      junction_field: products_id
+      many_collection: products_translations
       many_field: languages_code
       one_allowed_collections: null
       one_collection: languages
@@ -19008,11 +19008,11 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: items_translations
+      table: products_translations
       column: languages_code
       foreign_key_table: languages
       foreign_key_column: code
-      constraint_name: items_translations_languages_code_foreign
+      constraint_name: products_translations_languages_code_foreign
       on_update: NO ACTION
       on_delete: SET DEFAULT
   - collection: privacy_policy
