@@ -3,7 +3,7 @@ services:
   database:
     image: postgis/postgis:15-3.4
     # Required when running on platform other than amd64, like Apple M1/M2:
-    # platform: linux/amd64
+    platform: linux/amd64
     volumes:
       - ./data/database:/var/lib/postgresql/data
     environment:
@@ -20,33 +20,25 @@ services:
     image: redis:7.0.7-alpine
 
   directus:
-    image: directus/directus:latest
+    image: directus-starter:latest
     ports:
       - 8055:8055
     volumes:
       - ./uploads:/directus/uploads
       - ./snapshots:/directus/snapshots
       - ./extensions:/directus/extensions
-      #- ./node_modules:/directus/node_modules
-      - ./node_modules/directus-extension-tags-m2m-interface/dist:/directus/extensions/interfaces/directus-extension-tags-m2m-interface
-      #- ./node_modules/directus-extension-blurhash/dist:/directus/extensions/hooks/directus-extension-blurhash
-      - ./node_modules/directus-extension-wpslug-interface/dist:/directus/extensions/interfaces/directus-extension-wpslug-interface
-      - ./node_modules/directus-extension-inline-form-interface/dist:/directus/extensions/interfaces/directus-extension-inline-form-interface
-      - ./node_modules/directus-extension-computed-interface/dist:/directus/extensions/interfaces/directus-extension-computed-interface
-      #- ./node_modules/directus-extension-field-actions/dist:/directus/extensions/interfaces/directus-extension-field-actions
-
     depends_on:
       database:
         condition: service_healthy
       cache:
         condition: service_started
-    command:
-      - /bin/sh
-      - -c
-      - |
-        npx directus bootstrap &&
-        npx directus schema apply snapshots/snapshot.yaml --yes &&
-        npx directus start
+    #command:
+    #  - /bin/sh
+    #  - -c
+    #  - |
+    #    npx directus bootstrap &&
+    #    npx directus schema apply snapshots/snapshot.yaml --yes &&
+    #    npx directus start
     environment:
       EXTENSIONS_AUTO_RELOAD: "true"
       KEY: "255d861b-5ea1-5996-9aa3-922530ec40b1"

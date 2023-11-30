@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "./update.sh"
   },
   "author": "",
   "license": "ISC",
@@ -14,7 +15,6 @@
     "directus-extension-group-modal-interface": "^1.2.0",
     "directus-extension-group-tabs-interface": "^1.2.2",
     "directus-extension-inline-form-interface": "^1.1.0",
-    "directus-extension-tags-m2m-interface": "^0.8.0",
-    "directus-extension-wpslug-interface": "^1.1.0"
+    "directus-extension-tags-m2m-interface": "^0.8.0"
   }
 }
