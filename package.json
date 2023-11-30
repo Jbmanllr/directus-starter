@@ -1,20 +1,27 @@
 {
   "name": "directus-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "My starter template for Directus.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update": "./update.sh"
+    "update": "./update.sh",
+    "build": "docker build -t directus-starter:latest .",
+    "snap": "npx directus schema snapshot ./snapshot.yaml",
+    "date-snap": "npx directus schema snapshot ./snapshots/\"$(date \"+%F\")\"-snapshot-\"$(date \"+%s\")\".yaml",
+    "dev": "docker compose up"
   },
-  "author": "",
+  "author": "Jean-Baptiste Manillier",
   "license": "ISC",
   "dependencies": {
-    "directus-extension-computed-interface": "^1.8.2",
+    "@pixielabs/directus-extension-blurhash": "^1.0.0",
+    "directus-extension-computed-interface": "^1.9.0",
     "directus-extension-display-link": "^1.6.1",
     "directus-extension-group-modal-interface": "^1.2.0",
     "directus-extension-group-tabs-interface": "^1.2.2",
     "directus-extension-inline-form-interface": "^1.1.0",
-    "directus-extension-tags-m2m-interface": "^0.8.0"
+    "directus-extension-tags-m2m-interface": "^0.8.0",
+    "directus-extension-generate-types": "^0.5.1",
+    "directus-extension-schema-sync": "*"
   }
 }
