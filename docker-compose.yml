@@ -1,7 +1,7 @@
 version: "3"
 services:
   database:
-    image: postgis/postgis:15-3.4
+    image: postgis/postgis:16-3.4
     # Required when running on platform other than amd64, like Apple M1/M2:
     platform: linux/amd64
     volumes:
@@ -33,12 +33,12 @@ services:
         condition: service_healthy
       cache:
         condition: service_started
-    #command:
+    command:
     #  - /bin/sh
     #  - -c
     #  - |
     #    npx directus bootstrap &&
-    #    npx directus schema apply snapshots/snapshot.yaml --yes &&
+        npx directus schema apply snapshots/snapshot.yaml --yes
     #    npx directus start
     environment:
       EXTENSIONS_AUTO_RELOAD: "true"
