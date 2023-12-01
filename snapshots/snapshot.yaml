@@ -375,7 +375,7 @@ collections:
       note: null
       preview_url: null
       singleton: false
-      sort: 7
+      sort: 6
       sort_field: sort
       translations: null
       unarchive_value: draft
@@ -670,366 +670,6 @@ collections:
       versioning: false
     schema:
       name: homepage_translations
-  - collection: product_categories
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: status
-      archive_value: archived
-      collapse: open
-      collection: product_categories
-      color: null
-      display_template: null
-      group: products
-      hidden: false
-      icon: category
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: 4
-      sort_field: sort
-      translations: null
-      unarchive_value: draft
-      versioning: false
-    schema:
-      name: product_categories
-  - collection: product_categories_translations
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: null
-      archive_value: null
-      collapse: open
-      collection: product_categories_translations
-      color: null
-      display_template: null
-      group: product_categories
-      hidden: true
-      icon: import_export
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: 1
-      sort_field: null
-      translations: null
-      unarchive_value: null
-      versioning: false
-    schema:
-      name: product_categories_translations
-  - collection: product_features
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: status
-      archive_value: archived
-      collapse: open
-      collection: product_features
-      color: null
-      display_template: null
-      group: products
-      hidden: false
-      icon: interests
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: 5
-      sort_field: null
-      translations: null
-      unarchive_value: draft
-      versioning: false
-    schema:
-      name: product_features
-  - collection: product_features_product_categories
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: null
-      archive_value: null
-      collapse: open
-      collection: product_features_product_categories
-      color: null
-      display_template: null
-      group: product_features
-      hidden: true
-      icon: import_export
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: 3
-      sort_field: null
-      translations: null
-      unarchive_value: null
-      versioning: false
-    schema:
-      name: product_features_product_categories
-  - collection: product_features_translations
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: null
-      archive_value: null
-      collapse: open
-      collection: product_features_translations
-      color: null
-      display_template: null
-      group: product_features
-      hidden: true
-      icon: import_export
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: 1
-      sort_field: null
-      translations: null
-      unarchive_value: null
-      versioning: false
-    schema:
-      name: product_features_translations
-  - collection: product_reviews
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: status
-      archive_value: archived
-      collapse: open
-      collection: product_reviews
-      color: null
-      display_template: null
-      group: products
-      hidden: false
-      icon: stars
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: 8
-      sort_field: sort
-      translations: null
-      unarchive_value: draft
-      versioning: false
-    schema:
-      name: product_reviews
-  - collection: product_tags
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: status
-      archive_value: archived
-      collapse: open
-      collection: product_tags
-      color: null
-      display_template: null
-      group: products
-      hidden: false
-      icon: sell
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: 6
-      sort_field: sort
-      translations: null
-      unarchive_value: draft
-      versioning: false
-    schema:
-      name: product_tags
-  - collection: product_tags_translations
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: null
-      archive_value: null
-      collapse: open
-      collection: product_tags_translations
-      color: null
-      display_template: null
-      group: product_tags
-      hidden: true
-      icon: import_export
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: 1
-      sort_field: null
-      translations: null
-      unarchive_value: null
-      versioning: false
-    schema:
-      name: product_tags_translations
-  - collection: products
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: status
-      archive_value: archived
-      collapse: open
-      collection: products
-      color: null
-      display_template: null
-      group: shop
-      hidden: false
-      icon: loyalty
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: 1
-      sort_field: sort
-      translations: null
-      unarchive_value: draft
-      versioning: false
-    schema:
-      name: products
-  - collection: products_files
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: null
-      archive_value: null
-      collapse: open
-      collection: products_files
-      color: null
-      display_template: null
-      group: products
-      hidden: true
-      icon: import_export
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: 2
-      sort_field: null
-      translations: null
-      unarchive_value: null
-      versioning: false
-    schema:
-      name: products_files
-  - collection: products_product_categories
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: null
-      archive_value: null
-      collapse: open
-      collection: products_product_categories
-      color: null
-      display_template: null
-      group: products
-      hidden: true
-      icon: import_export
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: 3
-      sort_field: null
-      translations: null
-      unarchive_value: null
-      versioning: false
-    schema:
-      name: products_product_categories
-  - collection: products_product_features
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: null
-      archive_value: null
-      collapse: open
-      collection: products_product_features
-      color: null
-      display_template: null
-      group: product_features
-      hidden: true
-      icon: import_export
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: 2
-      sort_field: null
-      translations: null
-      unarchive_value: null
-      versioning: false
-    schema:
-      name: products_product_features
-  - collection: products_product_tags
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: null
-      archive_value: null
-      collapse: open
-      collection: products_product_tags
-      color: null
-      display_template: null
-      group: null
-      hidden: true
-      icon: import_export
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: null
-      sort_field: null
-      translations: null
-      unarchive_value: null
-      versioning: false
-    schema:
-      name: products_product_tags
-  - collection: products_product_tags_1
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: null
-      archive_value: null
-      collapse: open
-      collection: products_product_tags_1
-      color: null
-      display_template: null
-      group: null
-      hidden: true
-      icon: import_export
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: null
-      sort_field: null
-      translations: null
-      unarchive_value: null
-      versioning: false
-    schema:
-      name: products_product_tags_1
-  - collection: products_translations
-    meta:
-      accountability: all
-      archive_app_filter: true
-      archive_field: null
-      archive_value: null
-      collapse: open
-      collection: products_translations
-      color: null
-      display_template: null
-      group: products
-      hidden: true
-      icon: import_export
-      item_duplication_fields: null
-      note: null
-      preview_url: null
-      singleton: false
-      sort: 1
-      sort_field: null
-      translations: null
-      unarchive_value: null
-      versioning: false
-    schema:
-      name: products_translations
   - collection: languages
     meta:
       accountability: all
@@ -1124,6 +764,342 @@ collections:
       versioning: false
     schema:
       name: privacy_policy_translations
+  - collection: product_categories
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: status
+      archive_value: archived
+      collapse: open
+      collection: product_categories
+      color: null
+      display_template: null
+      group: products
+      hidden: false
+      icon: category
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 3
+      sort_field: sort
+      translations: null
+      unarchive_value: draft
+      versioning: false
+    schema:
+      name: product_categories
+  - collection: product_categories_translations
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: product_categories_translations
+      color: null
+      display_template: null
+      group: product_categories
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 1
+      sort_field: null
+      translations: null
+      unarchive_value: null
+      versioning: false
+    schema:
+      name: product_categories_translations
+  - collection: product_features
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: status
+      archive_value: archived
+      collapse: open
+      collection: product_features
+      color: null
+      display_template: null
+      group: products
+      hidden: false
+      icon: interests
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 4
+      sort_field: null
+      translations: null
+      unarchive_value: draft
+      versioning: false
+    schema:
+      name: product_features
+  - collection: product_features_product_categories
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: product_features_product_categories
+      color: null
+      display_template: null
+      group: product_features
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 3
+      sort_field: null
+      translations: null
+      unarchive_value: null
+      versioning: false
+    schema:
+      name: product_features_product_categories
+  - collection: product_features_translations
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: product_features_translations
+      color: null
+      display_template: null
+      group: product_features
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 1
+      sort_field: null
+      translations: null
+      unarchive_value: null
+      versioning: false
+    schema:
+      name: product_features_translations
+  - collection: product_reviews
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: status
+      archive_value: archived
+      collapse: open
+      collection: product_reviews
+      color: null
+      display_template: null
+      group: products
+      hidden: false
+      icon: stars
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 7
+      sort_field: sort
+      translations: null
+      unarchive_value: draft
+      versioning: false
+    schema:
+      name: product_reviews
+  - collection: product_tags
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: status
+      archive_value: archived
+      collapse: open
+      collection: product_tags
+      color: null
+      display_template: null
+      group: products
+      hidden: false
+      icon: sell
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 5
+      sort_field: sort
+      translations: null
+      unarchive_value: draft
+      versioning: false
+    schema:
+      name: product_tags
+  - collection: product_tags_translations
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: product_tags_translations
+      color: null
+      display_template: null
+      group: product_tags
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 1
+      sort_field: null
+      translations: null
+      unarchive_value: null
+      versioning: false
+    schema:
+      name: product_tags_translations
+  - collection: products
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: status
+      archive_value: archived
+      collapse: open
+      collection: products
+      color: null
+      display_template: null
+      group: shop
+      hidden: false
+      icon: loyalty
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 1
+      sort_field: sort
+      translations: null
+      unarchive_value: draft
+      versioning: false
+    schema:
+      name: products
+  - collection: products_files
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: products_files
+      color: null
+      display_template: null
+      group: products
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 2
+      sort_field: null
+      translations: null
+      unarchive_value: null
+      versioning: false
+    schema:
+      name: products_files
+  - collection: products_product_categories
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: products_product_categories
+      color: null
+      display_template: null
+      group: product_categories
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 2
+      sort_field: null
+      translations: null
+      unarchive_value: null
+      versioning: false
+    schema:
+      name: products_product_categories
+  - collection: products_product_features
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: products_product_features
+      color: null
+      display_template: null
+      group: product_features
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 2
+      sort_field: null
+      translations: null
+      unarchive_value: null
+      versioning: false
+    schema:
+      name: products_product_features
+  - collection: products_product_tags
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: products_product_tags
+      color: null
+      display_template: null
+      group: product_tags
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 2
+      sort_field: null
+      translations: null
+      unarchive_value: null
+      versioning: false
+    schema:
+      name: products_product_tags
+  - collection: products_translations
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: products_translations
+      color: null
+      display_template: null
+      group: products
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      preview_url: null
+      singleton: false
+      sort: 1
+      sort_field: null
+      translations: null
+      unarchive_value: null
+      versioning: false
+    schema:
+      name: products_translations
   - collection: seo
     meta:
       accountability: all
@@ -1695,15 +1671,17 @@ fields:
     meta:
       collection: about_translations
       conditions: null
-      display: null
-      display_options: null
+      display: field-actions
+      display_options:
+        showCopy: true
       field: slug
       group: null
       hidden: false
-      interface: extension-wpslug
+      interface: input
       note: null
       options:
         iconLeft: link
+        slug: true
         template: '{{title}}'
         trim: true
       readonly: false
@@ -2521,7 +2499,7 @@ fields:
           {{directus_users_id.first_name}} {{directus_users_id.last_name}}
       readonly: false
       required: false
-      sort: 7
+      sort: 8
       special:
         - m2m
       translations: null
@@ -2577,7 +2555,7 @@ fields:
         template: '{{ name }}'
       readonly: false
       required: false
-      sort: 8
+      sort: 9
       special:
         - cast-json
       translations: null
@@ -2630,7 +2608,30 @@ fields:
       translations: null
       validation: null
       validation_message: null
-      width: half
+      width: full
+  - collection: articles
+    field: comments
+    type: alias
+    meta:
+      collection: articles
+      conditions: null
+      display: null
+      display_options: null
+      field: comments
+      group: null
+      hidden: false
+      interface: list-o2m
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 18
+      special:
+        - o2m
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
   - collection: articles
     field: cover
     type: uuid
@@ -2688,7 +2689,7 @@ fields:
       options: null
       readonly: true
       required: false
-      sort: 4
+      sort: 5
       special:
         - date-created
       translations: null
@@ -2728,7 +2729,7 @@ fields:
       options: null
       readonly: true
       required: false
-      sort: 6
+      sort: 7
       special:
         - date-updated
       translations: null
@@ -2856,12 +2857,12 @@ fields:
         icon: category
       readonly: false
       required: true
-      sort: 9
+      sort: 10
       special: null
       translations: null
       validation: null
       validation_message: null
-      width: half
+      width: full
     schema:
       name: format
       table: articles
@@ -3020,12 +3021,12 @@ fields:
             value: archived
       readonly: false
       required: false
-      sort: 10
+      sort: 3
       special: null
       translations: null
       validation: null
       validation_message: null
-      width: half
+      width: full
     schema:
       name: status
       table: articles
@@ -3067,7 +3068,7 @@ fields:
       translations: null
       validation: null
       validation_message: null
-      width: half
+      width: full
   - collection: articles
     field: translations
     type: alias
@@ -3113,7 +3114,7 @@ fields:
         template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
       readonly: true
       required: false
-      sort: 3
+      sort: 4
       special:
         - user-created
       translations: null
@@ -3153,7 +3154,7 @@ fields:
         template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
       readonly: true
       required: false
-      sort: 5
+      sort: 6
       special:
         - user-updated
       translations: null
@@ -3836,11 +3837,13 @@ fields:
       field: slug
       group: null
       hidden: false
-      interface: extension-wpslug
+      interface: input
       note: null
       options:
         iconLeft: link
+        slug: true
         template: '{{title}}'
+        trim: true
       readonly: false
       required: true
       sort: 5
@@ -4434,7 +4437,7 @@ fields:
       options: null
       readonly: false
       required: false
-      sort: 5
+      sort: 6
       special: null
       translations: null
       validation: null
@@ -4538,7 +4541,7 @@ fields:
     meta:
       collection: blog_categories_translations
       conditions: null
-      display: null
+      display: raw
       display_options: null
       field: name
       group: null
@@ -4548,13 +4551,13 @@ fields:
       options:
         iconLeft: title
       readonly: false
-      required: false
+      required: true
       sort: 4
       special: null
       translations: null
       validation: null
       validation_message: null
-      width: full
+      width: half
     schema:
       name: name
       table: blog_categories_translations
@@ -4563,8 +4566,8 @@ fields:
       max_length: 255
       numeric_precision: null
       numeric_scale: null
-      is_nullable: true
-      is_unique: false
+      is_nullable: false
+      is_unique: true
       is_primary_key: false
       is_generated: false
       generation_expression: null
@@ -4589,7 +4592,7 @@ fields:
         template: '{{meta_title}} - {{meta_description}}'
       readonly: false
       required: false
-      sort: 6
+      sort: 7
       special:
         - m2o
       translations: null
@@ -4612,6 +4615,48 @@ fields:
       has_auto_increment: false
       foreign_key_table: seo
       foreign_key_column: id
+  - collection: blog_categories_translations
+    field: slug
+    type: string
+    meta:
+      collection: blog_categories_translations
+      conditions: null
+      display: field-actions
+      display_options:
+        showCopy: true
+      field: slug
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options:
+        iconLeft: link
+        slug: true
+        trim: true
+      readonly: false
+      required: true
+      sort: 5
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: slug
+      table: blog_categories_translations
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: false
+      is_unique: true
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
   - collection: blog_tags
     field: date_created
     type: timestamp
@@ -6014,14 +6059,14 @@ fields:
       conditions: null
       display: related-values
       display_options:
-        template: '{{cover.$thumbnail}} {{translations}}'
+        template: '{{translations.title}}'
       field: commented_post
       group: null
       hidden: false
       interface: select-dropdown-m2o
       note: null
       options:
-        template: '{{cover.$thumbnail}} {{translations}}'
+        template: '{{translations.title}}'
       readonly: false
       required: true
       sort: 14
@@ -7041,15 +7086,17 @@ fields:
     meta:
       collection: contact_translations
       conditions: null
-      display: null
-      display_options: null
+      display: field-actions
+      display_options:
+        showCopy: true
       field: slug
       group: null
       hidden: false
-      interface: extension-wpslug
+      interface: input
       note: null
       options:
         iconLeft: link
+        slug: true
         template: '{{title}}'
         trim: true
       readonly: false
@@ -7159,7 +7206,7 @@ fields:
     meta:
       collection: contact_translations
       conditions: null
-      display: null
+      display: raw
       display_options: null
       field: title
       group: null
@@ -8193,15 +8240,17 @@ fields:
     meta:
       collection: faq_categories_translations
       conditions: null
-      display: null
-      display_options: null
+      display: field-actions
+      display_options:
+        showCopy: true
       field: slug
       group: null
       hidden: false
-      interface: extension-wpslug
+      interface: input
       note: null
       options:
         iconLeft: link
+        slug: true
         template: '{{name}}'
         trim: true
       readonly: false
@@ -8913,16 +8962,18 @@ fields:
     meta:
       collection: faq_questions_translations
       conditions: null
-      display: null
-      display_options: null
+      display: field-actions
+      display_options:
+        showCopy: true
       field: slug
       group: null
       hidden: false
-      interface: extension-wpslug
+      interface: input
       note: null
       options:
         iconLeft: link
         prefix: null
+        slug: true
         template: '{{title}}'
         trim: true
       readonly: false
@@ -9432,15 +9483,17 @@ fields:
     meta:
       collection: homepage_translations
       conditions: null
-      display: null
-      display_options: null
+      display: field-actions
+      display_options:
+        showCopy: true
       field: slug
       group: null
       hidden: false
-      interface: extension-wpslug
+      interface: input
       note: null
       options:
         iconLeft: link
+        slug: true
         template: '{{title}}'
         trim: true
       readonly: false
@@ -9496,6 +9549,634 @@ fields:
       table: homepage_translations
       data_type: character varying
       default_value: Homepage
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: true
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: languages
+    field: code
+    type: string
+    meta:
+      collection: languages
+      conditions: null
+      display: null
+      display_options: null
+      field: code
+      group: null
+      hidden: false
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: code
+      table: languages
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: false
+      is_unique: true
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: languages
+    field: direction
+    type: string
+    meta:
+      collection: languages
+      conditions: null
+      display: labels
+      display_options:
+        choices:
+          - text: $t:left_to_right
+            value: ltr
+          - text: $t:right_to_left
+            value: rtl
+        format: false
+      field: direction
+      group: null
+      hidden: false
+      interface: select-dropdown
+      note: null
+      options:
+        choices:
+          - text: $t:left_to_right
+            value: ltr
+          - text: $t:right_to_left
+            value: rtl
+      readonly: false
+      required: false
+      sort: 3
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: direction
+      table: languages
+      data_type: character varying
+      default_value: ltr
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: languages
+    field: name
+    type: string
+    meta:
+      collection: languages
+      conditions: null
+      display: null
+      display_options: null
+      field: name
+      group: null
+      hidden: false
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 2
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: name
+      table: languages
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: privacy_policy
+    field: date_created
+    type: timestamp
+    meta:
+      collection: privacy_policy
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 3
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: date_created
+      table: privacy_policy
+      data_type: timestamp with time zone
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: privacy_policy
+    field: date_updated
+    type: timestamp
+    meta:
+      collection: privacy_policy
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_updated
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 5
+      special:
+        - date-updated
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: date_updated
+      table: privacy_policy
+      data_type: timestamp with time zone
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: privacy_policy
+    field: id
+    type: integer
+    meta:
+      collection: privacy_policy
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: privacy_policy
+      data_type: integer
+      default_value: nextval('privacy_policy_id_seq'::regclass)
+      max_length: null
+      numeric_precision: 32
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: true
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: privacy_policy
+    field: translations
+    type: alias
+    meta:
+      collection: privacy_policy
+      conditions: null
+      display: translations
+      display_options:
+        defaultLanguage: en-US
+        languageField: code
+        template: '{{title}}'
+      field: translations
+      group: null
+      hidden: false
+      interface: translations
+      note: null
+      options:
+        defaultLanguage: en-US
+        languageField: code
+      readonly: false
+      required: false
+      sort: 6
+      special:
+        - translations
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+  - collection: privacy_policy
+    field: user_created
+    type: uuid
+    meta:
+      collection: privacy_policy
+      conditions: null
+      display: user
+      display_options: null
+      field: user_created
+      group: null
+      hidden: true
+      interface: select-dropdown-m2o
+      note: null
+      options:
+        template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
+      readonly: true
+      required: false
+      sort: 2
+      special:
+        - user-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: user_created
+      table: privacy_policy
+      data_type: uuid
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: directus_users
+      foreign_key_column: id
+  - collection: privacy_policy
+    field: user_updated
+    type: uuid
+    meta:
+      collection: privacy_policy
+      conditions: null
+      display: user
+      display_options: null
+      field: user_updated
+      group: null
+      hidden: true
+      interface: select-dropdown-m2o
+      note: null
+      options:
+        template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
+      readonly: true
+      required: false
+      sort: 4
+      special:
+        - user-updated
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: user_updated
+      table: privacy_policy
+      data_type: uuid
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: directus_users
+      foreign_key_column: id
+  - collection: privacy_policy_translations
+    field: content
+    type: text
+    meta:
+      collection: privacy_policy_translations
+      conditions: null
+      display: null
+      display_options: null
+      field: content
+      group: null
+      hidden: false
+      interface: input-rich-text-md
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 6
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: content
+      table: privacy_policy_translations
+      data_type: text
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: privacy_policy_translations
+    field: id
+    type: integer
+    meta:
+      collection: privacy_policy_translations
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: id
+      table: privacy_policy_translations
+      data_type: integer
+      default_value: nextval('privacy_policy_translations_id_seq'::regclass)
+      max_length: null
+      numeric_precision: 32
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: true
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: privacy_policy_translations
+    field: languages_code
+    type: string
+    meta:
+      collection: privacy_policy_translations
+      conditions: null
+      display: null
+      display_options: null
+      field: languages_code
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 3
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: languages_code
+      table: privacy_policy_translations
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: languages
+      foreign_key_column: code
+  - collection: privacy_policy_translations
+    field: privacy_policy_id
+    type: integer
+    meta:
+      collection: privacy_policy_translations
+      conditions: null
+      display: null
+      display_options: null
+      field: privacy_policy_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 2
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: privacy_policy_id
+      table: privacy_policy_translations
+      data_type: integer
+      default_value: null
+      max_length: null
+      numeric_precision: 32
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: privacy_policy
+      foreign_key_column: id
+  - collection: privacy_policy_translations
+    field: seo
+    type: uuid
+    meta:
+      collection: privacy_policy_translations
+      conditions: null
+      display: related-values
+      display_options:
+        template: SEO for Privacy Policy
+      field: seo
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options:
+        enableSelect: false
+        template: SEO for Privacy Policy
+      readonly: false
+      required: false
+      sort: 7
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: seo
+      table: privacy_policy_translations
+      data_type: uuid
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: seo
+      foreign_key_column: id
+  - collection: privacy_policy_translations
+    field: slug
+    type: string
+    meta:
+      collection: privacy_policy_translations
+      conditions: null
+      display: field-actions
+      display_options:
+        showCopy: true
+      field: slug
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options:
+        iconLeft: link
+        slug: true
+        template: '{{title}}'
+        trim: true
+      readonly: false
+      required: true
+      sort: 5
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: slug
+      table: privacy_policy_translations
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: false
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: privacy_policy_translations
+    field: title
+    type: string
+    meta:
+      collection: privacy_policy_translations
+      conditions: null
+      display: null
+      display_options: null
+      field: title
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options:
+        iconLeft: privacy_tip
+        trim: true
+      readonly: false
+      required: true
+      sort: 4
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: title
+      table: privacy_policy_translations
+      data_type: character varying
+      default_value: Privacy Policy
       max_length: 255
       numeric_precision: null
       numeric_scale: null
@@ -10051,44 +10732,6 @@ fields:
       foreign_key_table: null
       foreign_key_column: null
   - collection: product_categories_translations
-    field: product_categories_id
-    type: uuid
-    meta:
-      collection: product_categories_translations
-      conditions: null
-      display: null
-      display_options: null
-      field: product_categories_id
-      group: null
-      hidden: true
-      interface: null
-      note: null
-      options: null
-      readonly: false
-      required: false
-      sort: 2
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: product_categories_id
-      table: product_categories_translations
-      data_type: uuid
-      default_value: null
-      max_length: null
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: product_categories
-      foreign_key_column: id
-  - collection: product_categories_translations
     field: languages_code
     type: string
     meta:
@@ -10166,6 +10809,44 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
+  - collection: product_categories_translations
+    field: product_categories_id
+    type: uuid
+    meta:
+      collection: product_categories_translations
+      conditions: null
+      display: null
+      display_options: null
+      field: product_categories_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 2
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: product_categories_id
+      table: product_categories_translations
+      data_type: uuid
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: product_categories
+      foreign_key_column: id
   - collection: product_categories_translations
     field: seo
     type: uuid
@@ -10270,6 +10951,8 @@ fields:
             value: float
           - text: Boolean
             value: boolean
+          - text: Date
+            value: date
       readonly: false
       required: true
       sort: 10
@@ -10798,44 +11481,6 @@ fields:
       foreign_key_table: null
       foreign_key_column: null
   - collection: product_features_translations
-    field: product_features_id
-    type: uuid
-    meta:
-      collection: product_features_translations
-      conditions: null
-      display: null
-      display_options: null
-      field: product_features_id
-      group: null
-      hidden: true
-      interface: null
-      note: null
-      options: null
-      readonly: false
-      required: false
-      sort: 2
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: product_features_id
-      table: product_features_translations
-      data_type: uuid
-      default_value: null
-      max_length: null
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: product_features
-      foreign_key_column: id
-  - collection: product_features_translations
     field: languages_code
     type: string
     meta:
@@ -10914,6 +11559,44 @@ fields:
       foreign_key_table: null
       foreign_key_column: null
   - collection: product_features_translations
+    field: product_features_id
+    type: uuid
+    meta:
+      collection: product_features_translations
+      conditions: null
+      display: null
+      display_options: null
+      field: product_features_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 2
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: product_features_id
+      table: product_features_translations
+      data_type: uuid
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: product_features
+      foreign_key_column: id
+  - collection: product_features_translations
     field: slug
     type: string
     meta:
@@ -10972,7 +11655,7 @@ fields:
         template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
       readonly: false
       required: false
-      sort: 12
+      sort: 11
       special:
         - m2o
       translations: null
@@ -11120,18 +11803,19 @@ fields:
     meta:
       collection: product_reviews
       conditions: null
-      display: null
-      display_options: null
+      display: related-values
+      display_options:
+        template: '{{name}}'
       field: product
       group: null
       hidden: false
       interface: select-dropdown-m2o
       note: null
       options:
-        template: '{{name}} by {{brand.name}}'
+        template: '{{name}}'
       readonly: false
       required: true
-      sort: 10
+      sort: 12
       special:
         - m2o
       translations: null
@@ -11178,7 +11862,7 @@ fields:
         stepInterval: 1
       readonly: false
       required: true
-      sort: 11
+      sort: 10
       special: null
       translations: null
       validation: null
@@ -11944,44 +12628,6 @@ fields:
       foreign_key_table: null
       foreign_key_column: null
   - collection: product_tags_translations
-    field: product_tags_id
-    type: uuid
-    meta:
-      collection: product_tags_translations
-      conditions: null
-      display: null
-      display_options: null
-      field: product_tags_id
-      group: null
-      hidden: true
-      interface: null
-      note: null
-      options: null
-      readonly: false
-      required: false
-      sort: 2
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: product_tags_id
-      table: product_tags_translations
-      data_type: uuid
-      default_value: null
-      max_length: null
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: product_tags
-      foreign_key_column: id
-  - collection: product_tags_translations
     field: languages_code
     type: string
     meta:
@@ -12019,6 +12665,44 @@ fields:
       has_auto_increment: false
       foreign_key_table: languages
       foreign_key_column: code
+  - collection: product_tags_translations
+    field: product_tags_id
+    type: uuid
+    meta:
+      collection: product_tags_translations
+      conditions: null
+      display: null
+      display_options: null
+      field: product_tags_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 2
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: product_tags_id
+      table: product_tags_translations
+      data_type: uuid
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: product_tags
+      foreign_key_column: id
   - collection: product_tags_translations
     field: slug
     type: string
@@ -12311,38 +12995,6 @@ fields:
       validation_message: null
       width: full
   - collection: products
-    field: product_features
-    type: alias
-    meta:
-      collection: products
-      conditions: null
-      display: related-values
-      display_options:
-        template: >-
-          {{product_features_id.translations.name}} -
-          {{value_string}}{{value_integer}}{{value_boolean}}
-      field: product_features
-      group: null
-      hidden: false
-      interface: list-m2m
-      note: null
-      options:
-        allowDuplicates: true
-        enableLink: true
-        limit: 20
-        template: >-
-          {{product_features_id.translations.name}} -
-          {{value_string}}{{value_boolean}}{{value_float}}
-      readonly: false
-      required: false
-      sort: 14
-      special:
-        - m2m
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-  - collection: products
     field: name
     type: string
     meta:
@@ -12382,6 +13034,69 @@ fields:
       has_auto_increment: false
       foreign_key_table: null
       foreign_key_column: null
+  - collection: products
+    field: product_features
+    type: alias
+    meta:
+      collection: products
+      conditions: null
+      display: related-values
+      display_options:
+        template: >-
+          {{product_features_id.translations.name}}:
+          {{value_string}}{{value_float}}{{value_boolean}}
+      field: product_features
+      group: null
+      hidden: false
+      interface: list-m2m
+      note: null
+      options:
+        allowDuplicates: true
+        enableLink: true
+        enableSearchFilter: true
+        fields:
+          - product_features_id.translations.name
+          - value_boolean
+          - value_float
+          - value_string
+        layout: table
+        limit: 20
+        tableSpacing: compact
+        template: >-
+          {{product_features_id.translations.name}}:
+          {{value_string}}{{value_float}}{{value_boolean}}
+      readonly: false
+      required: false
+      sort: 14
+      special:
+        - m2m
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+  - collection: products
+    field: product_reviews
+    type: alias
+    meta:
+      collection: products
+      conditions: null
+      display: null
+      display_options: null
+      field: product_reviews
+      group: null
+      hidden: false
+      interface: list-o2m
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 16
+      special:
+        - o2m
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
   - collection: products
     field: slug
     type: string
@@ -12527,16 +13242,14 @@ fields:
     meta:
       collection: products
       conditions: null
-      display: related-values
-      display_options:
-        template: '{{product_tags_id.translations.tag}}'
+      display: null
+      display_options: null
       field: tags
       group: null
       hidden: false
       interface: list-m2m
       note: null
-      options:
-        template: '{{product_tags_id.translations.tag}}'
+      options: null
       readonly: false
       required: false
       sort: 15
@@ -13015,7 +13728,7 @@ fields:
         template: '{{name}}'
       readonly: false
       required: false
-      sort: 7
+      sort: 8
       special:
         - m2o
       translations: null
@@ -13145,6 +13858,44 @@ fields:
       name: value_boolean
       table: products_product_features
       data_type: boolean
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: products_product_features
+    field: value_date
+    type: date
+    meta:
+      collection: products_product_features
+      conditions: null
+      display: null
+      display_options: null
+      field: value_date
+      group: null
+      hidden: false
+      interface: datetime
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 7
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: value_date
+      table: products_product_features
+      data_type: date
       default_value: null
       max_length: null
       numeric_precision: null
@@ -13347,120 +14098,6 @@ fields:
       has_auto_increment: false
       foreign_key_table: products
       foreign_key_column: id
-  - collection: products_product_tags_1
-    field: id
-    type: integer
-    meta:
-      collection: products_product_tags_1
-      conditions: null
-      display: null
-      display_options: null
-      field: id
-      group: null
-      hidden: true
-      interface: null
-      note: null
-      options: null
-      readonly: false
-      required: false
-      sort: 1
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: id
-      table: products_product_tags_1
-      data_type: integer
-      default_value: nextval('products_product_tags_1_id_seq'::regclass)
-      max_length: null
-      numeric_precision: 32
-      numeric_scale: 0
-      is_nullable: false
-      is_unique: true
-      is_primary_key: true
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: true
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: products_product_tags_1
-    field: product_tags_id
-    type: uuid
-    meta:
-      collection: products_product_tags_1
-      conditions: null
-      display: null
-      display_options: null
-      field: product_tags_id
-      group: null
-      hidden: true
-      interface: null
-      note: null
-      options: null
-      readonly: false
-      required: false
-      sort: 3
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: product_tags_id
-      table: products_product_tags_1
-      data_type: uuid
-      default_value: null
-      max_length: null
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: product_tags
-      foreign_key_column: id
-  - collection: products_product_tags_1
-    field: products_id
-    type: uuid
-    meta:
-      collection: products_product_tags_1
-      conditions: null
-      display: null
-      display_options: null
-      field: products_id
-      group: null
-      hidden: true
-      interface: null
-      note: null
-      options: null
-      readonly: false
-      required: false
-      sort: 2
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: products_id
-      table: products_product_tags_1
-      data_type: uuid
-      default_value: null
-      max_length: null
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: products
-      foreign_key_column: id
   - collection: products_translations
     field: description
     type: text
@@ -13538,6 +14175,44 @@ fields:
       foreign_key_table: null
       foreign_key_column: null
   - collection: products_translations
+    field: languages_code
+    type: string
+    meta:
+      collection: products_translations
+      conditions: null
+      display: null
+      display_options: null
+      field: languages_code
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: 3
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: languages_code
+      table: products_translations
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: languages
+      foreign_key_column: code
+  - collection: products_translations
     field: products_id
     type: uuid
     meta:
@@ -13576,33 +14251,35 @@ fields:
       foreign_key_table: products
       foreign_key_column: id
   - collection: products_translations
-    field: languages_code
-    type: string
+    field: seo
+    type: uuid
     meta:
       collection: products_translations
       conditions: null
       display: null
       display_options: null
-      field: languages_code
+      field: seo
       group: null
-      hidden: true
-      interface: null
+      hidden: false
+      interface: select-dropdown-m2o
       note: null
-      options: null
+      options:
+        template: '{{meta_title}}'
       readonly: false
       required: false
-      sort: 3
-      special: null
+      sort: 8
+      special:
+        - m2o
       translations: null
       validation: null
       validation_message: null
       width: full
     schema:
-      name: languages_code
+      name: seo
       table: products_translations
-      data_type: character varying
+      data_type: uuid
       default_value: null
-      max_length: 255
+      max_length: null
       numeric_precision: null
       numeric_scale: null
       is_nullable: true
@@ -13611,8 +14288,8 @@ fields:
       is_generated: false
       generation_expression: null
       has_auto_increment: false
-      foreign_key_table: languages
-      foreign_key_column: code
+      foreign_key_table: seo
+      foreign_key_column: id
   - collection: products_translations
     field: short_description
     type: text
@@ -13645,632 +14322,6 @@ fields:
       numeric_scale: null
       is_nullable: true
       is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: languages
-    field: code
-    type: string
-    meta:
-      collection: languages
-      conditions: null
-      display: null
-      display_options: null
-      field: code
-      group: null
-      hidden: false
-      interface: null
-      note: null
-      options: null
-      readonly: false
-      required: false
-      sort: 1
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: code
-      table: languages
-      data_type: character varying
-      default_value: null
-      max_length: 255
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: false
-      is_unique: true
-      is_primary_key: true
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: languages
-    field: direction
-    type: string
-    meta:
-      collection: languages
-      conditions: null
-      display: labels
-      display_options:
-        choices:
-          - text: $t:left_to_right
-            value: ltr
-          - text: $t:right_to_left
-            value: rtl
-        format: false
-      field: direction
-      group: null
-      hidden: false
-      interface: select-dropdown
-      note: null
-      options:
-        choices:
-          - text: $t:left_to_right
-            value: ltr
-          - text: $t:right_to_left
-            value: rtl
-      readonly: false
-      required: false
-      sort: 3
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: direction
-      table: languages
-      data_type: character varying
-      default_value: ltr
-      max_length: 255
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: languages
-    field: name
-    type: string
-    meta:
-      collection: languages
-      conditions: null
-      display: null
-      display_options: null
-      field: name
-      group: null
-      hidden: false
-      interface: null
-      note: null
-      options: null
-      readonly: false
-      required: false
-      sort: 2
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: name
-      table: languages
-      data_type: character varying
-      default_value: null
-      max_length: 255
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: privacy_policy
-    field: date_created
-    type: timestamp
-    meta:
-      collection: privacy_policy
-      conditions: null
-      display: datetime
-      display_options:
-        relative: true
-      field: date_created
-      group: null
-      hidden: true
-      interface: datetime
-      note: null
-      options: null
-      readonly: true
-      required: false
-      sort: 3
-      special:
-        - date-created
-      translations: null
-      validation: null
-      validation_message: null
-      width: half
-    schema:
-      name: date_created
-      table: privacy_policy
-      data_type: timestamp with time zone
-      default_value: null
-      max_length: null
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: privacy_policy
-    field: date_updated
-    type: timestamp
-    meta:
-      collection: privacy_policy
-      conditions: null
-      display: datetime
-      display_options:
-        relative: true
-      field: date_updated
-      group: null
-      hidden: true
-      interface: datetime
-      note: null
-      options: null
-      readonly: true
-      required: false
-      sort: 5
-      special:
-        - date-updated
-      translations: null
-      validation: null
-      validation_message: null
-      width: half
-    schema:
-      name: date_updated
-      table: privacy_policy
-      data_type: timestamp with time zone
-      default_value: null
-      max_length: null
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: privacy_policy
-    field: id
-    type: integer
-    meta:
-      collection: privacy_policy
-      conditions: null
-      display: null
-      display_options: null
-      field: id
-      group: null
-      hidden: true
-      interface: input
-      note: null
-      options: null
-      readonly: true
-      required: false
-      sort: 1
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: id
-      table: privacy_policy
-      data_type: integer
-      default_value: nextval('privacy_policy_id_seq'::regclass)
-      max_length: null
-      numeric_precision: 32
-      numeric_scale: 0
-      is_nullable: false
-      is_unique: true
-      is_primary_key: true
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: true
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: privacy_policy
-    field: translations
-    type: alias
-    meta:
-      collection: privacy_policy
-      conditions: null
-      display: translations
-      display_options:
-        defaultLanguage: en-US
-        languageField: code
-        template: '{{title}}'
-      field: translations
-      group: null
-      hidden: false
-      interface: translations
-      note: null
-      options:
-        defaultLanguage: en-US
-        languageField: code
-      readonly: false
-      required: false
-      sort: 6
-      special:
-        - translations
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-  - collection: privacy_policy
-    field: user_created
-    type: uuid
-    meta:
-      collection: privacy_policy
-      conditions: null
-      display: user
-      display_options: null
-      field: user_created
-      group: null
-      hidden: true
-      interface: select-dropdown-m2o
-      note: null
-      options:
-        template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
-      readonly: true
-      required: false
-      sort: 2
-      special:
-        - user-created
-      translations: null
-      validation: null
-      validation_message: null
-      width: half
-    schema:
-      name: user_created
-      table: privacy_policy
-      data_type: uuid
-      default_value: null
-      max_length: null
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: directus_users
-      foreign_key_column: id
-  - collection: privacy_policy
-    field: user_updated
-    type: uuid
-    meta:
-      collection: privacy_policy
-      conditions: null
-      display: user
-      display_options: null
-      field: user_updated
-      group: null
-      hidden: true
-      interface: select-dropdown-m2o
-      note: null
-      options:
-        template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
-      readonly: true
-      required: false
-      sort: 4
-      special:
-        - user-updated
-      translations: null
-      validation: null
-      validation_message: null
-      width: half
-    schema:
-      name: user_updated
-      table: privacy_policy
-      data_type: uuid
-      default_value: null
-      max_length: null
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: directus_users
-      foreign_key_column: id
-  - collection: privacy_policy_translations
-    field: content
-    type: text
-    meta:
-      collection: privacy_policy_translations
-      conditions: null
-      display: null
-      display_options: null
-      field: content
-      group: null
-      hidden: false
-      interface: input-rich-text-md
-      note: null
-      options: null
-      readonly: false
-      required: false
-      sort: 6
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: content
-      table: privacy_policy_translations
-      data_type: text
-      default_value: null
-      max_length: null
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: privacy_policy_translations
-    field: id
-    type: integer
-    meta:
-      collection: privacy_policy_translations
-      conditions: null
-      display: null
-      display_options: null
-      field: id
-      group: null
-      hidden: true
-      interface: null
-      note: null
-      options: null
-      readonly: false
-      required: false
-      sort: 1
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: id
-      table: privacy_policy_translations
-      data_type: integer
-      default_value: nextval('privacy_policy_translations_id_seq'::regclass)
-      max_length: null
-      numeric_precision: 32
-      numeric_scale: 0
-      is_nullable: false
-      is_unique: true
-      is_primary_key: true
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: true
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: privacy_policy_translations
-    field: languages_code
-    type: string
-    meta:
-      collection: privacy_policy_translations
-      conditions: null
-      display: null
-      display_options: null
-      field: languages_code
-      group: null
-      hidden: true
-      interface: null
-      note: null
-      options: null
-      readonly: false
-      required: false
-      sort: 3
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: languages_code
-      table: privacy_policy_translations
-      data_type: character varying
-      default_value: null
-      max_length: 255
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: languages
-      foreign_key_column: code
-  - collection: privacy_policy_translations
-    field: privacy_policy_id
-    type: integer
-    meta:
-      collection: privacy_policy_translations
-      conditions: null
-      display: null
-      display_options: null
-      field: privacy_policy_id
-      group: null
-      hidden: true
-      interface: null
-      note: null
-      options: null
-      readonly: false
-      required: false
-      sort: 2
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: privacy_policy_id
-      table: privacy_policy_translations
-      data_type: integer
-      default_value: null
-      max_length: null
-      numeric_precision: 32
-      numeric_scale: 0
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: privacy_policy
-      foreign_key_column: id
-  - collection: privacy_policy_translations
-    field: seo
-    type: uuid
-    meta:
-      collection: privacy_policy_translations
-      conditions: null
-      display: related-values
-      display_options:
-        template: SEO for Privacy Policy
-      field: seo
-      group: null
-      hidden: false
-      interface: select-dropdown-m2o
-      note: null
-      options:
-        enableSelect: false
-        template: SEO for Privacy Policy
-      readonly: false
-      required: false
-      sort: 7
-      special:
-        - m2o
-      translations: null
-      validation: null
-      validation_message: null
-      width: full
-    schema:
-      name: seo
-      table: privacy_policy_translations
-      data_type: uuid
-      default_value: null
-      max_length: null
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: seo
-      foreign_key_column: id
-  - collection: privacy_policy_translations
-    field: slug
-    type: string
-    meta:
-      collection: privacy_policy_translations
-      conditions: null
-      display: null
-      display_options: null
-      field: slug
-      group: null
-      hidden: false
-      interface: extension-wpslug
-      note: null
-      options:
-        iconLeft: link
-        template: '{{title}}'
-        trim: true
-      readonly: false
-      required: true
-      sort: 5
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: half
-    schema:
-      name: slug
-      table: privacy_policy_translations
-      data_type: character varying
-      default_value: null
-      max_length: 255
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: false
-      is_unique: false
-      is_primary_key: false
-      is_generated: false
-      generation_expression: null
-      has_auto_increment: false
-      foreign_key_table: null
-      foreign_key_column: null
-  - collection: privacy_policy_translations
-    field: title
-    type: string
-    meta:
-      collection: privacy_policy_translations
-      conditions: null
-      display: null
-      display_options: null
-      field: title
-      group: null
-      hidden: false
-      interface: input
-      note: null
-      options:
-        iconLeft: privacy_tip
-        trim: true
-      readonly: false
-      required: true
-      sort: 4
-      special: null
-      translations: null
-      validation: null
-      validation_message: null
-      width: half
-    schema:
-      name: title
-      table: privacy_policy_translations
-      data_type: character varying
-      default_value: Privacy Policy
-      max_length: 255
-      numeric_precision: null
-      numeric_scale: null
-      is_nullable: true
-      is_unique: true
       is_primary_key: false
       is_generated: false
       generation_expression: null
@@ -16049,15 +16100,17 @@ fields:
     meta:
       collection: terms_and_conditions_translations
       conditions: null
-      display: null
-      display_options: null
+      display: field-actions
+      display_options:
+        showCopy: true
       field: slug
       group: null
       hidden: false
-      interface: extension-wpslug
+      interface: input
       note: null
       options:
         iconLeft: link
+        slug: true
         template: '{{title}}'
         trim: true
       readonly: false
@@ -17577,7 +17630,7 @@ relations:
       one_collection: articles
       one_collection_field: null
       one_deselect_action: nullify
-      one_field: null
+      one_field: comments
       sort_field: null
     schema:
       table: comments
@@ -18196,6 +18249,111 @@ relations:
       constraint_name: homepage_translations_seo_foreign
       on_update: NO ACTION
       on_delete: SET NULL
+  - collection: privacy_policy
+    field: user_created
+    related_collection: directus_users
+    meta:
+      junction_field: null
+      many_collection: privacy_policy
+      many_field: user_created
+      one_allowed_collections: null
+      one_collection: directus_users
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: privacy_policy
+      column: user_created
+      foreign_key_table: directus_users
+      foreign_key_column: id
+      constraint_name: privacy_policy_user_created_foreign
+      on_update: NO ACTION
+      on_delete: NO ACTION
+  - collection: privacy_policy
+    field: user_updated
+    related_collection: directus_users
+    meta:
+      junction_field: null
+      many_collection: privacy_policy
+      many_field: user_updated
+      one_allowed_collections: null
+      one_collection: directus_users
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: privacy_policy
+      column: user_updated
+      foreign_key_table: directus_users
+      foreign_key_column: id
+      constraint_name: privacy_policy_user_updated_foreign
+      on_update: NO ACTION
+      on_delete: NO ACTION
+  - collection: privacy_policy_translations
+    field: languages_code
+    related_collection: languages
+    meta:
+      junction_field: privacy_policy_id
+      many_collection: privacy_policy_translations
+      many_field: languages_code
+      one_allowed_collections: null
+      one_collection: languages
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: privacy_policy_translations
+      column: languages_code
+      foreign_key_table: languages
+      foreign_key_column: code
+      constraint_name: privacy_policy_translations_languages_code_foreign
+      on_update: NO ACTION
+      on_delete: SET DEFAULT
+  - collection: privacy_policy_translations
+    field: privacy_policy_id
+    related_collection: privacy_policy
+    meta:
+      junction_field: languages_code
+      many_collection: privacy_policy_translations
+      many_field: privacy_policy_id
+      one_allowed_collections: null
+      one_collection: privacy_policy
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: translations
+      sort_field: null
+    schema:
+      table: privacy_policy_translations
+      column: privacy_policy_id
+      foreign_key_table: privacy_policy
+      foreign_key_column: id
+      constraint_name: privacy_policy_translations_privacy_policy_id_foreign
+      on_update: NO ACTION
+      on_delete: CASCADE
+  - collection: privacy_policy_translations
+    field: seo
+    related_collection: seo
+    meta:
+      junction_field: null
+      many_collection: privacy_policy_translations
+      many_field: seo
+      one_allowed_collections: null
+      one_collection: seo
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    schema:
+      table: privacy_policy_translations
+      column: seo
+      foreign_key_table: seo
+      foreign_key_column: id
+      constraint_name: privacy_policy_translations_seo_foreign
+      on_update: NO ACTION
+      on_delete: SET NULL
   - collection: product_categories
     field: cover
     related_collection: directus_files
@@ -18302,27 +18460,6 @@ relations:
       on_update: NO ACTION
       on_delete: NO ACTION
   - collection: product_categories_translations
-    field: product_categories_id
-    related_collection: product_categories
-    meta:
-      junction_field: languages_code
-      many_collection: product_categories_translations
-      many_field: product_categories_id
-      one_allowed_collections: null
-      one_collection: product_categories
-      one_collection_field: null
-      one_deselect_action: nullify
-      one_field: translations
-      sort_field: null
-    schema:
-      table: product_categories_translations
-      column: product_categories_id
-      foreign_key_table: product_categories
-      foreign_key_column: id
-      constraint_name: product_categories_translations_product_categories_id_foreign
-      on_update: NO ACTION
-      on_delete: CASCADE
-  - collection: product_categories_translations
     field: languages_code
     related_collection: languages
     meta:
@@ -18343,6 +18480,27 @@ relations:
       constraint_name: product_categories_translations_languages_code_foreign
       on_update: NO ACTION
       on_delete: SET DEFAULT
+  - collection: product_categories_translations
+    field: product_categories_id
+    related_collection: product_categories
+    meta:
+      junction_field: languages_code
+      many_collection: product_categories_translations
+      many_field: product_categories_id
+      one_allowed_collections: null
+      one_collection: product_categories
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: translations
+      sort_field: null
+    schema:
+      table: product_categories_translations
+      column: product_categories_id
+      foreign_key_table: product_categories
+      foreign_key_column: id
+      constraint_name: product_categories_translations_product_ca__29b10779_foreign
+      on_update: NO ACTION
+      on_delete: CASCADE
   - collection: product_categories_translations
     field: seo
     related_collection: seo
@@ -18424,7 +18582,7 @@ relations:
       column: product_categories_id
       foreign_key_table: product_categories
       foreign_key_column: id
-      constraint_name: product_features_product_categories_product_categories_id_foreign
+      constraint_name: product_features_product_categories_product__ad5ef42_foreign
       on_update: NO ACTION
       on_delete: SET NULL
   - collection: product_features_product_categories
@@ -18445,28 +18603,7 @@ relations:
       column: product_features_id
       foreign_key_table: product_features
       foreign_key_column: id
-      constraint_name: product_features_product_categories_product_features_id_foreign
-      on_update: NO ACTION
-      on_delete: SET NULL
-  - collection: product_features_translations
-    field: product_features_id
-    related_collection: product_features
-    meta:
-      junction_field: languages_code
-      many_collection: product_features_translations
-      many_field: product_features_id
-      one_allowed_collections: null
-      one_collection: product_features
-      one_collection_field: null
-      one_deselect_action: nullify
-      one_field: translations
-      sort_field: null
-    schema:
-      table: product_features_translations
-      column: product_features_id
-      foreign_key_table: product_features
-      foreign_key_column: id
-      constraint_name: product_features_translations_product_features_id_foreign
+      constraint_name: product_features_product_categories_produc__69c785bf_foreign
       on_update: NO ACTION
       on_delete: SET NULL
   - collection: product_features_translations
@@ -18488,6 +18625,27 @@ relations:
       foreign_key_table: languages
       foreign_key_column: code
       constraint_name: product_features_translations_languages_code_foreign
+      on_update: NO ACTION
+      on_delete: SET NULL
+  - collection: product_features_translations
+    field: product_features_id
+    related_collection: product_features
+    meta:
+      junction_field: languages_code
+      many_collection: product_features_translations
+      many_field: product_features_id
+      one_allowed_collections: null
+      one_collection: product_features
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: translations
+      sort_field: null
+    schema:
+      table: product_features_translations
+      column: product_features_id
+      foreign_key_table: product_features
+      foreign_key_column: id
+      constraint_name: product_features_translations_product_features_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
   - collection: product_reviews
@@ -18522,7 +18680,7 @@ relations:
       one_collection: products
       one_collection_field: null
       one_deselect_action: nullify
-      one_field: null
+      one_field: product_reviews
       sort_field: null
     schema:
       table: product_reviews
@@ -18638,27 +18796,6 @@ relations:
       on_update: NO ACTION
       on_delete: NO ACTION
   - collection: product_tags_translations
-    field: product_tags_id
-    related_collection: product_tags
-    meta:
-      junction_field: languages_code
-      many_collection: product_tags_translations
-      many_field: product_tags_id
-      one_allowed_collections: null
-      one_collection: product_tags
-      one_collection_field: null
-      one_deselect_action: nullify
-      one_field: translations
-      sort_field: null
-    schema:
-      table: product_tags_translations
-      column: product_tags_id
-      foreign_key_table: product_tags
-      foreign_key_column: id
-      constraint_name: product_tags_translations_product_tags_id_foreign
-      on_update: NO ACTION
-      on_delete: SET NULL
-  - collection: product_tags_translations
     field: languages_code
     related_collection: languages
     meta:
@@ -18677,6 +18814,27 @@ relations:
       foreign_key_table: languages
       foreign_key_column: code
       constraint_name: product_tags_translations_languages_code_foreign
+      on_update: NO ACTION
+      on_delete: SET NULL
+  - collection: product_tags_translations
+    field: product_tags_id
+    related_collection: product_tags
+    meta:
+      junction_field: languages_code
+      many_collection: product_tags_translations
+      many_field: product_tags_id
+      one_allowed_collections: null
+      one_collection: product_tags
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: translations
+      sort_field: null
+    schema:
+      table: product_tags_translations
+      column: product_tags_id
+      foreign_key_table: product_tags
+      foreign_key_column: id
+      constraint_name: product_tags_translations_product_tags_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
   - collection: products
@@ -18921,7 +19079,7 @@ relations:
       one_collection: products
       one_collection_field: null
       one_deselect_action: nullify
-      one_field: null
+      one_field: tags
       sort_field: null
     schema:
       table: products_product_tags
@@ -18931,48 +19089,27 @@ relations:
       constraint_name: products_product_tags_products_id_foreign
       on_update: NO ACTION
       on_delete: SET NULL
-  - collection: products_product_tags_1
-    field: product_tags_id
-    related_collection: product_tags
+  - collection: products_translations
+    field: languages_code
+    related_collection: languages
     meta:
       junction_field: products_id
-      many_collection: products_product_tags_1
-      many_field: product_tags_id
+      many_collection: products_translations
+      many_field: languages_code
       one_allowed_collections: null
-      one_collection: product_tags
+      one_collection: languages
       one_collection_field: null
       one_deselect_action: nullify
       one_field: null
       sort_field: null
     schema:
-      table: products_product_tags_1
-      column: product_tags_id
-      foreign_key_table: product_tags
-      foreign_key_column: id
-      constraint_name: products_product_tags_1_product_tags_id_foreign
+      table: products_translations
+      column: languages_code
+      foreign_key_table: languages
+      foreign_key_column: code
+      constraint_name: products_translations_languages_code_foreign
       on_update: NO ACTION
-      on_delete: SET NULL
-  - collection: products_product_tags_1
-    field: products_id
-    related_collection: products
-    meta:
-      junction_field: product_tags_id
-      many_collection: products_product_tags_1
-      many_field: products_id
-      one_allowed_collections: null
-      one_collection: products
-      one_collection_field: null
-      one_deselect_action: nullify
-      one_field: tags
-      sort_field: null
-    schema:
-      table: products_product_tags_1
-      column: products_id
-      foreign_key_table: products
-      foreign_key_column: id
-      constraint_name: products_product_tags_1_products_id_foreign
-      on_update: NO ACTION
-      on_delete: SET NULL
+      on_delete: SET DEFAULT
   - collection: products_translations
     field: products_id
     related_collection: products
@@ -18995,116 +19132,11 @@ relations:
       on_update: NO ACTION
       on_delete: CASCADE
   - collection: products_translations
-    field: languages_code
-    related_collection: languages
-    meta:
-      junction_field: products_id
-      many_collection: products_translations
-      many_field: languages_code
-      one_allowed_collections: null
-      one_collection: languages
-      one_collection_field: null
-      one_deselect_action: nullify
-      one_field: null
-      sort_field: null
-    schema:
-      table: products_translations
-      column: languages_code
-      foreign_key_table: languages
-      foreign_key_column: code
-      constraint_name: products_translations_languages_code_foreign
-      on_update: NO ACTION
-      on_delete: SET DEFAULT
-  - collection: privacy_policy
-    field: user_created
-    related_collection: directus_users
-    meta:
-      junction_field: null
-      many_collection: privacy_policy
-      many_field: user_created
-      one_allowed_collections: null
-      one_collection: directus_users
-      one_collection_field: null
-      one_deselect_action: nullify
-      one_field: null
-      sort_field: null
-    schema:
-      table: privacy_policy
-      column: user_created
-      foreign_key_table: directus_users
-      foreign_key_column: id
-      constraint_name: privacy_policy_user_created_foreign
-      on_update: NO ACTION
-      on_delete: NO ACTION
-  - collection: privacy_policy
-    field: user_updated
-    related_collection: directus_users
-    meta:
-      junction_field: null
-      many_collection: privacy_policy
-      many_field: user_updated
-      one_allowed_collections: null
-      one_collection: directus_users
-      one_collection_field: null
-      one_deselect_action: nullify
-      one_field: null
-      sort_field: null
-    schema:
-      table: privacy_policy
-      column: user_updated
-      foreign_key_table: directus_users
-      foreign_key_column: id
-      constraint_name: privacy_policy_user_updated_foreign
-      on_update: NO ACTION
-      on_delete: NO ACTION
-  - collection: privacy_policy_translations
-    field: languages_code
-    related_collection: languages
-    meta:
-      junction_field: privacy_policy_id
-      many_collection: privacy_policy_translations
-      many_field: languages_code
-      one_allowed_collections: null
-      one_collection: languages
-      one_collection_field: null
-      one_deselect_action: nullify
-      one_field: null
-      sort_field: null
-    schema:
-      table: privacy_policy_translations
-      column: languages_code
-      foreign_key_table: languages
-      foreign_key_column: code
-      constraint_name: privacy_policy_translations_languages_code_foreign
-      on_update: NO ACTION
-      on_delete: SET DEFAULT
-  - collection: privacy_policy_translations
-    field: privacy_policy_id
-    related_collection: privacy_policy
-    meta:
-      junction_field: languages_code
-      many_collection: privacy_policy_translations
-      many_field: privacy_policy_id
-      one_allowed_collections: null
-      one_collection: privacy_policy
-      one_collection_field: null
-      one_deselect_action: nullify
-      one_field: translations
-      sort_field: null
-    schema:
-      table: privacy_policy_translations
-      column: privacy_policy_id
-      foreign_key_table: privacy_policy
-      foreign_key_column: id
-      constraint_name: privacy_policy_translations_privacy_policy_id_foreign
-      on_update: NO ACTION
-      on_delete: CASCADE
-  - collection: privacy_policy_translations
     field: seo
     related_collection: seo
     meta:
       junction_field: null
-      many_collection: privacy_policy_translations
+      many_collection: products_translations
       many_field: seo
       one_allowed_collections: null
       one_collection: seo
@@ -19113,11 +19145,11 @@ relations:
       one_field: null
       sort_field: null
     schema:
-      table: privacy_policy_translations
+      table: products_translations
       column: seo
       foreign_key_table: seo
       foreign_key_column: id
-      constraint_name: privacy_policy_translations_seo_foreign
+      constraint_name: products_translations_seo_foreign
       on_update: NO ACTION
       on_delete: SET NULL
   - collection: seo
