@@ -13,6 +13,7 @@ RUN pnpm install directus-extension-computed-interface@latest
 RUN pnpm install directus-extension-group-tabs-interface@latest
 RUN pnpm install directus-extension-admin-panels@latest
 RUN pnpm install directus-extension-schema-sync@latest
+RUN pnpm install directus-extension-seed@latest
 #RUN pnpm install directus-extension-seo@latest
 
 COPY ./schema-sync ./schema-sync

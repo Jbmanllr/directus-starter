@@ -26,6 +26,7 @@ services:
       - ./uploads:/directus/uploads
       - ./extensions:/directus/extensions
       - ./snapshots:/directus/snapshots
+      - ./seeds:/directus/seeds
       - ./schema-sync:/directus/extensions/schema-sync
     depends_on:
       database:
