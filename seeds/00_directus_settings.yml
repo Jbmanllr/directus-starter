@@ -1,0 +1,7 @@
+directus_settings:
+  - id: 1
+    project_name: Directus Starter
+    project_url: https://start.com
+website:
+  - id: 1
+    domain: https://start.com

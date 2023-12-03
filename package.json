@@ -7,9 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "update": "./update.sh",
     "build": "docker build -t directus-starter:latest .",
-    "snap": "npx directus schema snapshot ./snapshot.yaml",
-    "date-snap": "npx directus schema snapshot ./snapshots/\"$(date \"+%F\")\"-snapshot-\"$(date \"+%s\")\".yaml",
-    "dev": "docker compose up"
+    "build-schema": "docker-compose exec directus npx directus schema apply snapshots/snapshot.yaml --yes",
+    "seed": "docker-compose exec directus npx directus data apply ./seeds/00_directus_settings.yml && docker-compose exec directus npx directus data apply ./seeds/01_directus_roles.yml && docker-compose exec directus npx directus data apply ./seeds/02_languages.yml && docker-compose exec directus npx directus data apply ./seeds/03_blog.yml && docker-compose exec directus npx directus data apply ./seeds/04_products.yml",
+    "snap": "docker-compose exec directus npx directus schema snapshot ./snapshot.yaml",
+    "date-snap": "docker-compose exec directus npx directus schema snapshot ./snapshots/\"$(date \"+%F\")\"-snapshot-\"$(date \"+%s\")\".yaml",
+    "dev": "docker compose up",
+    "start": "docker compose up"
   },
   "author": "Jean-Baptiste Manillier",
   "license": "ISC",

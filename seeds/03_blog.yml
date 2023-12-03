@@ -1,0 +1,88 @@
+seo:
+  - id: f1efb030-56fe-4574-a63d-3aac4f69ce02
+    status: published
+    meta_title: SEO Title
+    meta_description: SEO Description
+  - id: 619f6d57-9114-4255-a003-c97a4f6c2910
+    status: published
+    meta_title: SEO Title
+    meta_description: SEO Description
+  - id: bbcb9d60-9924-4215-baf7-d1333c2cb1ab
+    status: published
+    meta_title: SEO Title
+    meta_description: SEO Description
+blog_categories:
+  - id: 5a845d91-d8f8-4ee7-8b8f-5347266e4f95
+    status: published
+    parent: null
+    translations:
+      - languages_code: en-US
+        name: Reviews
+        slug: reviews
+        description: Latest updates and insights from the world of music.
+        seo: f1efb030-56fe-4574-a63d-3aac4f69ce02
+  - id: 159d25da-8815-4a66-9cf2-c3fba8e3ebf8
+    status: published
+    parent: 5a845d91-d8f8-4ee7-8b8f-5347266e4f95
+    translations:
+      - languages_code: en-US
+        name: Guitar Reviews
+        slug: guitar-reviews
+        description: In-depth reviews and analysis of the latest guitars in the market.
+        seo: 619f6d57-9114-4255-a003-c97a4f6c2910
+  - id: a22daed3-b8ca-482e-ba85-b22a0ca1297e
+    status: published
+    parent: null
+    translations:
+      - languages_code: en-US
+        name: News
+        slug: news
+        description: Exploring news.
+blog_tags:
+  - id: 51d81ab3-f34a-4047-8b95-6ae5e9df53bc
+    status: published
+    translations:
+      - languages_code: en-US
+        tag: Blog Tag
+        slug: blog-tag
+        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+blog_posts:
+  - id: db2bafbe-5b81-4ba4-b2e0-a9c226e38f59
+    status: published
+    format: article
+    name: Blog Post
+    slug: blog-post
+    authors:
+      - directus_users_id: 81403988-bf04-40f9-a3fd-5f59a24fa040
+    translations:
+      - languages_code: en-US
+        title: Lorem ipsum dolor sit amet, consectetur
+        slug: blog-post-1-slug
+        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        seo: bbcb9d60-9924-4215-baf7-d1333c2cb1ab
+    categories:
+      - blog_categories_id: 159d25da-8815-4a66-9cf2-c3fba8e3ebf8
+    tags:
+      - blog_tags_id: 51d81ab3-f34a-4047-8b95-6ae5e9df53bc
+comments:
+  - id: 68a52308-8256-4d4e-b184-2b572bc0bc54
+    author: 2b85a5a1-3adf-47ea-b1f6-a3c9e1d34f64
+    status: published
+    title: "Post Comment #1"
+    slug: post-comment-1
+    comment: Comment content
+    parent_comment: null
+    related_item:
+      item: db2bafbe-5b81-4ba4-b2e0-a9c226e38f59
+      collection: ["blog_posts"]
+  - id: 8096cf41-0db6-4ce7-a330-b1df02758420
+    author: b3dbe477-e1f3-4e16-96d6-d3547c2ec1a7
+    status: published
+    title: "Post Comment Answer #1"
+    slug: post-comment-answer-1
+    comment: Comment answer content
+    parent_comment: 68a52308-8256-4d4e-b184-2b572bc0bc54
+    related_item:
+      item: db2bafbe-5b81-4ba4-b2e0-a9c226e38f59
+      collection: ["blog_posts"]

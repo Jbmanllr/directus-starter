@@ -1,0 +1,79 @@
+directus_roles:
+  - id: 1f64a09e-2c59-4c0f-8a70-2a771e62f741
+    name: User
+  - id: 8d6f5ce4-28d3-4f2b-9040-e52ee9ac07da
+    name: Editor
+  - id: 8a4cabd2-53d9-4be4-9d23-5d27b459ef7f
+    name: Author
+  - id: 78181a32-82a5-4b5f-a61e-0a49fd8750a4
+    name: Moderator
+  - id: 9c0b30e2-7b67-4e14-8b77-a2f6cfd5a8b9
+    name: Store Manager
+directus_users:
+  - id: 2b85a5a1-3adf-47ea-b1f6-a3c9e1d34f64
+    first_name: John
+    last_name: Doe
+    username: johndoe
+    email: mediamuse.music@gmail.com
+    password: "123456789"
+    role: 1f64a09e-2c59-4c0f-8a70-2a771e62f741
+  - id: 0dda298a-ccda-48f8-908b-f38d97c6f5fc
+    first_name: Editor
+    last_name: editor
+    username: editor
+    email: editor@editor.com
+    password: "123456789"
+    role: 8d6f5ce4-28d3-4f2b-9040-e52ee9ac07da
+  - id: 81403988-bf04-40f9-a3fd-5f59a24fa040
+    first_name: Author
+    last_name: author
+    username: author
+    email: author@author.com
+    password: "123456789"
+    role: 8a4cabd2-53d9-4be4-9d23-5d27b459ef7f
+  - id: b3dbe477-e1f3-4e16-96d6-d3547c2ec1a7
+    first_name: Moderator
+    last_name: moderator
+    username: moderator
+    email: moderator@moderator.com
+    password: "123456789"
+    role: 78181a32-82a5-4b5f-a61e-0a49fd8750a4
+addresses:
+  - id: 1f64a09e-2c59-4c0f-8a70-2a771e62f741
+    status: published
+    is_main: true
+    name: Home
+    type: residence
+    first_name: John
+    last_name: Doe
+    country: France
+    city: Paris
+    zip_postal_code: "75018"
+    state_province_region: Ile-de-France
+    address_line_1: 7 rue André Gill
+    location: null
+    latitude: null
+    longitude: null
+    user: 2b85a5a1-3adf-47ea-b1f6-a3c9e1d34f64
+currencies:
+  - id: 4c81d2f3-7b1c-4d2b-9aaf-3e0be3d8c1a9
+    name: United State Dollar
+    code: usd
+    symbol: $
+    is_default: true
+    sort: 1
+  - id: a2f5b88b-5d3c-4f4f-811e-6fa14b5e4e33
+    name: Euro
+    code: eur
+    symbol: €
+    sort: 2
+  - id: 57b3c2d1-6eaf-4f6b-9b36-8e1a4e8b2d42
+    name: Sterling Pound
+    code: gbp
+    symbol: £
+    sort: 3
+  - id: 3d7e8f1c-3f3b-4b59-84f7-2b9d6fc9eb77
+    name: Australian Dollar
+    code: aud
+    symbol: A$
+    sort: 4
