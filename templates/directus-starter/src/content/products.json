@@ -1,0 +1,68 @@
+[
+  {
+    "brand": "7f1de29e-8f96-4c24-8d76-c7c57a3b8bfe",
+    "date_created": "2023-12-03T22:11:14.965Z",
+    "date_updated": null,
+    "id": "fb3c5b45-3c9d-4c0e-8b8f-1c6623e3db36",
+    "name": "Fender Stratocaster",
+    "slug": "fender-stratocaster",
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": null,
+    "publish_on": null,
+    "product_prices": [
+      "7f1de29e-8f96-4c24-8d76-c7c57a3b8bfe",
+      "c6a50bbb-5b9d-4c20-8d34-0c6f130a3d66"
+    ],
+    "product_reviews": [],
+    "product_attributes": [
+      1,
+      2,
+      3
+    ],
+    "images": [],
+    "tags": [
+      1
+    ],
+    "translations": [
+      1
+    ],
+    "categories": [
+      1
+    ]
+  },
+  {
+    "brand": "5c4b82e2-ec3e-4670-b0b4-b4b5d7eeced3",
+    "date_created": "2023-12-03T22:11:15.001Z",
+    "date_updated": "2023-12-03T22:11:15.027Z",
+    "id": "e17d9ee0-4a6f-4cc0-a4b1-5e8f73d8bcb8",
+    "name": "Xfer Serum",
+    "slug": "xfer-serum",
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": null,
+    "publish_on": null,
+    "product_prices": [
+      "5c4b82e2-ec3e-4670-b0b4-b4b5d7eeced3"
+    ],
+    "product_reviews": [
+      "68a52308-8256-4d4e-b184-2b572bc0bc54"
+    ],
+    "product_attributes": [
+      7,
+      8
+    ],
+    "images": [],
+    "tags": [
+      3
+    ],
+    "translations": [
+      3
+    ],
+    "categories": [
+      3
+    ]
+  }
+]

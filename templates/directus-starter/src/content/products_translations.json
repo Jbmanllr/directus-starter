@@ -1,0 +1,26 @@
+[
+  {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 1,
+    "languages_code": "en-US",
+    "products_id": "fb3c5b45-3c9d-4c0e-8b8f-1c6623e3db36",
+    "seo": "a50a8fd7-227a-4328-811a-682f34c4cd13",
+    "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 2,
+    "languages_code": "en-US",
+    "products_id": null,
+    "seo": null,
+    "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 3,
+    "languages_code": "en-US",
+    "products_id": "e17d9ee0-4a6f-4cc0-a4b1-5e8f73d8bcb8",
+    "seo": null,
+    "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }
+]

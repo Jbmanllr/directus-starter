@@ -26,8 +26,7 @@ services:
       - ./uploads:/directus/uploads
       - ./extensions:/directus/extensions
       - ./snapshots:/directus/snapshots
-      - ./seeds:/directus/seeds
-      - ./schema-sync:/directus/extensions/schema-sync
+      - ./templates:/directus/templates
     depends_on:
       database:
         condition: service_healthy
@@ -57,7 +56,6 @@ services:
       ADMIN_PASSWORD: "d1r3ctu5"
 
   pgadmin:
-    container_name: pgadmin4_directus
     image: dpage/pgadmin4
     #restart: always
     environment:

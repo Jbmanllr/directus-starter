@@ -1,0 +1,78 @@
+[
+  {
+    "id": "5162427a-63f8-4eb8-9f75-c6f68dc99eb4",
+    "name": "[Blog] Publish Programmed Posts",
+    "icon": "nest_clock_farsight_analog",
+    "color": null,
+    "description": "Publish Programmed Posts",
+    "status": "active",
+    "trigger": "schedule",
+    "accountability": "all",
+    "options": {
+      "cron": "* * * * *"
+    },
+    "operation": "3eb3d973-60c5-48c8-b914-c6adfbe2034a",
+    "date_created": "2023-12-04T16:28:15.051Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "operations": [
+      "144e3852-fafe-461e-9187-04a31512cd01",
+      "3eb3d973-60c5-48c8-b914-c6adfbe2034a"
+    ]
+  },
+  {
+    "id": "a53345a5-cad4-4c9d-8c93-5457143ee336",
+    "name": "[SEO] Create SEO Item",
+    "icon": "saved_search",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "event",
+    "accountability": "all",
+    "options": {
+      "type": "action",
+      "scope": [
+        "items.create"
+      ],
+      "collections": [
+        "blog_categories_translations",
+        "blog_posts_translations",
+        "product_categories_translations",
+        "products_translations",
+        "pages_translations"
+      ]
+    },
+    "operation": "ce190da7-640c-4b38-bed0-05ee28470ee1",
+    "date_created": "2023-12-04T13:56:31.324Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "operations": [
+      "ce190da7-640c-4b38-bed0-05ee28470ee1"
+    ]
+  },
+  {
+    "id": "c146f854-17d2-4131-a2c0-68fe6b1bf777",
+    "name": "[SEO] GSC API - Index Request",
+    "icon": "bolt",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "event",
+    "accountability": "all",
+    "options": {
+      "type": "action",
+      "scope": [
+        "items.create",
+        "items.update"
+      ],
+      "collections": [
+        "blog_posts",
+        "products"
+      ]
+    },
+    "operation": "123a159d-b130-48b2-913b-d34edbca56b9",
+    "date_created": "2023-12-04T08:25:46.511Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "operations": [
+      "123a159d-b130-48b2-913b-d34edbca56b9"
+    ]
+  }
+]

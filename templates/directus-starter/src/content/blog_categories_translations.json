@@ -1,0 +1,56 @@
+[
+  {
+    "blog_categories_id": "5a845d91-d8f8-4ee7-8b8f-5347266e4f95",
+    "description": "Latest updates and insights from the world of music.",
+    "id": 1,
+    "languages_code": "en-US",
+    "name": "Reviews",
+    "seo": "f1efb030-56fe-4574-a63d-3aac4f69ce02",
+    "slug": "reviews"
+  },
+  {
+    "blog_categories_id": "159d25da-8815-4a66-9cf2-c3fba8e3ebf8",
+    "description": "In-depth reviews and analysis of the latest guitars in the market.",
+    "id": 2,
+    "languages_code": "en-US",
+    "name": "Guitar Reviews",
+    "seo": "619f6d57-9114-4255-a003-c97a4f6c2910",
+    "slug": "guitar-reviews"
+  },
+  {
+    "blog_categories_id": "a22daed3-b8ca-482e-ba85-b22a0ca1297e",
+    "description": "Exploring news.",
+    "id": 3,
+    "languages_code": "en-US",
+    "name": "News",
+    "seo": null,
+    "slug": "news"
+  },
+  {
+    "blog_categories_id": "c9f0c640-6e05-47e0-a87a-3f6f79096158",
+    "description": "Software Reviews",
+    "id": 4,
+    "languages_code": "en-US",
+    "name": "Audio Software Reviews",
+    "seo": null,
+    "slug": "audio-software-reviews"
+  },
+  {
+    "blog_categories_id": "eaee57b1-16f5-4f56-a862-35fda8f2b524",
+    "description": "Top List",
+    "id": 5,
+    "languages_code": "en-US",
+    "name": "Top Lists",
+    "seo": null,
+    "slug": "top-lists"
+  },
+  {
+    "blog_categories_id": "bfd7a1b2-d4ed-4a35-98ca-f8ded05cfbd1",
+    "description": "Gear",
+    "id": 6,
+    "languages_code": "en-US",
+    "name": "Gear",
+    "seo": null,
+    "slug": "gear"
+  }
+]

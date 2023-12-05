@@ -1,0 +1,11 @@
+{
+  "name": "directus-template-directus-starter",
+  "templateName": "directus-starter",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "src"
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "date_created": "2023-12-03T22:11:14.938Z",
+    "date_updated": null,
+    "id": "7f1de29e-8f96-4c24-8d76-c7c57a3b8bfe",
+    "links": null,
+    "name": "Fender",
+    "picture": null,
+    "slug": "fender",
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": null,
+    "translations": [
+      1
+    ]
+  },
+  {
+    "date_created": "2023-12-03T22:11:14.951Z",
+    "date_updated": null,
+    "id": "5c4b82e2-ec3e-4670-b0b4-b4b5d7eeced3",
+    "links": null,
+    "name": "Xfer",
+    "picture": null,
+    "slug": "xfer",
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": null,
+    "translations": [
+      2
+    ]
+  }
+]

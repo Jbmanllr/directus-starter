@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "product_attributes_id": "5a7bcdef-8ba9-4612-acde-92f56a0bcdef",
+    "product_categories_id": "1b7c5475-2a94-4d85-bed8-3c36e678668f"
+  },
+  {
+    "id": 2,
+    "product_attributes_id": "0d12f84b-8c41-4077-8ef4-54f4c9c12345",
+    "product_categories_id": "a22daed3-b8ca-482e-ba85-b22a0ca1297e"
+  },
+  {
+    "id": 3,
+    "product_attributes_id": "3e8d3f56-2348-4d12-bb2a-5f6d7e8a6789",
+    "product_categories_id": "a22daed3-b8ca-482e-ba85-b22a0ca1297e"
+  },
+  {
+    "id": 4,
+    "product_attributes_id": "c6a50bbb-5b9d-4c20-8d34-0c6f130a3d66",
+    "product_categories_id": "deedab20-7292-4120-ac04-68e4191d4588"
+  }
+]

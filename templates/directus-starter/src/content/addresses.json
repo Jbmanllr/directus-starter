@@ -1,0 +1,26 @@
+[
+  {
+    "address_line_1": "7 rue André Gill",
+    "address_line_2": null,
+    "city": "Paris",
+    "country": "France",
+    "date_created": "2023-12-03T22:10:49.823Z",
+    "date_updated": null,
+    "first_name": "John",
+    "id": "1f64a09e-2c59-4c0f-8a70-2a771e62f741",
+    "is_main": true,
+    "last_name": "Doe",
+    "latitude": null,
+    "location": null,
+    "longitude": null,
+    "name": "Home",
+    "sort": null,
+    "state_province_region": "Ile-de-France",
+    "status": "published",
+    "type": "residence",
+    "user": "2b85a5a1-3adf-47ea-b1f6-a3c9e1d34f64",
+    "user_created": null,
+    "user_updated": null,
+    "zip_postal_code": "75018"
+  }
+]

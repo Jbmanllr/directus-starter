@@ -1,0 +1,16 @@
+[
+  {
+    "brands_id": "7f1de29e-8f96-4c24-8d76-c7c57a3b8bfe",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 1,
+    "languages_code": "en-US",
+    "seo": null
+  },
+  {
+    "brands_id": "5c4b82e2-ec3e-4670-b0b4-b4b5d7eeced3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 2,
+    "languages_code": "en-US",
+    "seo": null
+  }
+]

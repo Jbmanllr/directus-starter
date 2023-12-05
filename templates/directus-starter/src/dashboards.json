@@ -1,0 +1,29 @@
+[
+  {
+    "id": "408b6173-c0be-4cfb-9c19-1453418857b4",
+    "name": "Admin",
+    "icon": "space_dashboard",
+    "note": null,
+    "date_created": "2023-12-05T14:28:26.276Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "color": null,
+    "panels": [
+      "284d53e8-8983-4185-a4ec-6296101dce3d",
+      "d47a7bf5-fe30-4271-beb5-92498436f7f1"
+    ]
+  },
+  {
+    "id": "ee1ca6fb-96ac-41c7-a881-3d5e478b6699",
+    "name": "Blog",
+    "icon": "space_dashboard",
+    "note": null,
+    "date_created": "2023-12-05T14:23:51.717Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "color": null,
+    "panels": [
+      "124c802a-3d9a-4f99-b83d-28cc090b0ad7",
+      "3cc137b4-c92b-4772-a3f3-e38eae5b9f64",
+      "e0453a16-0c38-4407-8035-c84cc5d7b931"
+    ]
+  }
+]

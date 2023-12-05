@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "pages_id": "home",
+    "languages_code": "en-US",
+    "title": "Homepage",
+    "permalink": "/",
+    "seo": null
+  },
+  {
+    "id": 2,
+    "pages_id": "contact",
+    "languages_code": "en-US",
+    "title": "Contact",
+    "permalink": "/contact",
+    "seo": "c166f1ad-8b8a-431d-99bd-0d87e1459af8"
+  },
+  {
+    "id": 3,
+    "pages_id": "about",
+    "languages_code": "en-US",
+    "title": "About",
+    "permalink": "/about",
+    "seo": "4111f595-cd12-4a6b-8946-b82d04089cce"
+  },
+  {
+    "id": 4,
+    "pages_id": "terms-and-conditions",
+    "languages_code": "en-US",
+    "title": "Terms & Conditions",
+    "permalink": "/terms-and-conditions",
+    "seo": "98fe80a1-5909-44e9-8405-58242b766f98"
+  },
+  {
+    "id": 5,
+    "pages_id": "privacy-policy",
+    "languages_code": "en-US",
+    "title": "Privacy Policy",
+    "permalink": "/privacy-policy",
+    "seo": "b6758fb2-f1f5-4e88-9571-9556d8b0e9d6"
+  }
+]

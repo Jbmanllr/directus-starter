@@ -1,0 +1,20 @@
+[
+  {
+    "asked_by_user_input": "Johnny",
+    "asked_by_user_relation": null,
+    "category": "ab4869d8-3a76-4fe5-bb8d-b898ccdfd9f4",
+    "date_created": "2023-12-04T20:47:33.695Z",
+    "date_updated": "2023-12-04T20:47:44.575Z",
+    "id": "08bf6ea7-4802-46cc-948c-1e79230730a1",
+    "sort": null,
+    "status": "published",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "translations": [
+      1
+    ],
+    "faq_answers": [
+      "fbb7fda8-d73d-4609-9f71-fb7c38d01817"
+    ]
+  }
+]

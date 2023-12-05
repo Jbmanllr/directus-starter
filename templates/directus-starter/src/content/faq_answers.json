@@ -1,0 +1,15 @@
+[
+  {
+    "date_created": "2023-12-04T20:51:05.071Z",
+    "date_updated": "2023-12-04T20:56:48.348Z",
+    "id": "fbb7fda8-d73d-4609-9f71-fb7c38d01817",
+    "sort": null,
+    "status": "published",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "faq_question": "08bf6ea7-4802-46cc-948c-1e79230730a1",
+    "translations": [
+      1
+    ]
+  }
+]

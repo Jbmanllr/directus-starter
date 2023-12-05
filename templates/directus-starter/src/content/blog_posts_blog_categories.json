@@ -1,0 +1,32 @@
+[
+  {
+    "blog_categories_id": "159d25da-8815-4a66-9cf2-c3fba8e3ebf8",
+    "blog_posts_id": "db2bafbe-5b81-4ba4-b2e0-a9c226e38f59",
+    "id": 1
+  },
+  {
+    "blog_categories_id": "a22daed3-b8ca-482e-ba85-b22a0ca1297e",
+    "blog_posts_id": "d954bcf6-2acc-4bc4-bc10-0c3bb32a259f",
+    "id": 3
+  },
+  {
+    "blog_categories_id": "c9f0c640-6e05-47e0-a87a-3f6f79096158",
+    "blog_posts_id": "756e00f5-0545-48e6-b2fd-bfe1b1ac3b82",
+    "id": 4
+  },
+  {
+    "blog_categories_id": "5a845d91-d8f8-4ee7-8b8f-5347266e4f95",
+    "blog_posts_id": "23690f2d-113b-4bf7-b070-cad0fc6de164",
+    "id": 9
+  },
+  {
+    "blog_categories_id": "a22daed3-b8ca-482e-ba85-b22a0ca1297e",
+    "blog_posts_id": "ff643260-1c68-4439-bb6b-251d9d6ae5a4",
+    "id": 10
+  },
+  {
+    "blog_categories_id": "bfd7a1b2-d4ed-4a35-98ca-f8ded05cfbd1",
+    "blog_posts_id": "23690f2d-113b-4bf7-b070-cad0fc6de164",
+    "id": 11
+  }
+]

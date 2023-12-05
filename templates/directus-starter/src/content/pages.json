@@ -1,0 +1,62 @@
+[
+  {
+    "id": "home",
+    "status": "published",
+    "sort": null,
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "date_created": "2023-12-04T22:16:18.994Z",
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "date_updated": "2023-12-04T22:19:55.002Z",
+    "translations": [
+      1
+    ]
+  },
+  {
+    "id": "terms-and-conditions",
+    "status": "published",
+    "sort": null,
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "date_created": "2023-12-04T22:27:36.149Z",
+    "user_updated": null,
+    "date_updated": null,
+    "translations": [
+      4
+    ]
+  },
+  {
+    "id": "privacy-policy",
+    "status": "published",
+    "sort": null,
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "date_created": "2023-12-04T22:28:19.206Z",
+    "user_updated": null,
+    "date_updated": null,
+    "translations": [
+      5
+    ]
+  },
+  {
+    "id": "about",
+    "status": "published",
+    "sort": null,
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "date_created": "2023-12-04T22:26:49.421Z",
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "date_updated": "2023-12-05T11:02:59.381Z",
+    "translations": [
+      3
+    ]
+  },
+  {
+    "id": "contact",
+    "status": "draft",
+    "sort": null,
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "date_created": "2023-12-04T22:22:13.891Z",
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "date_updated": "2023-12-05T13:32:22.842Z",
+    "translations": [
+      2
+    ]
+  }
+]

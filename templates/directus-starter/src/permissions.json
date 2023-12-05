@@ -1,0 +1,1157 @@
+[
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "blog_posts",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "blog_posts_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "blog_categories",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "blog_categories_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "blog_posts_blog_categories",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "blog_posts_blog_posts",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "blog_posts_blog_tags",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "blog_posts_directus_users",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "blog_tags",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "blog_tags_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "brands",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "brands_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "comments",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "comments_related_item",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "comments_id": {
+            "status": {
+              "_eq": "published"
+            }
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "faq_answers",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "faq_answers_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "faq_categories",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "faq_categories_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "faq_questions",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "faq_questions_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "languages",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "product_attributes",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "product_attributes_product_categories",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "product_attributes_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "product_categories",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "product_categories_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "product_prices",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "product_id": {
+            "status": {
+              "_eq": "published"
+            }
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "product_reviews",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "product": {
+            "status": {
+              "_eq": "published"
+            }
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "products",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "products_files",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "products_id": {
+            "status": {
+              "_eq": "published"
+            }
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "products_product_attributes",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "_and": [
+            {
+              "products_id": {
+                "status": {
+                  "_eq": "published"
+                }
+              }
+            },
+            {
+              "product_attributes_id": {
+                "status": {
+                  "_eq": "published"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "products_product_categories",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "_and": [
+            {
+              "products_id": {
+                "status": {
+                  "_eq": "published"
+                }
+              }
+            },
+            {
+              "product_categories_id": {
+                "status": {
+                  "_eq": "published"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "products_product_tags",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "_and": [
+            {
+              "products_id": {
+                "status": {
+                  "_eq": "published"
+                }
+              }
+            },
+            {
+              "product_tags_id": {
+                "status": {
+                  "_eq": "published"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "products_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "product_tags",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "product_tags_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "seo",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "votes",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "voted"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "website",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "website_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "votes_related_item",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "blog",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "blog_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "shop",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "shop_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "navigation_items",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "_or": [
+            {
+              "_and": [
+                {
+                  "page": {
+                    "status": {
+                      "_eq": "published"
+                    }
+                  }
+                },
+                {
+                  "type": {
+                    "_eq": "page"
+                  }
+                }
+              ]
+            },
+            {
+              "_and": [
+                {
+                  "type": {
+                    "_eq": "url"
+                  }
+                },
+                {
+                  "url": {
+                    "_nnull": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "help_articles_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "help_articles",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "help_center",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "help_collections",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": null
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "help_collections_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "pages",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "pages_translations",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "directus_users",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "directus_files",
+    "action": "read",
+    "permissions": {},
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "98cd0805-c3f7-4528-8fdd-bf87f529e126",
+    "collection": "navigations",
+    "action": "read",
+    "permissions": {
+      "_and": [
+        {
+          "status": {
+            "_eq": "published"
+          }
+        }
+      ]
+    },
+    "validation": {},
+    "presets": null,
+    "fields": [
+      "*"
+    ]
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {},
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_collections",
+    "action": "read"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {},
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_fields",
+    "action": "read"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {
+      "role": {
+        "_eq": "$CURRENT_ROLE"
+      }
+    },
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_permissions",
+    "action": "read"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {},
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_relations",
+    "action": "read"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {
+      "user": {
+        "_eq": "$CURRENT_USER"
+      }
+    },
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_activity",
+    "action": "read"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {},
+    "validation": {
+      "comment": {
+        "_nnull": true
+      }
+    },
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_activity",
+    "action": "create"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {
+      "_or": [
+        {
+          "user": {
+            "_eq": "$CURRENT_USER"
+          }
+        },
+        {
+          "_and": [
+            {
+              "user": {
+                "_null": true
+              }
+            },
+            {
+              "role": {
+                "_eq": "$CURRENT_ROLE"
+              }
+            }
+          ]
+        },
+        {
+          "_and": [
+            {
+              "user": {
+                "_null": true
+              }
+            },
+            {
+              "role": {
+                "_null": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_presets",
+    "action": "read"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {},
+    "validation": {
+      "user": {
+        "_eq": "$CURRENT_USER"
+      }
+    },
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_presets",
+    "action": "create"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {
+      "user": {
+        "_eq": "$CURRENT_USER"
+      }
+    },
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_presets",
+    "action": "update"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {
+      "user": {
+        "_eq": "$CURRENT_USER"
+      }
+    },
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_presets",
+    "action": "delete"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {
+      "id": {
+        "_eq": "$CURRENT_ROLE"
+      }
+    },
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_roles",
+    "action": "read"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {},
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_settings",
+    "action": "read"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {},
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_translations",
+    "action": "read"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {
+      "recipient": {
+        "_eq": "$CURRENT_USER"
+      }
+    },
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_notifications",
+    "action": "read"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {
+      "recipient": {
+        "_eq": "$CURRENT_USER"
+      }
+    },
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "status"
+    ],
+    "system": true,
+    "collection": "directus_notifications",
+    "action": "update"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {
+      "user_created": {
+        "_eq": "$CURRENT_USER"
+      }
+    },
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "system": true,
+    "collection": "directus_shares",
+    "action": "read"
+  },
+  {
+    "role": "17b0fef6-04ef-4817-b62f-3532d1bfe475",
+    "permissions": {
+      "id": {
+        "_eq": "$CURRENT_USER"
+      }
+    },
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "id",
+      "first_name",
+      "last_name",
+      "last_page",
+      "email",
+      "password",
+      "location",
+      "title",
+      "description",
+      "tags",
+      "preferences_divider",
+      "avatar",
+      "language",
+      "appearance",
+      "theme_light",
+      "theme_dark",
+      "theme_light_overrides",
+      "theme_dark_overrides",
+      "tfa_secret",
+      "status",
+      "role",
+      "theme"
+    ],
+    "system": true,
+    "collection": "directus_users",
+    "action": "read"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "124c802a-3d9a-4f99-b83d-28cc090b0ad7",
+    "dashboard": "ee1ca6fb-96ac-41c7-a881-3d5e478b6699",
+    "name": null,
+    "icon": null,
+    "color": null,
+    "show_header": false,
+    "note": null,
+    "type": "time-series",
+    "position_x": 2,
+    "position_y": 2,
+    "width": 36,
+    "height": 12,
+    "options": {
+      "collection": "blog_posts",
+      "valueField": "id",
+      "function": "countDistinct",
+      "dateField": "date_published"
+    },
+    "date_created": "2023-12-05T14:25:15.526Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d"
+  },
+  {
+    "id": "284d53e8-8983-4185-a4ec-6296101dce3d",
+    "dashboard": "408b6173-c0be-4cfb-9c19-1453418857b4",
+    "name": null,
+    "icon": null,
+    "color": null,
+    "show_header": true,
+    "note": null,
+    "type": "adminPanels-m2m",
+    "position_x": 1,
+    "position_y": 1,
+    "width": 36,
+    "height": 10,
+    "options": {},
+    "date_created": "2023-12-05T14:29:05.935Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d"
+  },
+  {
+    "id": "3cc137b4-c92b-4772-a3f3-e38eae5b9f64",
+    "dashboard": "ee1ca6fb-96ac-41c7-a881-3d5e478b6699",
+    "name": "Posts Status",
+    "icon": null,
+    "color": null,
+    "show_header": true,
+    "note": null,
+    "type": "pie-chart",
+    "position_x": 21,
+    "position_y": 15,
+    "width": 17,
+    "height": 13,
+    "options": {
+      "collection": "blog_posts",
+      "column": "status",
+      "legend": "bottom",
+      "showLabels": true
+    },
+    "date_created": "2023-12-05T14:34:10.603Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d"
+  },
+  {
+    "id": "d47a7bf5-fe30-4271-beb5-92498436f7f1",
+    "dashboard": "408b6173-c0be-4cfb-9c19-1453418857b4",
+    "name": null,
+    "icon": null,
+    "color": null,
+    "show_header": true,
+    "note": null,
+    "type": "adminPanels-files",
+    "position_x": 1,
+    "position_y": 12,
+    "width": 36,
+    "height": 10,
+    "options": {},
+    "date_created": "2023-12-05T14:29:05.924Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d"
+  },
+  {
+    "id": "e0453a16-0c38-4407-8035-c84cc5d7b931",
+    "dashboard": "ee1ca6fb-96ac-41c7-a881-3d5e478b6699",
+    "name": "Posts Formats",
+    "icon": null,
+    "color": null,
+    "show_header": true,
+    "note": null,
+    "type": "pie-chart",
+    "position_x": 2,
+    "position_y": 15,
+    "width": 17,
+    "height": 13,
+    "options": {
+      "collection": "blog_posts",
+      "column": "format",
+      "showLabels": true,
+      "legend": "bottom"
+    },
+    "date_created": "2023-12-05T14:27:50.959Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d"
+  }
+]

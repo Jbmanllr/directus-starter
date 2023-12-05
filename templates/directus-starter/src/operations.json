@@ -1,0 +1,90 @@
+[
+  {
+    "id": "123a159d-b130-48b2-913b-d34edbca56b9",
+    "name": "Send request",
+    "key": "send_request",
+    "type": "exec",
+    "position_x": 19,
+    "position_y": 1,
+    "options": {
+      "code": "module.exports = async function(data) {\n\tconsole.log(\"Send Request to GSC\", data)\n\treturn {};\n}"
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "c146f854-17d2-4131-a2c0-68fe6b1bf777",
+    "date_created": "2023-12-04T08:26:53.801Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d"
+  },
+  {
+    "id": "144e3852-fafe-461e-9187-04a31512cd01",
+    "name": "Publish Items",
+    "key": "publish_items",
+    "type": "item-update",
+    "position_x": 33,
+    "position_y": 1,
+    "options": {
+      "collection": "blog_posts",
+      "query": {
+        "filter": {
+          "status": {
+            "_eq": "scheduled"
+          },
+          "publish_on": {
+            "_lte": "$NOW"
+          }
+        }
+      },
+      "payload": {
+        "status": "published",
+        "date_published": "{{$last}}",
+        "publish_on": null
+      }
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "5162427a-63f8-4eb8-9f75-c6f68dc99eb4",
+    "date_created": "2023-12-04T17:07:53.601Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d"
+  },
+  {
+    "id": "3eb3d973-60c5-48c8-b914-c6adfbe2034a",
+    "name": "Datetime now",
+    "key": "datetime_now",
+    "type": "exec",
+    "position_x": 17,
+    "position_y": 1,
+    "options": {
+      "code": "module.exports = async function(data) {\n    const now = new Date().toISOString();\n\tconsole.log(\"ALL DATA\", data, now)\n\treturn now;\n}"
+    },
+    "resolve": "144e3852-fafe-461e-9187-04a31512cd01",
+    "reject": null,
+    "flow": "5162427a-63f8-4eb8-9f75-c6f68dc99eb4",
+    "date_created": "2023-12-04T18:33:40.564Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d"
+  },
+  {
+    "id": "ce190da7-640c-4b38-bed0-05ee28470ee1",
+    "name": "Update Trigger Item",
+    "key": "update_trigger_item",
+    "type": "item-update",
+    "position_x": 19,
+    "position_y": 1,
+    "options": {
+      "collection": "{{$trigger.collection}}",
+      "payload": {
+        "seo": {
+          "meta_title": "{{$trigger.payload.title}} SEO Title",
+          "meta_description": "{{$trigger.payload.subtitle}} SEO Description"
+        }
+      },
+      "key": [
+        "{{$trigger.key}}"
+      ]
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "a53345a5-cad4-4c9d-8c93-5457143ee336",
+    "date_created": "2023-12-04T13:59:11.560Z",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d"
+  }
+]

@@ -1,0 +1,215 @@
+[
+  {
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "blog_categories",
+    "search": null,
+    "layout": "cards",
+    "layout_query": null,
+    "layout_options": {
+      "cards": {
+        "title": "{{translations.name}}"
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
+  },
+  {
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "blog_posts",
+    "search": null,
+    "layout": null,
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "id",
+          "status",
+          "format",
+          "translations.title",
+          "categories",
+          "authors",
+          "authors_input",
+          "date_created",
+          "date_updated",
+          "user_created"
+        ]
+      }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "id": 113.48175048828125,
+          "status": 34.76129150390625,
+          "format": 103.1553955078125,
+          "translations.title": 220.3646240234375
+        }
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
+  },
+  {
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "languages",
+    "search": null,
+    "layout": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1
+      }
+    },
+    "layout_options": null,
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
+  },
+  {
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "currencies",
+    "search": null,
+    "layout": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1
+      }
+    },
+    "layout_options": null,
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
+  },
+  {
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "seo",
+    "search": null,
+    "layout": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1
+      }
+    },
+    "layout_options": null,
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
+  },
+  {
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "directus_users",
+    "search": null,
+    "layout": "cards",
+    "layout_query": {
+      "cards": {
+        "sort": [
+          "email"
+        ],
+        "page": 1
+      }
+    },
+    "layout_options": {
+      "cards": {
+        "icon": "account_circle",
+        "title": "{{ first_name }} {{ last_name }}",
+        "subtitle": "{{ email }}",
+        "size": 4
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
+  },
+  {
+    "bookmark": "2. Calendar",
+    "user": null,
+    "role": null,
+    "collection": "blog_posts",
+    "search": null,
+    "layout": "calendar",
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "id",
+          "status",
+          "format",
+          "translations.title",
+          "categories",
+          "authors",
+          "authors_input",
+          "date_created",
+          "date_updated",
+          "user_created"
+        ]
+      }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "id": 113.48175048828125,
+          "status": 34.76129150390625,
+          "format": 103.1553955078125,
+          "translations.title": 220.3646240234375
+        }
+      },
+      "calendar": {
+        "template": "{{translations.title}}",
+        "startDateField": "date_created"
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "calendar_month",
+    "color": null
+  },
+  {
+    "bookmark": "1. Workflow",
+    "user": null,
+    "role": null,
+    "collection": "blog_posts",
+    "search": null,
+    "layout": "kanban",
+    "layout_query": {
+      "kanban": {
+        "page": 1
+      }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 115.68927001953125,
+          "format": 99.08941650390625,
+          "translations.title": 220.3646240234375
+        }
+      },
+      "kanban": {
+        "titleField": "status",
+        "textField": "format",
+        "dateField": "date_created",
+        "userField": "user_created",
+        "showUngrouped": false
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "view_kanban",
+    "color": null
+  }
+]

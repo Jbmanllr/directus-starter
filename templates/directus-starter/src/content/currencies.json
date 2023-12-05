@@ -1,0 +1,38 @@
+[
+  {
+    "code": "aud",
+    "id": "3d7e8f1c-3f3b-4b59-84f7-2b9d6fc9eb77",
+    "is_default": false,
+    "name": "Australian Dollar",
+    "sort": 4,
+    "symbol": "A$",
+    "symbol_native": null
+  },
+  {
+    "code": "usd",
+    "id": "4c81d2f3-7b1c-4d2b-9aaf-3e0be3d8c1a9",
+    "is_default": true,
+    "name": "United State Dollar",
+    "sort": 1,
+    "symbol": "$",
+    "symbol_native": null
+  },
+  {
+    "code": "gbp",
+    "id": "57b3c2d1-6eaf-4f6b-9b36-8e1a4e8b2d42",
+    "is_default": false,
+    "name": "Sterling Pound",
+    "sort": 3,
+    "symbol": "£",
+    "symbol_native": null
+  },
+  {
+    "code": "eur",
+    "id": "a2f5b88b-5d3c-4f4f-811e-6fa14b5e4e33",
+    "is_default": false,
+    "name": "Euro",
+    "sort": 2,
+    "symbol": "€",
+    "symbol_native": null
+  }
+]

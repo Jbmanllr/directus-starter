@@ -1,0 +1,62 @@
+[
+  {
+    "data_type": "string",
+    "date_created": "2023-12-03T22:11:14.866Z",
+    "date_updated": null,
+    "id": "0d12f84b-8c41-4077-8ef4-54f4c9c12345",
+    "status": "published",
+    "user_created": null,
+    "user_updated": null,
+    "product_categories": [
+      2
+    ],
+    "translations": [
+      2
+    ]
+  },
+  {
+    "data_type": "float",
+    "date_created": "2023-12-03T22:11:14.888Z",
+    "date_updated": null,
+    "id": "3e8d3f56-2348-4d12-bb2a-5f6d7e8a6789",
+    "status": "published",
+    "user_created": null,
+    "user_updated": null,
+    "product_categories": [
+      3
+    ],
+    "translations": [
+      3
+    ]
+  },
+  {
+    "data_type": "boolean",
+    "date_created": "2023-12-03T22:11:14.838Z",
+    "date_updated": null,
+    "id": "5a7bcdef-8ba9-4612-acde-92f56a0bcdef",
+    "status": "published",
+    "user_created": null,
+    "user_updated": null,
+    "product_categories": [
+      1
+    ],
+    "translations": [
+      1
+    ]
+  },
+  {
+    "data_type": "string",
+    "date_created": "2023-12-03T22:11:14.903Z",
+    "date_updated": null,
+    "id": "c6a50bbb-5b9d-4c20-8d34-0c6f130a3d66",
+    "status": "published",
+    "user_created": null,
+    "user_updated": null,
+    "product_categories": [
+      4
+    ],
+    "translations": [
+      4
+    ]
+  }
+]

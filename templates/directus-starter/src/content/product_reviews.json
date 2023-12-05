@@ -1,0 +1,19 @@
+[
+  {
+    "author": "2b85a5a1-3adf-47ea-b1f6-a3c9e1d34f64",
+    "date_created": "2023-12-03T22:11:15.102Z",
+    "date_updated": null,
+    "id": "68a52308-8256-4d4e-b184-2b572bc0bc54",
+    "product": "e17d9ee0-4a6f-4cc0-a4b1-5e8f73d8bcb8",
+    "rating": 75,
+    "review": "Review content.",
+    "seo": null,
+    "slug": "product_review",
+    "sort": null,
+    "status": "published",
+    "title": "Product review",
+    "user_created": null,
+    "user_updated": null,
+    "vote_score": null
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "product": null,
+    "product_attributes_id": "0d12f84b-8c41-4077-8ef4-54f4c9c12345",
+    "products_id": "fb3c5b45-3c9d-4c0e-8b8f-1c6623e3db36",
+    "value_boolean": null,
+    "value_date": null,
+    "value_float": null,
+    "value_string": "Stratoid"
+  },
+  {
+    "id": 2,
+    "product": null,
+    "product_attributes_id": "5a7bcdef-8ba9-4612-acde-92f56a0bcdef",
+    "products_id": "fb3c5b45-3c9d-4c0e-8b8f-1c6623e3db36",
+    "value_boolean": true,
+    "value_date": null,
+    "value_float": null,
+    "value_string": null
+  },
+  {
+    "id": 3,
+    "product": null,
+    "product_attributes_id": "3e8d3f56-2348-4d12-bb2a-5f6d7e8a6789",
+    "products_id": "fb3c5b45-3c9d-4c0e-8b8f-1c6623e3db36",
+    "value_boolean": null,
+    "value_date": null,
+    "value_float": 6,
+    "value_string": null
+  },
+  {
+    "id": 4,
+    "product": null,
+    "product_attributes_id": "0d12f84b-8c41-4077-8ef4-54f4c9c12345",
+    "products_id": null,
+    "value_boolean": null,
+    "value_date": null,
+    "value_float": null,
+    "value_string": "pauloid"
+  },
+  {
+    "id": 5,
+    "product": null,
+    "product_attributes_id": "5a7bcdef-8ba9-4612-acde-92f56a0bcdef",
+    "products_id": null,
+    "value_boolean": false,
+    "value_date": null,
+    "value_float": null,
+    "value_string": null
+  },
+  {
+    "id": 6,
+    "product": null,
+    "product_attributes_id": "3e8d3f56-2348-4d12-bb2a-5f6d7e8a6789",
+    "products_id": null,
+    "value_boolean": null,
+    "value_date": null,
+    "value_float": 6,
+    "value_string": null
+  },
+  {
+    "id": 7,
+    "product": null,
+    "product_attributes_id": "c6a50bbb-5b9d-4c20-8d34-0c6f130a3d66",
+    "products_id": "e17d9ee0-4a6f-4cc0-a4b1-5e8f73d8bcb8",
+    "value_boolean": null,
+    "value_date": null,
+    "value_float": null,
+    "value_string": "MacOs"
+  },
+  {
+    "id": 8,
+    "product": null,
+    "product_attributes_id": "c6a50bbb-5b9d-4c20-8d34-0c6f130a3d66",
+    "products_id": "e17d9ee0-4a6f-4cc0-a4b1-5e8f73d8bcb8",
+    "value_boolean": null,
+    "value_date": null,
+    "value_float": null,
+    "value_string": "Windows"
+  }
+]

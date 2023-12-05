@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "product_categories_id": "1b7c5475-2a94-4d85-bed8-3c36e678668f",
+    "products_id": "fb3c5b45-3c9d-4c0e-8b8f-1c6623e3db36"
+  },
+  {
+    "id": 2,
+    "product_categories_id": "1b7c5475-2a94-4d85-bed8-3c36e678668f",
+    "products_id": null
+  },
+  {
+    "id": 3,
+    "product_categories_id": "ec9cb9a9-58bd-4f8e-b076-bd4c7c053958",
+    "products_id": "e17d9ee0-4a6f-4cc0-a4b1-5e8f73d8bcb8"
+  }
+]

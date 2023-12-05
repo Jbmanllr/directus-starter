@@ -1,0 +1,10 @@
+[
+  {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 1,
+    "languages_code": "en-US",
+    "product_tags_id": "5a7bcdef-8ba9-4612-acde-92f56a0bcdef",
+    "slug": "product-tag",
+    "tag": "Product Tag"
+  }
+]

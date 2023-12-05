@@ -1,0 +1,140 @@
+[
+  {
+    "cover": "04ed3333-4077-4f51-a52e-f56e5bf11860",
+    "date_created": "2023-12-03T22:11:14.752Z",
+    "date_updated": "2023-12-04T13:30:00.528Z",
+    "icon": null,
+    "id": "a22daed3-b8ca-482e-ba85-b22a0ca1297e",
+    "parent_category": null,
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "children_categories": [
+      "1b7c5475-2a94-4d85-bed8-3c36e678668f",
+      "7a5d56ec-f322-4f2d-8506-342900a6a535"
+    ],
+    "translations": [
+      1
+    ]
+  },
+  {
+    "cover": "ca6f8d95-e869-4e6a-abcd-826f6c8af4d5",
+    "date_created": "2023-12-03T22:11:14.774Z",
+    "date_updated": "2023-12-04T13:30:24.090Z",
+    "icon": null,
+    "id": "1b7c5475-2a94-4d85-bed8-3c36e678668f",
+    "parent_category": "a22daed3-b8ca-482e-ba85-b22a0ca1297e",
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "children_categories": [
+      "59d569c8-0be8-4e49-90f7-4feca0fd0f8e"
+    ],
+    "translations": [
+      2
+    ]
+  },
+  {
+    "cover": "ca6f8d95-e869-4e6a-abcd-826f6c8af4d5",
+    "date_created": "2023-12-03T22:11:14.784Z",
+    "date_updated": "2023-12-04T13:30:51.555Z",
+    "icon": null,
+    "id": "59d569c8-0be8-4e49-90f7-4feca0fd0f8e",
+    "parent_category": "1b7c5475-2a94-4d85-bed8-3c36e678668f",
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "children_categories": [],
+    "translations": [
+      3
+    ]
+  },
+  {
+    "cover": "9594fc3a-df4b-4f4c-8961-40c565510b54",
+    "date_created": "2023-12-03T22:11:14.793Z",
+    "date_updated": "2023-12-04T13:32:24.295Z",
+    "icon": null,
+    "id": "7a5d56ec-f322-4f2d-8506-342900a6a535",
+    "parent_category": "a22daed3-b8ca-482e-ba85-b22a0ca1297e",
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "children_categories": [],
+    "translations": [
+      4
+    ]
+  },
+  {
+    "cover": "056e78cf-5677-452d-b79b-5fca70edc2bf",
+    "date_created": "2023-12-03T22:11:14.802Z",
+    "date_updated": "2023-12-04T13:33:50.645Z",
+    "icon": null,
+    "id": "deedab20-7292-4120-ac04-68e4191d4588",
+    "parent_category": null,
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "children_categories": [
+      "49bbbfd2-29e6-450c-865b-375918a4b986",
+      "ec9cb9a9-58bd-4f8e-b076-bd4c7c053958"
+    ],
+    "translations": [
+      5
+    ]
+  },
+  {
+    "cover": "2f8b4f30-e867-4dea-b295-f8044af552fc",
+    "date_created": "2023-12-04T13:32:00.108Z",
+    "date_updated": "2023-12-04T13:34:56.972Z",
+    "icon": null,
+    "id": "49bbbfd2-29e6-450c-865b-375918a4b986",
+    "parent_category": "deedab20-7292-4120-ac04-68e4191d4588",
+    "sort": null,
+    "status": "draft",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "children_categories": [],
+    "translations": [
+      8
+    ]
+  },
+  {
+    "cover": "ba2ff2dc-85cd-49ca-8181-23548624b119",
+    "date_created": "2023-12-03T22:11:14.822Z",
+    "date_updated": "2023-12-04T13:36:19.680Z",
+    "icon": null,
+    "id": "8546aae9-713d-4fe5-bf1a-c262d7f217b9",
+    "parent_category": "ec9cb9a9-58bd-4f8e-b076-bd4c7c053958",
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "children_categories": [],
+    "translations": [
+      7
+    ]
+  },
+  {
+    "cover": "ad858750-0da6-4263-a5e0-9d475841226e",
+    "date_created": "2023-12-03T22:11:14.814Z",
+    "date_updated": "2023-12-04T13:37:25.160Z",
+    "icon": null,
+    "id": "ec9cb9a9-58bd-4f8e-b076-bd4c7c053958",
+    "parent_category": "deedab20-7292-4120-ac04-68e4191d4588",
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "children_categories": [
+      "8546aae9-713d-4fe5-bf1a-c262d7f217b9"
+    ],
+    "translations": [
+      6
+    ]
+  }
+]

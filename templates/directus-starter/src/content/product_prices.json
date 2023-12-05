@@ -1,0 +1,32 @@
+[
+  {
+    "amount": 90000,
+    "currency_code": "usd",
+    "date_created": "2023-12-03T22:11:15.095Z",
+    "date_updated": null,
+    "id": "5c4b82e2-ec3e-4670-b0b4-b4b5d7eeced3",
+    "product_id": "e17d9ee0-4a6f-4cc0-a4b1-5e8f73d8bcb8",
+    "user_created": null,
+    "user_updated": null
+  },
+  {
+    "amount": 130000,
+    "currency_code": "usd",
+    "date_created": "2023-12-03T22:11:15.088Z",
+    "date_updated": null,
+    "id": "7f1de29e-8f96-4c24-8d76-c7c57a3b8bfe",
+    "product_id": "fb3c5b45-3c9d-4c0e-8b8f-1c6623e3db36",
+    "user_created": null,
+    "user_updated": null
+  },
+  {
+    "amount": 110000,
+    "currency_code": "eur",
+    "date_created": "2023-12-03T22:11:15.092Z",
+    "date_updated": null,
+    "id": "c6a50bbb-5b9d-4c20-8d34-0c6f130a3d66",
+    "product_id": "fb3c5b45-3c9d-4c0e-8b8f-1c6623e3db36",
+    "user_created": null,
+    "user_updated": null
+  }
+]

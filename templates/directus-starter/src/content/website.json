@@ -1,0 +1,14 @@
+{
+  "date_created": "2023-12-03T22:10:41.999Z",
+  "date_updated": "2023-12-04T21:50:49.528Z",
+  "domain": "https://start.com",
+  "id": 1,
+  "logo_dark": null,
+  "logo_light": null,
+  "maintenance": false,
+  "user_created": null,
+  "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+  "translations": [
+    1
+  ]
+}

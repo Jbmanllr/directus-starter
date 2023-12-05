@@ -1,0 +1,93 @@
+[
+  {
+    "id": "8562df3d-dd6b-4045-806e-21937734fde2",
+    "sort": 1,
+    "title": "About",
+    "has_children": false,
+    "type": "page",
+    "open_in_new_tab": false,
+    "page": "about",
+    "url": null,
+    "parent": null,
+    "navigation": "footer",
+    "children": []
+  },
+  {
+    "id": "9821583d-fcaa-45c5-b099-19498004c666",
+    "sort": 1,
+    "title": "About",
+    "has_children": false,
+    "type": "page",
+    "open_in_new_tab": false,
+    "page": "about",
+    "url": null,
+    "parent": null,
+    "navigation": "main",
+    "children": []
+  },
+  {
+    "id": "713d9691-90d0-4f64-a93c-a0afa37d0c32",
+    "sort": 2,
+    "title": "Contact",
+    "has_children": false,
+    "type": "page",
+    "open_in_new_tab": false,
+    "page": "contact",
+    "url": null,
+    "parent": null,
+    "navigation": "footer",
+    "children": []
+  },
+  {
+    "id": "9b4426f3-4978-4eb8-a068-785ec61b3984",
+    "sort": 2,
+    "title": "Contact",
+    "has_children": false,
+    "type": "page",
+    "open_in_new_tab": false,
+    "page": "contact",
+    "url": null,
+    "parent": null,
+    "navigation": "main",
+    "children": []
+  },
+  {
+    "id": "45654ec4-e7f8-4208-b7af-a0502902c38d",
+    "sort": 3,
+    "title": "Link",
+    "has_children": false,
+    "type": "url",
+    "open_in_new_tab": false,
+    "page": null,
+    "url": "https://link.com",
+    "parent": null,
+    "navigation": "main",
+    "children": []
+  },
+  {
+    "id": "4039ece6-b04f-4103-9279-ebb85faa486f",
+    "sort": 3,
+    "title": "Terms",
+    "has_children": false,
+    "type": "page",
+    "open_in_new_tab": false,
+    "page": "terms-and-conditions",
+    "url": null,
+    "parent": null,
+    "navigation": "footer",
+    "children": []
+  },
+  {
+    "id": "9472d0ba-74a6-4238-860e-ecbfaea1532b",
+    "sort": 4,
+    "title": "Privacy",
+    "has_children": false,
+    "type": "page",
+    "open_in_new_tab": false,
+    "page": "privacy-policy",
+    "url": null,
+    "parent": null,
+    "navigation": "footer",
+    "children": []
+  }
+]

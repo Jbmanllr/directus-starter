@@ -1,0 +1,2219 @@
+[
+  {
+    "collection": "addresses",
+    "meta": {
+      "collection": "addresses",
+      "icon": "add_location_alt",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": "#18222F",
+      "item_duplication_fields": null,
+      "sort": 4,
+      "group": "elements",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "addresses",
+      "comment": null
+    }
+  },
+  {
+    "collection": "blog",
+    "meta": {
+      "collection": "blog",
+      "icon": "edit_square",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": true,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 3,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "blog",
+      "comment": null
+    }
+  },
+  {
+    "collection": "blog_categories",
+    "meta": {
+      "collection": "blog_categories",
+      "icon": "category",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 3,
+      "group": "blog",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "blog_categories",
+      "comment": null
+    }
+  },
+  {
+    "collection": "blog_categories_translations",
+    "meta": {
+      "collection": "blog_categories_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "blog_categories",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "blog_categories_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "blog_posts",
+    "meta": {
+      "collection": "blog_posts",
+      "icon": "article",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 2,
+      "group": "blog",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": true
+    },
+    "schema": {
+      "schema": "public",
+      "name": "blog_posts",
+      "comment": null
+    }
+  },
+  {
+    "collection": "blog_posts_blog_categories",
+    "meta": {
+      "collection": "blog_posts_blog_categories",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 2,
+      "group": "blog_posts",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "blog_posts_blog_categories",
+      "comment": null
+    }
+  },
+  {
+    "collection": "blog_posts_blog_posts",
+    "meta": {
+      "collection": "blog_posts_blog_posts",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 4,
+      "group": "blog_posts",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "blog_posts_blog_posts",
+      "comment": null
+    }
+  },
+  {
+    "collection": "blog_posts_blog_tags",
+    "meta": {
+      "collection": "blog_posts_blog_tags",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 3,
+      "group": "blog_posts",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "blog_posts_blog_tags",
+      "comment": null
+    }
+  },
+  {
+    "collection": "blog_posts_directus_users",
+    "meta": {
+      "collection": "blog_posts_directus_users",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 5,
+      "group": "blog_posts",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "blog_posts_directus_users",
+      "comment": null
+    }
+  },
+  {
+    "collection": "blog_posts_translations",
+    "meta": {
+      "collection": "blog_posts_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "blog_posts",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "blog_posts_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "blog_tags",
+    "meta": {
+      "collection": "blog_tags",
+      "icon": "sell",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 4,
+      "group": "blog",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "blog_tags",
+      "comment": null
+    }
+  },
+  {
+    "collection": "blog_tags_translations",
+    "meta": {
+      "collection": "blog_tags_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "blog_tags",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "blog_tags_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "blog_translations",
+    "meta": {
+      "collection": "blog_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "blog",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "blog_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "brands",
+    "meta": {
+      "collection": "brands",
+      "icon": "copyright",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 3,
+      "group": "shop",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "brands",
+      "comment": null
+    }
+  },
+  {
+    "collection": "brands_translations",
+    "meta": {
+      "collection": "brands_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "brands",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "brands_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "comments",
+    "meta": {
+      "collection": "comments",
+      "icon": "mode_comment",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": "#18222F",
+      "item_duplication_fields": null,
+      "sort": 2,
+      "group": "elements",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "comments",
+      "comment": null
+    }
+  },
+  {
+    "collection": "comments_related_item",
+    "meta": {
+      "collection": "comments_related_item",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "comments",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "comments_related_item",
+      "comment": null
+    }
+  },
+  {
+    "collection": "currencies",
+    "meta": {
+      "collection": "currencies",
+      "icon": "donut_small",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": "#A2B5CD",
+      "item_duplication_fields": null,
+      "sort": 2,
+      "group": "system",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "currencies",
+      "comment": null
+    }
+  },
+  {
+    "collection": "elements",
+    "meta": {
+      "collection": "elements",
+      "icon": "folder",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": "#18222F",
+      "item_duplication_fields": null,
+      "sort": 8,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": null
+  },
+  {
+    "collection": "FAQ",
+    "meta": {
+      "collection": "FAQ",
+      "icon": "playlist_add_check",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 5,
+      "group": null,
+      "collapse": "closed",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": null
+  },
+  {
+    "collection": "faq_answers",
+    "meta": {
+      "collection": "faq_answers",
+      "icon": "lightbulb",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 2,
+      "group": "FAQ",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "faq_answers",
+      "comment": null
+    }
+  },
+  {
+    "collection": "faq_answers_translations",
+    "meta": {
+      "collection": "faq_answers_translations",
+      "icon": "lightbulb",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "faq_answers",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "faq_answers_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "faq_categories",
+    "meta": {
+      "collection": "faq_categories",
+      "icon": "category",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 3,
+      "group": "FAQ",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "faq_categories",
+      "comment": null
+    }
+  },
+  {
+    "collection": "faq_categories_translations",
+    "meta": {
+      "collection": "faq_categories_translations",
+      "icon": null,
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "faq_categories",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "faq_categories_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "faq_questions",
+    "meta": {
+      "collection": "faq_questions",
+      "icon": "question_mark",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "FAQ",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "faq_questions",
+      "comment": null
+    }
+  },
+  {
+    "collection": "faq_questions_translations",
+    "meta": {
+      "collection": "faq_questions_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "faq_questions",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "faq_questions_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "help_articles",
+    "meta": {
+      "collection": "help_articles",
+      "icon": "description",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "help_center",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "help_articles",
+      "comment": null
+    }
+  },
+  {
+    "collection": "help_articles_translations",
+    "meta": {
+      "collection": "help_articles_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "help_articles",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "help_articles_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "help_center",
+    "meta": {
+      "collection": "help_center",
+      "icon": "help_clinic",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": true,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": null,
+      "accountability": "all",
+      "color": "#6644FF",
+      "item_duplication_fields": null,
+      "sort": 6,
+      "group": null,
+      "collapse": "closed",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "help_center",
+      "comment": null
+    }
+  },
+  {
+    "collection": "help_collections",
+    "meta": {
+      "collection": "help_collections",
+      "icon": "category",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 2,
+      "group": "help_center",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "help_collections",
+      "comment": null
+    }
+  },
+  {
+    "collection": "help_collections_translations",
+    "meta": {
+      "collection": "help_collections_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "help_collections",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "help_collections_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "languages",
+    "meta": {
+      "collection": "languages",
+      "icon": "language",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": "#A2B5CD",
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "system",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "languages",
+      "comment": null
+    }
+  },
+  {
+    "collection": "navigation_items",
+    "meta": {
+      "collection": "navigation_items",
+      "icon": "navigate_next",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "navigations",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "navigation_items",
+      "comment": null
+    }
+  },
+  {
+    "collection": "navigations",
+    "meta": {
+      "collection": "navigations",
+      "icon": "menu_open",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 7,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "navigations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "pages",
+    "meta": {
+      "collection": "pages",
+      "icon": "web",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 2,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "pages",
+      "comment": null
+    }
+  },
+  {
+    "collection": "pages_translations",
+    "meta": {
+      "collection": "pages_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "pages",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "pages_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "product_attributes",
+    "meta": {
+      "collection": "product_attributes",
+      "icon": "interests",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 4,
+      "group": "products",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "product_attributes",
+      "comment": null
+    }
+  },
+  {
+    "collection": "product_attributes_product_categories",
+    "meta": {
+      "collection": "product_attributes_product_categories",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 3,
+      "group": "product_attributes",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "product_attributes_product_categories",
+      "comment": null
+    }
+  },
+  {
+    "collection": "product_attributes_translations",
+    "meta": {
+      "collection": "product_attributes_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "product_attributes",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "product_attributes_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "product_categories",
+    "meta": {
+      "collection": "product_categories",
+      "icon": "category",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 3,
+      "group": "products",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "product_categories",
+      "comment": null
+    }
+  },
+  {
+    "collection": "product_categories_translations",
+    "meta": {
+      "collection": "product_categories_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "product_categories",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "product_categories_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "product_prices",
+    "meta": {
+      "collection": "product_prices",
+      "icon": "price_check",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 7,
+      "group": "products",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "product_prices",
+      "comment": null
+    }
+  },
+  {
+    "collection": "product_reviews",
+    "meta": {
+      "collection": "product_reviews",
+      "icon": "stars",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 6,
+      "group": "products",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "product_reviews",
+      "comment": null
+    }
+  },
+  {
+    "collection": "products",
+    "meta": {
+      "collection": "products",
+      "icon": "loyalty",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 2,
+      "group": "shop",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": true
+    },
+    "schema": {
+      "schema": "public",
+      "name": "products",
+      "comment": null
+    }
+  },
+  {
+    "collection": "products_files",
+    "meta": {
+      "collection": "products_files",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 2,
+      "group": "products",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "products_files",
+      "comment": null
+    }
+  },
+  {
+    "collection": "products_product_attributes",
+    "meta": {
+      "collection": "products_product_attributes",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 2,
+      "group": "product_attributes",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "products_product_attributes",
+      "comment": null
+    }
+  },
+  {
+    "collection": "products_product_categories",
+    "meta": {
+      "collection": "products_product_categories",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 2,
+      "group": "product_categories",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "products_product_categories",
+      "comment": null
+    }
+  },
+  {
+    "collection": "products_product_tags",
+    "meta": {
+      "collection": "products_product_tags",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 2,
+      "group": "product_tags",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "products_product_tags",
+      "comment": null
+    }
+  },
+  {
+    "collection": "products_translations",
+    "meta": {
+      "collection": "products_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "products",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "products_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "product_tags",
+    "meta": {
+      "collection": "product_tags",
+      "icon": "sell",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": "sort",
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 5,
+      "group": "products",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "product_tags",
+      "comment": null
+    }
+  },
+  {
+    "collection": "product_tags_translations",
+    "meta": {
+      "collection": "product_tags_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "product_tags",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "product_tags_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "seo",
+    "meta": {
+      "collection": "seo",
+      "icon": "elevation",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": null,
+      "accountability": "all",
+      "color": "#18222F",
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "elements",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "seo",
+      "comment": null
+    }
+  },
+  {
+    "collection": "shop",
+    "meta": {
+      "collection": "shop",
+      "icon": "storefront",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": true,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 4,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "shop",
+      "comment": null
+    }
+  },
+  {
+    "collection": "shop_translations",
+    "meta": {
+      "collection": "shop_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "shop",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "shop_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "system",
+    "meta": {
+      "collection": "system",
+      "icon": "folder",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": "#A2B5CD",
+      "item_duplication_fields": null,
+      "sort": 9,
+      "group": null,
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": null
+  },
+  {
+    "collection": "votes",
+    "meta": {
+      "collection": "votes",
+      "icon": "how_to_vote",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": false,
+      "translations": null,
+      "archive_field": "status",
+      "archive_app_filter": true,
+      "archive_value": "archived",
+      "unarchive_value": "draft",
+      "sort_field": null,
+      "accountability": "all",
+      "color": "#18222F",
+      "item_duplication_fields": null,
+      "sort": 3,
+      "group": "elements",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "votes",
+      "comment": null
+    }
+  },
+  {
+    "collection": "votes_related_item",
+    "meta": {
+      "collection": "votes_related_item",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "votes",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "votes_related_item",
+      "comment": null
+    }
+  },
+  {
+    "collection": "website",
+    "meta": {
+      "collection": "website",
+      "icon": "launcher_assistant_on",
+      "note": null,
+      "display_template": null,
+      "hidden": false,
+      "singleton": true,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": null,
+      "collapse": "closed",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "website",
+      "comment": null
+    }
+  },
+  {
+    "collection": "website_translations",
+    "meta": {
+      "collection": "website_translations",
+      "icon": "import_export",
+      "note": null,
+      "display_template": null,
+      "hidden": true,
+      "singleton": false,
+      "translations": null,
+      "archive_field": null,
+      "archive_app_filter": true,
+      "archive_value": null,
+      "unarchive_value": null,
+      "sort_field": null,
+      "accountability": "all",
+      "color": null,
+      "item_duplication_fields": null,
+      "sort": 1,
+      "group": "website",
+      "collapse": "open",
+      "preview_url": null,
+      "versioning": false
+    },
+    "schema": {
+      "schema": "public",
+      "name": "website_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_activity",
+    "meta": {
+      "system": true,
+      "collection": "directus_activity",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_activity",
+      "translations": null,
+      "display_template": null,
+      "accountability": null
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_activity",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_collections",
+    "meta": {
+      "system": true,
+      "collection": "directus_collections",
+      "hidden": false,
+      "singleton": false,
+      "icon": "database",
+      "note": "$t:directus_collection.directus_collections",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_collections",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_fields",
+    "meta": {
+      "system": true,
+      "collection": "directus_fields",
+      "hidden": false,
+      "singleton": false,
+      "icon": "input",
+      "note": "$t:directus_collection.directus_fields",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_fields",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_files",
+    "meta": {
+      "system": true,
+      "collection": "directus_files",
+      "hidden": false,
+      "singleton": false,
+      "icon": "folder",
+      "note": "$t:directus_collection.directus_files",
+      "translations": null,
+      "display_template": "{{ $thumbnail }} {{ title }}",
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_files",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_folders",
+    "meta": {
+      "system": true,
+      "collection": "directus_folders",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_folders",
+      "translations": null,
+      "display_template": "{{ name }}",
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_folders",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_migrations",
+    "meta": {
+      "system": true,
+      "collection": "directus_migrations",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_migrations",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_migrations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_permissions",
+    "meta": {
+      "system": true,
+      "collection": "directus_permissions",
+      "hidden": false,
+      "singleton": false,
+      "icon": "admin_panel_settings",
+      "note": "$t:directus_collection.directus_permissions",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_permissions",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_presets",
+    "meta": {
+      "system": true,
+      "collection": "directus_presets",
+      "hidden": false,
+      "singleton": false,
+      "icon": "bookmark",
+      "note": "$t:directus_collection.directus_presets",
+      "translations": null,
+      "display_template": null,
+      "accountability": null
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_presets",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_relations",
+    "meta": {
+      "system": true,
+      "collection": "directus_relations",
+      "hidden": false,
+      "singleton": false,
+      "icon": "merge_type",
+      "note": "$t:directus_collection.directus_relations",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_relations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_revisions",
+    "meta": {
+      "system": true,
+      "collection": "directus_revisions",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_revisions",
+      "translations": null,
+      "display_template": null,
+      "accountability": null
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_revisions",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_roles",
+    "meta": {
+      "system": true,
+      "collection": "directus_roles",
+      "hidden": false,
+      "singleton": false,
+      "icon": "supervised_user_circle",
+      "note": "$t:directus_collection.directus_roles",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_roles",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_sessions",
+    "meta": {
+      "system": true,
+      "collection": "directus_sessions",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_sessions",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_sessions",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_settings",
+    "meta": {
+      "system": true,
+      "collection": "directus_settings",
+      "hidden": false,
+      "singleton": true,
+      "icon": null,
+      "note": "$t:directus_collection.directus_settings",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_settings",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_users",
+    "meta": {
+      "system": true,
+      "collection": "directus_users",
+      "hidden": false,
+      "singleton": false,
+      "icon": "people_alt",
+      "note": "$t:directus_collection.directus_users",
+      "translations": null,
+      "display_template": "{{ first_name }} {{ last_name }}",
+      "accountability": "all",
+      "archive_field": "status",
+      "archive_value": "archived",
+      "unarchive_value": "draft"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_users",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_webhooks",
+    "meta": {
+      "system": true,
+      "collection": "directus_webhooks",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_webhooks",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_webhooks",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_dashboards",
+    "meta": {
+      "system": true,
+      "collection": "directus_dashboards",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_dashboards",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_dashboards",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_panels",
+    "meta": {
+      "system": true,
+      "collection": "directus_panels",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_panels",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_panels",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_notifications",
+    "meta": {
+      "system": true,
+      "collection": "directus_notifications",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_notifications",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_notifications",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_shares",
+    "meta": {
+      "system": true,
+      "collection": "directus_shares",
+      "hidden": false,
+      "singleton": false,
+      "icon": "share",
+      "note": "$t:directus_collection.directus_shares",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_shares",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_flows",
+    "meta": {
+      "system": true,
+      "collection": "directus_flows",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_flows",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_flows",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_operations",
+    "meta": {
+      "system": true,
+      "collection": "directus_operations",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_operations",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_operations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_translations",
+    "meta": {
+      "system": true,
+      "collection": "directus_translations",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_translations",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_translations",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_versions",
+    "meta": {
+      "system": true,
+      "collection": "directus_versions",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_versions",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_versions",
+      "comment": null
+    }
+  },
+  {
+    "collection": "directus_extensions",
+    "meta": {
+      "system": true,
+      "collection": "directus_extensions",
+      "hidden": false,
+      "singleton": false,
+      "icon": null,
+      "note": "$t:directus_collection.directus_extensions",
+      "translations": null,
+      "display_template": null,
+      "accountability": "all"
+    },
+    "schema": {
+      "schema": "public",
+      "name": "directus_extensions",
+      "comment": null
+    }
+  }
+]

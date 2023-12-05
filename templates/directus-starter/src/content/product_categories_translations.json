@@ -1,0 +1,74 @@
+[
+  {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 1,
+    "languages_code": "en-US",
+    "name": "Guitars",
+    "product_categories_id": "a22daed3-b8ca-482e-ba85-b22a0ca1297e",
+    "seo": "c2ee4dd8-035c-407c-9a72-421e76c031fd",
+    "slug": "guitars"
+  },
+  {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 2,
+    "languages_code": "en-US",
+    "name": "Electric Guitars",
+    "product_categories_id": "1b7c5475-2a94-4d85-bed8-3c36e678668f",
+    "seo": null,
+    "slug": "electric-guitars"
+  },
+  {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 3,
+    "languages_code": "en-US",
+    "name": "Extended-Range Electric Guitars",
+    "product_categories_id": "59d569c8-0be8-4e49-90f7-4feca0fd0f8e",
+    "seo": null,
+    "slug": "extended-range-electric-guitars"
+  },
+  {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 4,
+    "languages_code": "en-US",
+    "name": "Acoustic Guitars",
+    "product_categories_id": "7a5d56ec-f322-4f2d-8506-342900a6a535",
+    "seo": null,
+    "slug": "acoustic-guitars"
+  },
+  {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 5,
+    "languages_code": "en-US",
+    "name": "Audio Softwares",
+    "product_categories_id": "deedab20-7292-4120-ac04-68e4191d4588",
+    "seo": null,
+    "slug": "audio-softwares"
+  },
+  {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 6,
+    "languages_code": "en-US",
+    "name": "Audio Plugins",
+    "product_categories_id": "ec9cb9a9-58bd-4f8e-b076-bd4c7c053958",
+    "seo": null,
+    "slug": "audio-plugins"
+  },
+  {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 7,
+    "languages_code": "en-US",
+    "name": "Reverb Plugins",
+    "product_categories_id": "8546aae9-713d-4fe5-bf1a-c262d7f217b9",
+    "seo": null,
+    "slug": "reverb-plugins"
+  },
+  {
+    "description": "Digital Audio Workstations",
+    "id": 8,
+    "languages_code": "en-US",
+    "name": "Digital Audio Workstations",
+    "product_categories_id": "49bbbfd2-29e6-450c-865b-375918a4b986",
+    "seo": null,
+    "slug": "digital-audio-workstations"
+  }
+]

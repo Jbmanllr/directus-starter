@@ -1,0 +1,130 @@
+[
+  {
+    "cover": null,
+    "date_created": "2023-12-04T20:29:49.556Z",
+    "date_updated": "2023-12-04T20:39:08.337Z",
+    "featured_audio": null,
+    "featured_video": null,
+    "format": "news",
+    "id": "ff643260-1c68-4439-bb6b-251d9d6ae5a4",
+    "sort": null,
+    "status": "draft",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "vote_score": null,
+    "date_published": "2023-12-01T12:00:00",
+    "publish_on": null,
+    "author": "81403988-bf04-40f9-a3fd-5f59a24fa040",
+    "related_blog_posts": [],
+    "categories": [
+      10
+    ],
+    "tags": [],
+    "translations": [
+      10
+    ]
+  },
+  {
+    "cover": "39d40b12-b150-44dc-962e-1120c7caf0c4",
+    "date_created": "2023-12-04T11:47:03.836Z",
+    "date_updated": "2023-12-05T09:52:25.792Z",
+    "featured_audio": null,
+    "featured_video": null,
+    "format": "top",
+    "id": "d954bcf6-2acc-4bc4-bc10-0c3bb32a259f",
+    "sort": null,
+    "status": "published",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "vote_score": null,
+    "date_published": "2023-12-04T20:05:00",
+    "publish_on": null,
+    "author": "81403988-bf04-40f9-a3fd-5f59a24fa040",
+    "related_blog_posts": [],
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "translations": [
+      2
+    ]
+  },
+  {
+    "cover": "710aeeec-dcd3-4ce6-89df-88fcc73f4fbf",
+    "date_created": "2023-12-03T22:11:07.111Z",
+    "date_updated": "2023-12-05T09:53:00.186Z",
+    "featured_audio": null,
+    "featured_video": null,
+    "format": "article",
+    "id": "db2bafbe-5b81-4ba4-b2e0-a9c226e38f59",
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "vote_score": null,
+    "date_published": null,
+    "publish_on": null,
+    "author": "81403988-bf04-40f9-a3fd-5f59a24fa040",
+    "related_blog_posts": [
+      4
+    ],
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "translations": [
+      1
+    ]
+  },
+  {
+    "cover": null,
+    "date_created": "2023-12-04T15:52:31.992Z",
+    "date_updated": "2023-12-05T12:00:00.022Z",
+    "featured_audio": null,
+    "featured_video": null,
+    "format": "article",
+    "id": "23690f2d-113b-4bf7-b070-cad0fc6de164",
+    "sort": null,
+    "status": "published",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "user_updated": null,
+    "vote_score": null,
+    "date_published": "2023-12-05T12:00:00",
+    "publish_on": null,
+    "author": "81403988-bf04-40f9-a3fd-5f59a24fa040",
+    "related_blog_posts": [],
+    "categories": [
+      9,
+      11
+    ],
+    "tags": [],
+    "translations": [
+      9
+    ]
+  },
+  {
+    "cover": "31219555-20a3-4c65-8830-9a4103b4a13f",
+    "date_created": "2023-12-04T12:55:35.773Z",
+    "date_updated": "2023-12-04T15:32:31.888Z",
+    "featured_audio": null,
+    "featured_video": null,
+    "format": "review",
+    "id": "756e00f5-0545-48e6-b2fd-bfe1b1ac3b82",
+    "sort": null,
+    "status": "draft",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "vote_score": null,
+    "date_published": null,
+    "publish_on": null,
+    "author": "81403988-bf04-40f9-a3fd-5f59a24fa040",
+    "related_blog_posts": [],
+    "categories": [
+      4
+    ],
+    "tags": [],
+    "translations": [
+      3
+    ]
+  }
+]

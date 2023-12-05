@@ -1,0 +1,27 @@
+[
+  {
+    "code": "ch-CH",
+    "direction": "ltr",
+    "name": "Chinese"
+  },
+  {
+    "code": "en-US",
+    "direction": "ltr",
+    "name": "English"
+  },
+  {
+    "code": "es-ES",
+    "direction": "ltr",
+    "name": "Spanish"
+  },
+  {
+    "code": "fr-FR",
+    "direction": "ltr",
+    "name": "French"
+  },
+  {
+    "code": "ru-RU",
+    "direction": "ltr",
+    "name": "Russian"
+  }
+]

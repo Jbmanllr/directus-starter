@@ -1,0 +1,26 @@
+[
+  {
+    "date_created": "2023-12-04T20:45:31.689Z",
+    "date_updated": null,
+    "id": "ab4869d8-3a76-4fe5-bb8d-b898ccdfd9f4",
+    "sort": null,
+    "status": "published",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "user_updated": null,
+    "translations": [
+      1
+    ]
+  },
+  {
+    "date_created": "2023-12-04T20:45:42.997Z",
+    "date_updated": null,
+    "id": "55898315-1944-4559-a03c-38eff342c199",
+    "sort": null,
+    "status": "published",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "user_updated": null,
+    "translations": [
+      2
+    ]
+  }
+]

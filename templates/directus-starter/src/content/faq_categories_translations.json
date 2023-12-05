@@ -1,0 +1,18 @@
+[
+  {
+    "description": "FAQ Category #1",
+    "faq_categories_id": "ab4869d8-3a76-4fe5-bb8d-b898ccdfd9f4",
+    "id": 1,
+    "languages_code": "en-US",
+    "name": "FAQ Category #1",
+    "slug": "faq-category-1"
+  },
+  {
+    "description": "FAQ Category #2",
+    "faq_categories_id": "55898315-1944-4559-a03c-38eff342c199",
+    "id": 2,
+    "languages_code": "en-US",
+    "name": "FAQ Category #2",
+    "slug": "faq-category-2"
+  }
+]

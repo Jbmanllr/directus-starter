@@ -1,0 +1,95 @@
+[
+  {
+    "cover": "65b13da9-de5c-47df-b95a-13072091b328",
+    "date_created": "2023-12-03T22:11:07.069Z",
+    "date_updated": "2023-12-04T13:15:20.669Z",
+    "id": "159d25da-8815-4a66-9cf2-c3fba8e3ebf8",
+    "parent": "5a845d91-d8f8-4ee7-8b8f-5347266e4f95",
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "children_categories": [],
+    "translations": [
+      2
+    ]
+  },
+  {
+    "cover": "2f667788-b8d5-40c3-8437-2355e0d7386d",
+    "date_created": "2023-12-03T22:11:07.045Z",
+    "date_updated": "2023-12-04T13:16:37.780Z",
+    "id": "5a845d91-d8f8-4ee7-8b8f-5347266e4f95",
+    "parent": null,
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "children_categories": [
+      "159d25da-8815-4a66-9cf2-c3fba8e3ebf8",
+      "c9f0c640-6e05-47e0-a87a-3f6f79096158"
+    ],
+    "translations": [
+      1
+    ]
+  },
+  {
+    "cover": "d690bcf1-f4ff-47a5-a415-ca86e3e7ba36",
+    "date_created": "2023-12-03T22:11:07.079Z",
+    "date_updated": "2023-12-04T13:18:53.912Z",
+    "id": "a22daed3-b8ca-482e-ba85-b22a0ca1297e",
+    "parent": null,
+    "sort": null,
+    "status": "published",
+    "user_created": null,
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "children_categories": [],
+    "translations": [
+      3
+    ]
+  },
+  {
+    "cover": "74373f6d-da9a-4399-841f-4f0c8391a43a",
+    "date_created": "2023-12-04T13:22:08.263Z",
+    "date_updated": "2023-12-04T13:23:10.519Z",
+    "id": "eaee57b1-16f5-4f56-a862-35fda8f2b524",
+    "parent": null,
+    "sort": null,
+    "status": "published",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "children_categories": [],
+    "translations": [
+      5
+    ]
+  },
+  {
+    "cover": "64b07525-c93f-4681-8636-106aa446469f",
+    "date_created": "2023-12-04T12:55:35.795Z",
+    "date_updated": "2023-12-04T13:24:18.111Z",
+    "id": "c9f0c640-6e05-47e0-a87a-3f6f79096158",
+    "parent": "5a845d91-d8f8-4ee7-8b8f-5347266e4f95",
+    "sort": null,
+    "status": "published",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "children_categories": [],
+    "translations": [
+      4
+    ]
+  },
+  {
+    "cover": "35a328f2-50a9-49ff-9ae0-fa282420e573",
+    "date_created": "2023-12-04T13:24:56.158Z",
+    "date_updated": null,
+    "id": "bfd7a1b2-d4ed-4a35-98ca-f8ded05cfbd1",
+    "parent": null,
+    "sort": null,
+    "status": "published",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "user_updated": null,
+    "children_categories": [],
+    "translations": [
+      6
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "footer",
+    "status": "published",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "date_created": "2023-12-05T12:23:07.001Z",
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "date_updated": "2023-12-05T13:26:01.470Z",
+    "title": "Footer",
+    "navigation_items": [
+      "8562df3d-dd6b-4045-806e-21937734fde2",
+      "713d9691-90d0-4f64-a93c-a0afa37d0c32",
+      "4039ece6-b04f-4103-9279-ebb85faa486f",
+      "9472d0ba-74a6-4238-860e-ecbfaea1532b"
+    ]
+  },
+  {
+    "id": "main",
+    "status": "published",
+    "user_created": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "date_created": "2023-12-05T10:39:15.434Z",
+    "user_updated": "220633bc-ff59-4cac-afc3-3eab5b5fe12d",
+    "date_updated": "2023-12-05T14:08:16.183Z",
+    "title": "Main",
+    "navigation_items": [
+      "9821583d-fcaa-45c5-b099-19498004c666",
+      "9b4426f3-4978-4eb8-a068-785ec61b3984",
+      "45654ec4-e7f8-4208-b7af-a0502902c38d"
+    ]
+  }
+]
